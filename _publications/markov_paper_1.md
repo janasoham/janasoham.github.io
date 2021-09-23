@@ -1,7 +1,7 @@
 ---
 title: "Optimal prediction of Markov chains with and without spectral gap"
 collection: publications
-url: https://janasoham.github.io/publications/markov_prediction
+url: /publications/markov_prediction
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2009-10-01
 venue: 'Accepted in NeurIPS 2021'
