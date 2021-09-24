@@ -19,4 +19,4 @@ We provide a class of minimum distance estimators, which includes
 the non-parametric maximum likelihood estimator, that achieves minimax optimal regret over
 oracle estimator (posterior mean) when the mixture distribution is either (a) supported on a
 bounded interval of constant length or (b) within the class of sub-exponential distributions with
-constant parameters.
+bounded parameters.
