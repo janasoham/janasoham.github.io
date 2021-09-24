@@ -1,7 +1,7 @@
 ---
 title: "On consistency of stochastic gates in sparsed support recovery problems"
 collection: publications
-permalink: /publication/stg
+permalink: /working-papers/stg
 excerpt: "We show the given independent data generated from linear models with properly spaced sparsed parameter vector, the estimators based on Stochastic gates 
 consistently estimates the support. We demonstrate with synthetic data the superiority of our method over many classical estimators in small sample regime."
 date: 2021-08-01
