@@ -7,7 +7,7 @@ permalink: /publications/markov_prediction1
 
 venue: "Accepted for publication in NeurIPS"
 
-date: 2021
+date: 2021-01-01
 
 excerpt: "We analyze prediction problems on first order Markov chains and achieve optimal rate for 
 general <i>k</i> states chians. We also analyze effect of spectral gaps in case of reversible chains to achieve 
