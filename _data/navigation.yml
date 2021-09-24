@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Publications"
-    url: http://www.stat.yale.edu/~sj572/publications/
+    url: https://janasoham.github.io/publications/
     
   - title: "Working Papers"
-    url: http://www.stat.yale.edu/~sj572/workingpapers/
+    url: https://janasoham.github.io/workingpapers/
 
   - title: "Talks"
-    url: http://www.stat.yale.edu/~sj572/talks/      
+    url: https://janasoham.github.io/talks/      
 
   - title: "CV"
-    url: http://www.stat.yale.edu/~sj572/files/resume.pdf
+    url: https://janasoham.github.io/resume.pdf
