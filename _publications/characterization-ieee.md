@@ -2,7 +2,7 @@
 title: "A characterization of all single-integral, non-kernel divergence estimators"
 
 collection: publications
-
+date: 2019-10-01
 permalink: /publication/characterization-non-kernel
 
 excerpt: 'In this work, we provide a characterization of the class of divergences that
