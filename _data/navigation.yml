@@ -2,6 +2,9 @@
 main:
   - title: "Publications"
     url: https://janasoham.github.io/publications/
+    
+- title: "Working Papers"
+    url: https://janasoham.github.io/working papers/
 
   - title: "Talks"
     url: https://janasoham.github.io/talks/    
