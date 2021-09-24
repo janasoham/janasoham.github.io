@@ -11,6 +11,13 @@ paperurl:
 citation: 'Soham Jana, Yury Polyanskiy, and Yihong Wu. <i>Regret optimality of minimum distance estimators in certain class of Poisson mixtures.</i> Preprint.'
 
 ---
-This paper is about the number 3. The number 4 is left for future work.
+Abstract:
+=========
 
+The Poisson model with certain mixture distributions on the mean parameter is considered.
+Extending the work of [PW21] we provide a class of minimum distance estimators, which includes
+the non-parametric maximum likelihood estimator, that achieves minimax optimal regret over
+oracle estimator (posterior mean) when the mixture distribution is either (a) supported on a
+bounded interval of constant length or (b) within the class of sub-exponential distributions with
+constant parameters.
 
