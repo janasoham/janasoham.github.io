@@ -4,7 +4,7 @@ title: "Working Papers"
 permalink: /workingpapers/
 author_profile: true
 ---
-(Author list in alphabetical order of surnames, unless mentioned)
+(Author list in alphabetical order of surnames, unless mentioned otherwise)
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
