@@ -1,7 +1,7 @@
 ---
 title: "Regret optimality of minimum distance estimators in certain class of Poisson mixtures"
 collection: workingpapers
-permalink: /working-papers/min-dist-regret
+permalink: /workingpapers/min-dist-regret
 excerpt: "We consider the Poisson mean model and construct a class of minimum distaance estimators that achieve optimal excess
 regret over the Bayes estimator, which is unknown in absense of knowledge about the prior distribution. These estimators also exhibit superior
 performance over usual Robbins method in real and simulated dataset."
