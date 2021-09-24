@@ -3,6 +3,7 @@ layout: archive
 title: "Working Papers"
 permalink: /working-papers/
 author_profile: true
+<p>(Author list in alphabetical order of surnames, unless mentioned)</p>
 ---
 
 {% if author.googlescholar %}
