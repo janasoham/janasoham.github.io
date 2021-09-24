@@ -5,7 +5,7 @@ collection: publications
 
 permalink: /publications/markov_prediction1
 
-venue: Accepted for publication in NeurIPS
+venue: "Accepted for publication in NeurIPS"
 
 date: 2021
 
@@ -16,7 +16,7 @@ parametric rate of estimation."
 citation: "Yanjun Han, Soham Jana, and Yihong Wu. "Optimal prediction of Markov chains 
 with and without spectral gap." arXiv preprint arXiv:2106.13947 (2021).
 
-"paperurl: 'https://arxiv.org/abs/2106.13947'
+paperurl: 'https://arxiv.org/abs/2106.13947'
 
 ---
 
