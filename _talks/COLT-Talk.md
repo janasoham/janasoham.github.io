@@ -1,7 +1,7 @@
 ---
 title: "Talk on Extrapolating profile of a finite population"
 collection: talks
-type: 
+type: Talk
 permalink: /talks/COLT-Talk
 venue: "Conference on Learning Theory"
 date: 2020-07-09
