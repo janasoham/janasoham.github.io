@@ -11,8 +11,8 @@ free of various problems, such as dimensionality, smoothness etc., of usual kern
 
 venue: 'IEEE Transactions in Information Theory'
 paperurl: 'https://ieeexplore.ieee.org/document/8813097'
-citation: 'Soham Jana and Ayanendranath Basu. "A characterization of all single-integral, 
-non-kernel divergence estimators." <i>IEEE Transactions on Information Theory 65.12 (2019)</i>: 7976-7984.'
+citation: 'Soham Jana and Ayanendranath Basu. <i>A characterization of all single-integral, 
+non-kernel divergence estimators.</i>IEEE Transactions on Information Theory 65.12 (2019): 7976-7984.'
 
 ---
 Abstract
