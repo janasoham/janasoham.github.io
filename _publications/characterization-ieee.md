@@ -9,7 +9,7 @@ excerpt: 'In this work we provide a characterization of the class of divergences
 bypasses the use of non-parametric smoothing in the construction of divergences, leading to minimum distance estimation
 free of various problems, such as dimensionality, smoothness etc., of usual kernell density esitmators.'
 
-venue: 'IEEE Transactions in Information Theory'
+venue: 'IEEE Transactions on Information Theory'
 paperurl: 'https://ieeexplore.ieee.org/document/8813097'
 citation: 'Soham Jana and Ayanendranath Basu. <i>A characterization of all single-integral, 
 non-kernel divergence estimators.</i> IEEE Transactions on Information Theory 65.12 (2019): 7976-7984.'
