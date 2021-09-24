@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Working Papers"
-permalink: /working-papers/
+permalink: /workingpapers/
 author_profile: true
 ---
 (Author list in alphabetical order of surnames, unless mentioned)
