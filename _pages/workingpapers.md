@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Working Papers"
+excerpt: "(Author list in alphabetical order of surnames, unless mentioned)"
 permalink: /working-papers/
 author_profile: true
 ---
