@@ -1,12 +1,14 @@
 ---
-title: "Paper Title Number 2"
+title: "A characterization of all single-integral, non-kernel divergence estimators"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/characterization-non-kernel
+excerpt: 'In this work, we provide a characterization of the class of divergences that
+bypasses the use of non-parametric smoothing in the construction of divergences, leading to faster rate of estimation 
+in practical computational purposes.'
+venue: 'IEEE Transactions in Information Theory'
+paperurl: 'https://ieeexplore.ieee.org/document/8813097'
+citation: 'Soham Jana and Ayanendranath Basu. "A characterization of all single-integral, 
+non-kernel divergence estimators." <i>IEEE Transactions on Information Theory 65.12 (2019)</i>: 7976-7984.'
 
 ---
 This paper is about the number 2. Where will this go.
