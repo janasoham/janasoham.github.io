@@ -8,7 +8,7 @@ performance over usual Robbins method in real and simulated dataset."
 date: 2021-07-01
 venue: Preprint
 paperurl: 
-citation: 'Soham Jana, Yury Polyanskiy, and Yihong Wu. <i>Regret optimality of minimum distance estimators in certain class of Poisson mixtures.</i> Preprint.'
+citation: 'Soham Jana, Yury Polyanskiy, and Yihong Wu. <i>Regret optimality of minimum distance estimators in certain Poisson mixtures models.</i> Preprint.'
 
 ---
 Abstract:
