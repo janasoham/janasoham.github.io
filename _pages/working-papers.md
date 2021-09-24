@@ -11,6 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.working_papers reversed %}
+{% for post in site.workingpapers reversed %}
   {% include archive-single.html %}
 {% endfor %}
