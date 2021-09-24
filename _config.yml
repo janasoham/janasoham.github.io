@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Soham Jana"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Soham Jana"
 description              : &description "Graduate student at Yale University"
