@@ -20,3 +20,4 @@ A list of the main links found on the site.
   {% capture written_label %}{{ label }}{% endcapture %}
   {% endif %}
 {% endunless %}
+{% endfor %}
