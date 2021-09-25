@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Welcome!"
-permalink: 
+permalink: /#/
 author_profile: true
 ---
 
