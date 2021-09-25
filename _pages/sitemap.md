@@ -12,8 +12,11 @@ A list of the main links found on the site.
 {% for post in site.pages %}
   {% include archive-single.html %}
 {% endfor %}
+{% for collection in site.collections %}
 {% for post in collection.docs %}
   {% unless collection.output == false or collection.label == "posts" %}
   {% include archive-single.html %}
   {% endunless %}
 {% endfor %}
+{% endfor %}
+
