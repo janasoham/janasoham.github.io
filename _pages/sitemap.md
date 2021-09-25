@@ -1,15 +1,37 @@
 ---
-permalink: 
-title: "Welcome!"
-
+layout: archive
+title: "Sitemap"
+permalink: /sitemap/
+author_profile: true
 ---
 
-Hello! I am a 5th year Doctoral candidate at the Department of Statistics and Data Science, Yale University. My current research
-focusses broadly on theoretical and algorithmic aspects of minimum distance estimation, Empirical Bayes and analysis of Markov chains.
-During my time at Yale I have been fortunate to be mentored by [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/).
+{% include base_path %}
 
-Prior to this, I finished my Bachelors of Statistics (B.Stat.) and Masters of Statistics (M.Stat.), with specialization on Theoretical 
-Statistics, from Indian Statistical Institute (ISI), Kolkata. The topic of my Masters dissertation was analysis of minimum distance
-estimators that can avoid Kernel smoothing in estimation process. My work was completed under the guidance of [Prof. Ayanendranath Basu]
-(https://www.isical.ac.in/~ayanbasu/), ISI Kolkata.
+A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
 
+<h2>Pages</h2>
+{% for post in site.pages %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Posts</h2>
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% capture written_label %}'None'{% endcapture %}
+
+{% for collection in site.collections %}
+{% unless collection.output == false or collection.label == "posts" %}
+  {% capture label %}{{ collection.label }}{% endcapture %}
+  {% if label != written_label %}
+  <h2>{{ label }}</h2>
+  {% capture written_label %}{{ label }}{% endcapture %}
+  {% endif %}
+{% endunless %}
+{% for post in collection.docs %}
+  {% unless collection.output == false or collection.label == "posts" %}
+  {% include archive-single.html %}
+  {% endunless %}
+{% endfor %}
+{% endfor %}
