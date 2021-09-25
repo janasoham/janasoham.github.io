@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am Soham Jana, a 5th year PhD Candidate in Statistics and Data Science at Yale University. My focus of research is theoretical and algorithmic aspects of minimum distance estimation, Empirical Bayes and analysis of Markov chains. During my stay here I have been really fornuate to be mentored by [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/). 
+Hello! I am Soham Jana, a 5th year Doctoral Candidate the dept. of Statistics and Data Science , Yale University. My research typically focusses on theoretical and algorithmic aspects of minimum distance estimation, Empirical Bayes and analysis of Markov chains. During my time in Yale , I have been fortunately mentored by [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/).
 
-Prior to this I finished my Bachelors of Statistics and Masters of Statistics from Indian Statistical Institute, Kolkata. My masters dissertation was focussed on analyzing minimum distance estimators that can avoid Kernel smoothing in estimation process. For my dissertation I was fortunate to be advised by [Prof. Ayanendranath Basu](https://www.isical.ac.in/~ayanbasu/).
+Prior to this, I finished my Bachelors of Statistics(B.Stat.) and Masters of Statistic(M.Stat) from Indian Statistical Institute(ISI), Kolkata. The focal point of my Masters dissertation happened to be analyzing minimum distance estimators that can avoid Kernel smoothing in estimation process. My work was completed under the guidance of [Prof. Ayanendranath Basu](https://www.isical.ac.in/~ayanbasu/), ISI Kolkata.
 
