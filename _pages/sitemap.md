@@ -1,5 +1,5 @@
 ---
-url: https://janasoham.github.io/
+permalink: 
 title: "Welcome!"
 
 ---
