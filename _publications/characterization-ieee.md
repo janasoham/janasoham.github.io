@@ -1,5 +1,5 @@
 ---
-title: "A characterization of all single-integral, non-kernel divergence estimators*"
+title: "A characterization of all single-integral, non-kernel divergence estimators.*"
 
 collection: publications
 date: 2019-10-01
