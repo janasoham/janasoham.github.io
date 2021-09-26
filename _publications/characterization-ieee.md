@@ -1,5 +1,5 @@
 ---
-title: "A characterization of all single-integral, non-kernel divergence estimators"
+title: "A characterization of all single-integral, non-kernel divergence estimators*"
 
 collection: publications
 date: 2019-10-01
@@ -12,7 +12,7 @@ free of various problems, such as dimensionality, smoothness etc., of usual kern
 venue: 'IEEE Transactions on Information Theory'
 paperurl: 'https://janasoham.github.io/files/bregman_charac.pdf'
 citation: 'Soham Jana and Ayanendranath Basu. <i>A characterization of all single-integral, 
-non-kernel divergence estimators.</i> IEEE Transactions on Information Theory 65.12 (2019): 7976-7984. (First Author)'
+non-kernel divergence estimators.</i> IEEE Transactions on Information Theory 65.12 (2019): 7976-7984.'
 
 ---
 Abstract
