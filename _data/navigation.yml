@@ -6,8 +6,8 @@ main:
  # - title: "Working Papers"
    # url: https://janasoham.github.io/workingpapers/
    
-   - title: "Teaching"
-     url: https://janasoham.github.io/teaching/
+  - title: "Teaching"
+    url: https://janasoham.github.io/teaching/
 
   - title: "Talks"
     url: https://janasoham.github.io/talks/      
