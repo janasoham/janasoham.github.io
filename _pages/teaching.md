@@ -3,6 +3,9 @@ permalink: /teaching/
 author_profile: true
 ---
 
+Teaching
+=========
+
 I have served the role of Teaching Assistant in the following courses, at Yale department of Statistics and Data Science.
 
 | Courses                         |      Instructor      |    Timeline  |
