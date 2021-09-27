@@ -1,12 +1,15 @@
 ---
 permalink: /
-title: "Welcome!"
+title: "<span style="color:blue">Welcome!</span>"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+About me
+=========
 
 I am a Doctoral candidate at the Department of Statistics and Data Science, Yale University. I will be entering my 5th year in Fall 2021. During my stay here I have been fortunate to be mentored by [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/). 
 
