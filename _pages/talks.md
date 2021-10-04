@@ -13,4 +13,4 @@ location: "New Haven, CT, USA"
 -----------------------------------------------------
 
 I presented my paper on [Extrapolating profile of a finite population](https://janasoham.github.io/publication/COLT-urn)
-at COLT 2020. See my presentation [here](https://www.youtube.com/watch?v=RtNtFULGRnA&ab_channel=COLT).
+at COLT 2020. See my presentation [here](https://www.youtube.com/watch?v=RtNtFULGRnA&ab_channel=COLT). The slides can be found [here](http://janasoham.github.io/files/COLT2020_presentation.pdf). 
