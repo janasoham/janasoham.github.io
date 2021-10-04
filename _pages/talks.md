@@ -9,7 +9,7 @@ location: "New Haven, CT, USA"
 
 ---
 
-Talk on Extrapolating profile of a finite population
+{<span style='color:grey'> Extrapolating profile of a finite population}
 -----------------------------------------------------
 
 I presented my paper on [Extrapolating profile of a finite population](https://janasoham.github.io/publication/COLT-urn)
