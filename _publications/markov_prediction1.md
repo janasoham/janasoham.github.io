@@ -8,7 +8,7 @@ venue: 'NeurIPS'
 date: 2021-01-01
 
 excerpt: "Analyzing prediction problems on first order Markov chains we demonstrate the optimal rate when 
-the number of states is $k\geq 2$ and sample size in $n$. We also analyze effect of spectral gaps in case of reversible chains to achieve 
+the size of states space and sample size is provided. We also analyze effect of spectral gaps in case of reversible chains to achieve 
 parametric rate of estimation."
 
 citation: "Yanjun Han, Soham Jana, and Yihong Wu. <i>Optimal prediction of Markov chains 
