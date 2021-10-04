@@ -6,7 +6,7 @@ author_profile: true
 
 ---
 
-<span style='color:skyblue'> Extrapolating profile of a finite population </span>
+<span style='color:grey'> Extrapolating profile of a finite population </span>
 -----------------------------------------------------
 
 
