@@ -7,7 +7,7 @@ permalink: /publication/characterization-non-kernel
 
 excerpt: 'In this work we provide a characterization of the class of divergences that
 bypasses the use of non-parametric smoothing in the construction of divergences, leading to minimum distance estimation
-free of various problems, such as dimensionality, smoothness etc., of usual kernell density esitmators.'
+free of issues such as dimensionality, smoothness etc. that usual kernell density esitmators exhibits.'
 
 venue: 'IEEE Transactions on Information Theory'
 paperurl: 'https://janasoham.github.io/files/bregman_charac.pdf'
