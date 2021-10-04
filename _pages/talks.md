@@ -2,6 +2,11 @@
 title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
+
+venue: "Conference on Learning Theory (COLT),"
+date: 2020-07-09
+location: "New Haven, CT, USA"
+
 ---
 
 Talk on Extrapolating profile of a finite population
