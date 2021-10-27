@@ -20,7 +20,6 @@ I am broadly interested in theoretical and algorithmic aspects of Statistics and
 * Dependent data analysis
 * High dimensional methods
 * Sparse recovery
-* Property estimation
 * Markov chains 
 * Spectral analysis
 
