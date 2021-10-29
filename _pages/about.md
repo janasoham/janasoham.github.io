@@ -19,7 +19,7 @@ I am broadly interested in theoretical and algorithmic aspects of Statistics and
 * Mixture modelling
 * Dependent data analysis
 * High dimensional methods
-* Sparse recovery
+* Support recovery
 * Markov chains 
 * Spectral analysis
 
