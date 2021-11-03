@@ -1,5 +1,5 @@
 ---
-title: "Support Recovery with Stochastic Gates: Theory and Application for Linear Models"
+title: "Support recovery with stochastic gates: theory and application for linear Models"
 
 collection: publications
 permalink: /publications/markov_prediction1
