@@ -8,7 +8,7 @@ based on Wolfowitz minimum distance estimators.'
 date: 2020-01-01
 venue: 'Conference on Learning Theory'
 paperurl: 'https://arxiv.org/abs/2005.10561'
-citation: 'with Yury Polyanskiy and Yihong Wu.'
+citation: 'with Yury Polyanskiy and Yihong Wu'
 
 ---
 
