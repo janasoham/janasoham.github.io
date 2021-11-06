@@ -11,6 +11,8 @@ excerpt: "Analyzing prediction problems on first order Markov chains we demonstr
 the size of states space and sample size is provided. We also analyze effect of spectral gaps in case of reversible chains to achieve 
 parametric rate of estimation."
 
+paperurl: "https://arxiv.org/abs/2106.13947"
+
 citation: "with Yanjun Han and Yihong Wu"
 
 ---
