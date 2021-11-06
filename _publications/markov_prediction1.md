@@ -11,8 +11,7 @@ excerpt: "Analyzing prediction problems on first order Markov chains we demonstr
 the size of states space and sample size is provided. We also analyze effect of spectral gaps in case of reversible chains to achieve 
 parametric rate of estimation."
 
-citation: "Yanjun Han, Soham Jana, and Yihong Wu. <i>Optimal prediction of Markov chains 
-with and without spectral gap.</i> arXiv preprint arXiv:2106.13947 (2021)."
+citation: "with Yanjun Han and Yihong Wu"
 
 paperurl: 'https://arxiv.org/abs/2106.13947'
 
