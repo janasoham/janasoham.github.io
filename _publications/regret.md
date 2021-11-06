@@ -4,7 +4,7 @@ title: "Regret optimality of minimum distance based empirical Bayes methods for 
 collection: publications
 permalink: /publications/regret
 venue: 'In preparation'
-excerpt: "with Yury Polyanskiy and Yihong Wu"
+citation: "with Yury Polyanskiy and Yihong Wu"
 
 date: 2021-10-01
 
