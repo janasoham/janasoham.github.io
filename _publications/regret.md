@@ -1,5 +1,5 @@
 ---
-title: "Regret optimality of minimum distance based empirical Bayes methods for the Poisson model (with Yury Polyanskiy and Yihong Wu)"
+title: "Regret optimality of minimum distance based empirical Bayes methods for the Poisson model"
 
 collection: publications
 permalink: /publications/markov_prediction1
