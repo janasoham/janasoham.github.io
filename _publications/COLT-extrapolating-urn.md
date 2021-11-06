@@ -25,3 +25,5 @@ consider a population consisting of $k$ individuals each belonging to one of $k$
 		that in the linear regime of $m=c k$ for any constant $c$ the optimal rate is $\Theta(1/\log k)$. 
 		Our estimator is based on Wolfowitz's minimum distance method, which entails solving a linear program (LP) of size $k$.
 		We show that there is a single infinite-dimensional LP whose value simultaneously characterizes the risk of the minimum distance estimator and certifies its minimax optimality. The sharp convergence rate is obtained by evaluating this LP using complex-analytic techniques. 	
+
+[[Arxiv link](https://arxiv.org/abs/2005.10561)]
