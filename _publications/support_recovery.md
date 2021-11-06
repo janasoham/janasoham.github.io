@@ -7,7 +7,7 @@ venue: 'Preprint'
 
 date: 2021-01-01
 
-citation: "with Henry Li, Yutaro Yamada and Ofir Lindenbaum."
+citation: "with Henry Li, Yutaro Yamada and Ofir Lindenbaum"
 
 paperurl: 'https://arxiv.org/abs/2110.15960'
 
