@@ -2,7 +2,7 @@
 title: "Support recovery with stochastic gates: theory and application for linear Models"
 
 collection: publications
-permalink: /publications/stochastic_gates
+permalink: /publications/support_recovery
 venue: 'Preprint'
 
 date: 2021-01-01
