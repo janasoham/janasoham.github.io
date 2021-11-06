@@ -11,8 +11,7 @@ free of issues such as dimensionality, smoothness etc. that usual kernell densit
 
 venue: 'IEEE Transactions on Information Theory'
 paperurl: 'https://janasoham.github.io/files/bregman_charac.pdf'
-citation: 'Soham Jana and Ayanendranath Basu. <i>A characterization of all single-integral, 
-non-kernel divergence estimators.</i> IEEE Transactions on Information Theory 65.12 (2019): 7976-7984.'
+citation: 'with Ayanendranath Basu'
 
 ---
 Abstract
