@@ -13,6 +13,8 @@ paperurl: 'https://arxiv.org/abs/2110.15960'
 
 excerpt: "We study the problem of support set recovery in linear models using the non-convex penalties of stochastic gates (STG). Both theoretical and application aspects are discussed."
 
+[Arxiv](https://arxiv.org/abs/2110.15960)
+
 ---
 
 Abstract
