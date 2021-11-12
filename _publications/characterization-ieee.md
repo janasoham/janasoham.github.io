@@ -3,7 +3,7 @@ title: "A characterization of all single-integral, non-kernel divergence estimat
 
 collection: publications
 date: 2019-10-01
-permalink: /publication/characterization-non-kernel
+permalink: /publications/characterization-non-kernel
 
 excerpt: 'In this work we provide a characterization of the class of divergences that
 bypasses the use of non-parametric smoothing in the construction of divergences, leading to minimum distance estimation
