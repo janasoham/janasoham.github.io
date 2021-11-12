@@ -1,7 +1,7 @@
 ---
 title: "Extrapolating the profile of a finite population"
 collection: publications
-permalink: /publication/COLT-urn
+permalink: /publications/COLT-urn
 excerpt: 'We find out minimax rate of estimating profile of a finite population in certain small sample regime. 
 Our method involves characterizing both upper and lower bounds via an infinite dimensional optimization problem
 based on Wolfowitz minimum distance estimators.'
