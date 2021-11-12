@@ -9,4 +9,4 @@ location: "Online"
 
 ---
 
-I will be presenting my paper on [Optimal prediction of Markov chains with and without spectral gaps](https://janasoham.github.io/publication/COLT-urn) at NeurIPS 2021. 
+I will be presenting my paper on [Optimal prediction of Markov chains with and without spectral gaps](https://janasoham.github.io/publication/markov_prediction1) at NeurIPS 2021. The poster session is scheduled for December 08, Wednesday, 01:30 PM -- 03:00 PM (EST).  
