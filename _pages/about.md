@@ -15,7 +15,7 @@ Prior to this I spent five wonderful years at Indian Statistical Institute (ISI)
 
 ## Research interests
 
-I am broadly interested in theoretical and algorithmic aspects of Statistics and Machine learning. My works as of now include
+I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning. My works as of now include
 
 * Dependent data analysis
 * High dimensional problems
