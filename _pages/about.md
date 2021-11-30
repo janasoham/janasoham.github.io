@@ -20,6 +20,7 @@ I am broadly interested in theoretical and methodological aspects of Statistics 
 * Dependent data analysis
 * High dimensional problems
 * Non-convex penalties
+* Non-parametric estimation
 * Mixture modeling
 * Support recovery
 * Markov chains 
