@@ -10,6 +10,7 @@ author_profile: true
 -----------------------------------------------------
 
 I presented my [paper](https://janasoham.github.io/publications/markov_prediction1) at NeurIPS 2021. Here is a link to the [poster](https://janasoham.github.io/files/NeurIPS_poster.png).
+
 <span style='color:grey'> Extrapolating profile of a finite population </span>
 -----------------------------------------------------
 
