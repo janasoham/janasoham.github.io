@@ -15,10 +15,10 @@ Prior to this, I spent five wonderful years at [Indian Statistical Institute (IS
 
 ## Research interests
 
-I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning. My works as of now include
+I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning, including
 
-* Dependent modeling
 * High dimensional problems
+* Markov decision process
 * Non-convex penalties
 * Non-parametric estimation
 * Mixture modeling
