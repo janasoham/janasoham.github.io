@@ -17,7 +17,7 @@ Prior to this, I spent five wonderful years at [Indian Statistical Institute (IS
 
 I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning. My works as of now include
 
-* Dependent data analysis
+* Dependent modeling
 * High dimensional problems
 * Non-convex penalties
 * Non-parametric estimation
