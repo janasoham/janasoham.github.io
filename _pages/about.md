@@ -13,6 +13,8 @@ I am a Ph.D. student at the [Department of Statistics and Data Science, Yale Uni
 
 Prior to this, I spent five wonderful years at [Indian Statistical Institute (ISI), Kolkata](https://www.isical.ac.in/), completing my Bachelors of Statistics (B.Stat.) and Masters of Statistics (M.Stat.) with specialization in Theoretical Statistics. For my Master's dissertation, I worked on minimum distance estimators that can avoid Kernel smoothing in the estimation process, under the watchful guidance of [Prof. Ayanendranath Basu](https://www.isical.ac.in/~ayanbasu/).
 
+# I will be on the 2021-22 job market.
+
 ## Research interests
 
 I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning, including
