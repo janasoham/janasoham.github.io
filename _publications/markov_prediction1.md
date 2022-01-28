@@ -7,9 +7,9 @@ venue: 'NeurIPS'
 
 date: 2021-01-01
 
-excerpt: "Analyzing prediction problems on first order Markov chains we demonstrate the optimal rate when 
-the size of states space and sample size is provided. We also analyze effect of spectral gaps in case of reversible chains to achieve 
-parametric rate of estimation."
+excerpt: "Analyzing a prediction problem on the first-order Markov chain, we demonstrate the optimal minimax rate when 
+the states-space size and sample size are provided. We also investigate the effect of spectral gaps in the case of reversible chains to achieve 
+the parametric rate of estimation."
 
 paperurl: "https://arxiv.org/abs/2106.13947"
 
