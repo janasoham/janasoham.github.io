@@ -2,8 +2,8 @@
 title: "Extrapolating the profile of a finite population"
 collection: publications
 permalink: /publications/COLT-urn
-excerpt: 'We find out minimax rate of estimating profile of a finite population in certain small sample regime. 
-Our method involves characterizing both upper and lower bounds via an infinite dimensional optimization problem
+excerpt: 'We find out the minimax rate of estimating the profile of a finite population in small sample regimes. 
+Our method involves characterizing both upper and lower bounds via an infinite-dimensional optimization problem
 based on Wolfowitz minimum distance estimators.'
 date: 2020-01-01
 venue: 'Conference on Learning Theory'
