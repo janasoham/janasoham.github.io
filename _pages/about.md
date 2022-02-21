@@ -20,11 +20,10 @@ In Fall 2022 I will join Princeton ORFE as a Postdoctoral Research Associate und
 I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning, including
 
 * High dimensional problems
-* Markov decision process
-* Non-convex penalties
 * Non-parametric estimation
+* Markov decision process
 * Mixture modeling
+* Federated learning 
+* Non-convex penalties
 * Support recovery
-* Markov chains 
-* Spectral analysis
 
