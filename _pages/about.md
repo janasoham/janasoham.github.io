@@ -24,6 +24,5 @@ I am broadly interested in theoretical and methodological aspects of Statistics 
 * Markov decision process
 * Mixture modeling
 * Federated learning 
-* Non-convex penalties
 * Support recovery
 
