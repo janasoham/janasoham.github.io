@@ -5,9 +5,7 @@ collection: publications
 date: 2019-10-01
 permalink: /publications/characterization-non-kernel
 
-excerpt: 'In this work, we provide a characterization of the class of divergences that
-bypasses the use of nonparametric smoothing in the construction of the divergences, leading to minimum distance estimation
-free of issues such as dimensionality, smoothness, etc. that the usual kernel density estimators exhibit.'
+excerpt: 
 
 venue: 'IEEE Transactions on Information Theory'
 citation: 'with Ayanendranath Basu'
