@@ -3,7 +3,7 @@ title: "Optimal prediction of Markov chains with and without spectral gap"
 
 collection: publications
 permalink: /publications/markov_prediction1
-venue: 'NeurIPS'
+venue: 'NeurIPS. Longer version to appear in IEEE Transactions on Information Theory'
 
 date: 2021-01-01
 
