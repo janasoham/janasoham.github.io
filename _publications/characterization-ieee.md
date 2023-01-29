@@ -5,7 +5,7 @@ collection: publications
 date: 2019-10-01
 permalink: /publications/characterization-non-kernel
 
-excerpt: 
+excerpt: ""
 
 venue: 'IEEE Transactions on Information Theory'
 citation: 'with Ayanendranath Basu'
