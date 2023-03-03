@@ -6,6 +6,8 @@ permalink: /publications/regret
 venue: 'Preprint'
 citation: "with Yury Polyanskiy and Yihong Wu"
 paperurl: "https://arxiv.org/abs/2209.01328"
+
+excerpt: ""
 date: 2022-10-01
 
 ---
