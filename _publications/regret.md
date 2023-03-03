@@ -1,5 +1,5 @@
 ---
-title: "Regret optimality of minimum distance based empirical Bayes methods for the Poisson model"
+title: "Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods"
 
 collection: publications
 permalink: /publications/regret
