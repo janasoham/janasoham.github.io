@@ -21,6 +21,5 @@ I am broadly interested in theoretical and methodological aspects of Statistics 
 * Non-parametric estimation
 * Robust estimation
 * Mixture modeling
-* Federated learning 
 * Support recovery
 
