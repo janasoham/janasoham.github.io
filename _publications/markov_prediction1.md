@@ -3,13 +3,11 @@ title: "Optimal prediction of Markov chains with and without spectral gap"
 
 collection: publications
 permalink: /publications/markov_prediction1
-venue: 'NeurIPS'
+venue: 'NeurIPS, 2021. Longer version to appear in IEEE Transactions on Information Theory'
 
-date: 2021-01-01
+date: 2023-01-01
 
-excerpt: "Analyzing a prediction problem on the first-order Markov chain, we demonstrate the optimal minimax rate when 
-the states-space size and sample size are provided. We also investigate the effect of spectral gaps in the case of reversible chains to achieve 
-the parametric rate of estimation."
+excerpt: ""
 
 paperurl: "https://arxiv.org/abs/2106.13947"
 
@@ -21,7 +19,7 @@ Abstract
 ========
 
 We study the following learning problem with dependent data: Observing a trajectory of length $n$ from a stationary Markov chain with $k$ states, the goal is to predict the next state.
-For  $3 \leq k \leq O(\sqrt{n})$, using techniques from universal compression, the optimal prediction risk in Kullback-Leibler divergence is shown to be $\Theta(\frac{k^2}{n}\log \frac{n}{k^2})$, in contrast to the optimal rate of $\Theta(\frac{\log \log n}{n})$ for $k=2$ previously shown in Falahatgar et. al. 2016. These rates, slower than the parametric rate of $O(\frac{k^2}{n})$, can be attributed to the memory in the data, as the spectral gap of the Markov chain can be arbitrarily small. To quantify the memory effect, we study irreducible reversible chains with a prescribed spectral gap. In addition to characterizing the optimal prediction risk for two states, we show that, as long as the spectral gap is not excessively small, the prediction risk in the Markov model is $O(\frac{k^2}{n})$, which coincides with that of an iid model with the same number of parameters. 
+For  $3 \leq k \leq O(\sqrt{n})$, using techniques from universal compression, the optimal prediction risk in Kullback-Leibler divergence is shown to be $\Theta(\frac{k^2}{n}\log \frac{n}{k^2})$, in contrast to the optimal rate of $\Theta(\frac{\log \log n}{n})$ for $k=2$ previously shown in Falahatgar et. al. 2016. These rates, slower than the parametric rate of $O(\frac{k^2}{n})$, can be attributed to the memory in the data, as the spectral gap of the Markov chain can be arbitrarily small. To quantify the memory effect, we study irreducible reversible chains with a prescribed spectral gap. In addition to characterizing the optimal prediction risk for two states, we show that, as long as the spectral gap is not excessively small, the prediction risk in the Markov model is $O(\frac{k^2}{n})$, which coincides with that of an iid model with the same number of parameters. Extensions to higher-order Markov chains are obtained.
 
 
 

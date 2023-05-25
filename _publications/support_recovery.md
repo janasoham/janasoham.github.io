@@ -11,7 +11,7 @@ citation: "with Henry Li, Yutaro Yamada and Ofir Lindenbaum"
 
 paperurl: "https://arxiv.org/abs/2110.15960"
 
-excerpt: "We study the problem of support-set recovery in the linear models using the non-convex penalties of stochastic gates (STG). Both the theoretical and application aspects are discussed."
+excerpt: ""
 
 
 ---
