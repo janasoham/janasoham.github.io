@@ -6,6 +6,12 @@ author_profile: true
 
 ---
 
+<span style='color:grey'> Empirical Bayes via ERM and Rademacher complexities: the Poisson
+model </span>
+-----------------------------------------------------
+
+I will be presenting my work at COLT 2023. 
+
 <span style='color:grey'> Optimal prediction of Markov chains with and without spectral gaps </span>
 -----------------------------------------------------
 
