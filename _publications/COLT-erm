@@ -1,7 +1,7 @@
 ---
 title: "Empirical Bayes via ERM and Rademacher complexities: the Poisson model"
 collection: publications
-permalink: /publications/COLT-erm
+permalink: /publications/COLT_erm
 excerpt: ''
 date: 2023-01-01
 venue: 'Conference on Learning Theory'
