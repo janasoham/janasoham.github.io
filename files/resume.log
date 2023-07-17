@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.11.30)  13 JUL 2023 08:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.11.30)  17 JUL 2023 16:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1074,7 +1074,7 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {C:/Users/soham/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 802--804
+Underfull \hbox (badness 10000) in paragraph at lines 806--808
 
  []
 
@@ -1083,13 +1083,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.829 		\item []
-                 INSPIRE Scholarship, Govt. of India \hfill 2012-2017 [2]
+l.828 		
+         [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.863 	\clearpage
+l.867 	\clearpage
                   [3] (resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1097,16 +1097,16 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  26032 strings out of 478593
  470604 string characters out of 2844603
- 773139 words of memory out of 12000000
+ 772140 words of memory out of 12000000
  43687 multiletter control sequences out of 15000+600000
  478919 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,5n,89p,3219b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,5n,89p,3219b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr10.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb>
-Output written on resume.pdf (3 pages, 68531 bytes).
+Output written on resume.pdf (3 pages, 69185 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
