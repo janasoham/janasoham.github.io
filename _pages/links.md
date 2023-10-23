@@ -31,10 +31,10 @@ author_profile: true
 
 <span style='color:grey'> My photography </span>
 -----------------------------------------------------
-- East Europe: [Lake Ohrid](https://janasoham.github.io/ohrid.png), [Kotor Bay](https://janasoham.github.io/ohrid.png), [Serbia town hall](https://janasoham.github.io/serbia.png)
+- East Europe: [Lake Ohrid](https://janasoham.github.io/files/ohrid.png), [Kotor Bay](https://janasoham.github.io/files/ohrid.png), [Serbia town hall](https://janasoham.github.io/files/serbia.png)
 
-- Fall colors: [At Yale 1](https://janasoham.github.io/fall_yale1.png), [At Yale 2](https://janasoham.github.io/fall_yale2.png), [At Upstate NY](https://janasoham.github.io/fall_ny.png)
+- Fall colors: [At Yale 1](https://janasoham.github.io/files/fall_yale1.png), [At Yale 2](https://janasoham.github.io/files/fall_yale2.png), [At Upstate NY](https://janasoham.github.io/files/fall_ny.png)
 
-- Squirrels: [Picture1](https://janasoham.github.io/sqr1.png), [Picture2](https://janasoham.github.io/sqr2.png)
+- Squirrels: [Picture1](https://janasoham.github.io/files/sqr1.png), [Picture2](https://janasoham.github.io/files/sqr2.png)
 
 - [Fourth of July fireworks in New Haven, 2018](https://janasoham.github.io/files/july4.png)
