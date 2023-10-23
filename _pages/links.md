@@ -13,11 +13,7 @@ author_profile: true
 
 - [At the Women in Data Science 2020 workshop, Yale chapter](https://janasoham.github.io/files/wids1.jpg), with collaborator Colleen Chan
 
-- SAGA (South Asian Graduate and Professional Association at Yale) Board members at [Yale South Asian Students Council Welcome Reception, 2018](https://janasoham.github.io/files/saga2018.jpg)
-
-- SAGA Board members at [Yale South Asian Students Council Welcome Reception, 2019](https://janasoham.github.io/files/saga2019.jpg)
-
-- SAGA Board members at [Yale Grad Fair 2019](https://janasoham.github.io/files/grad_fair2019.jpg)
+- SAGA (South Asian Graduate and Professional Association at Yale) Board members: [Yale Welcome Reception 2018](https://janasoham.github.io/files/saga2018.jpg), [Yale Welcome Reception 2019](https://janasoham.github.io/files/saga2019.jpg), [Yale Grad Fair 2019](https://janasoham.github.io/files/grad_fair2019.jpg)
 
 - Holi 2019 at Yale: [Picture1](https://janasoham.github.io/files/holi2019.jpg), [Picture2](https://janasoham.github.io/files/holi2019_2.jpg)
 
