@@ -19,9 +19,10 @@ I am currently on the academic job market, looking for opportunities starting in
 
 I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning, including
 
-* High dimensional problems
+* Robustness
 * Non-parametric estimation
-* Robust estimation
+* Empirical Bayes applications
 * Mixture modeling
-* Support recovery
+* Sparsity
+* Dependent setups
 
