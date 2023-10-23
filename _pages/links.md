@@ -15,8 +15,6 @@ author_profile: true
 
 - SAGA (South Asian Graduate and Professional Association at Yale) Board members: [Yale Welcome Reception 2018](https://janasoham.github.io/files/saga2018.jpg), [Yale Welcome Reception 2019](https://janasoham.github.io/files/saga2019.jpg), [Yale Grad Fair 2019](https://janasoham.github.io/files/grad_fair2019.jpg)
 
-- Holi 2019 at Yale: [Picture1](https://janasoham.github.io/files/holi2019.jpg), [Picture2](https://janasoham.github.io/files/holi2019_2.jpg)
-
 - [With friends at ISI graduation ceremony](https://janasoham.github.io/files/isigrad.jpg)
 
 - [Boarding the train to Machu Pichu](https://janasoham.github.io/files/peru.png)
@@ -34,3 +32,6 @@ author_profile: true
 - Squirrels: [Picture1](https://janasoham.github.io/files/sqr1.png), [Picture2](https://janasoham.github.io/files/sqr2.png)
 
 - [Fourth of July fireworks in New Haven, 2018](https://janasoham.github.io/files/july4.png)
+
+- [Holi 2019 at Yale](https://janasoham.github.io/files/holi2019_2.jpg)
+
