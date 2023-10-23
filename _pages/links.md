@@ -11,7 +11,7 @@ author_profile: true
 <span style='color:grey'> Pictures of me </span>
 -----------------------------------------------------
 
-- A [picture of me](https://janasoham.github.io/files/wids1.jpg) at WiDS2020 with collaborator Colleen Chan
+- [At the Women in Data Science 2020 workshop, Yale chapter](https://janasoham.github.io/files/wids1.jpg), with collaborator Colleen Chan
 
 - SAGA (South Asian Graduate and Professional Association at Yale) Board members at [Yale South Asian Students Council Welcome Reception, 2018](https://janasoham.github.io/files/saga2018.jpg)
 
