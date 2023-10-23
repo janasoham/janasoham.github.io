@@ -9,7 +9,7 @@ I have served the role of Instructor in the following courses, at Princeton Depa
 | Courses                         |    Timeline  |
 |:--------------------------------|:-------------|
 | Probability and Stochastic system <br>  ORF 309|    Spring 2023 |
-|Statistical Machine Learning <br> ORF 570 (Assistant instructor with Prof. Jianqing Fan)|  Fall 2023 |
+|Statistical Machine Learning <br> ORF 570 (Assistant Instructor with Prof. Jianqing Fan)|  Fall 2023 |
 
 I have served the role of Teaching Assistant in the following courses, at Yale Department of Statistics and Data Science.
 
