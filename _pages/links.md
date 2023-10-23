@@ -21,7 +21,7 @@ author_profile: true
 
 - Holi 2019 at Yale: [Picture1](https://janasoham.github.io/files/holi2019.jpg), [Picture2](https://janasoham.github.io/files/holi2019_2.jpg)
 
-- [With friends at ISI graduation ceremony](https://janasoham.github.io/files/isigrad.png)
+- [With friends at ISI graduation ceremony](https://janasoham.github.io/files/isigrad.jpg)
 
 - [Boarding the train to Machu Pichu](https://janasoham.github.io/files/peru.png)
 
