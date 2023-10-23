@@ -8,7 +8,7 @@ author_profile: true
 
 
 
-<span style='color:grey'> Pictures </span>
+<span style='color:grey'> Pictures of me </span>
 -----------------------------------------------------
 
 - A [picture of me](https://janasoham.github.io/files/wids1.jpg) at WiDS2020 with collaborator Colleen Chan
@@ -21,3 +21,20 @@ author_profile: true
 
 - Holi 2019 at Yale: [Picture1](https://janasoham.github.io/files/holi2019.jpg), [Picture2](https://janasoham.github.io/files/holi2019_2.jpg)
 
+- [With friends at ISI graduation ceremony](https://janasoham.github.io/files/isigrad.png)
+
+- [Boarding the train to Machu Pichu](https://janasoham.github.io/files/peru.png)
+
+- [At University of Syracuse](https://janasoham.github.io/files/Usyracuse.png)
+
+
+
+<span style='color:grey'> My photography </span>
+-----------------------------------------------------
+- East Europe: [Lake Ohrid](https://janasoham.github.io/ohrid.png), [Kotor Bay](https://janasoham.github.io/ohrid.png), [Serbia town hall](https://janasoham.github.io/serbia.png)
+
+- Fall colors: [At Yale 1](https://janasoham.github.io/fall_yale1.png), [At Yale 2](https://janasoham.github.io/fall_yale2.png), [At Upstate NY](https://janasoham.github.io/fall_ny.png)
+
+- Squirrels: [Picture1](https://janasoham.github.io/sqr1.png), [Picture2](https://janasoham.github.io/sqr2.png)
+
+- [Fourth of July fireworks in New Haven, 2018](https://janasoham.github.io/files/july4.png)
