@@ -31,7 +31,7 @@ author_profile: true
 
 <span style='color:grey'> My photography </span>
 -----------------------------------------------------
-- East Europe: [Lake Ohrid](https://janasoham.github.io/files/ohrid.png), [Kotor Bay](https://janasoham.github.io/files/ohrid.png), [Serbia town hall](https://janasoham.github.io/files/serbia.png)
+- East Europe: [Lake Ohrid](https://janasoham.github.io/files/ohrid.png), [Kotor Bay](https://janasoham.github.io/files/kotor.png), [Serbia town hall](https://janasoham.github.io/files/serbia.png)
 
 - Fall colors: [At Yale 1](https://janasoham.github.io/files/fall_yale1.png), [At Yale 2](https://janasoham.github.io/files/fall_yale2.png), [At Upstate NY](https://janasoham.github.io/files/fall_ny.png)
 
