@@ -11,7 +11,7 @@ author_profile: true
 <span style='color:grey'> Empirical Bayes via ERM and Rademacher complexities: the Poisson model </span>
 -----------------------------------------------------
 
-I presented my work at COLT 2023. Here is a link to the [poster](https://janasoham.github.io/files/colt2023_poster.png).
+I presented my work at COLT 2023. Here is a link to the [poster](https://janasoham.github.io/files/colt2023_poster.pdf).
 
 <span style='color:grey'> Optimal prediction of Markov chains with and without spectral gaps </span>
 -----------------------------------------------------
