@@ -1,13 +1,14 @@
 ---
 permalink: /
-title: "<span style='color:grey'>Welcome!</span>"
+title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## About me
+<span style='color:grey'>About me</span>
+-----------------------------------------
 
 I am a Post-doctoral Research Associate at Princeton ORFE. I am advised by [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/) and [Prof. Jianqing Fan](https://fan.princeton.edu/).
 
@@ -15,7 +16,8 @@ I finished my Ph.D. at the [Department of Statistics and Data Science, Yale Univ
 
 <b class="term">I am currently in the academic job market, looking for positions starting in Fall 2024.</b>
 
-## Research interests
+<span style='color:grey'>Research interests</span>
+---------------------------------------------------
 
 I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning, including
 
