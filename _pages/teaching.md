@@ -4,7 +4,7 @@ title: "Teaching"
 author_profile: true
 ---
 
-Instructor <span style='color:grey'>(Princeton University)</span> 
+<span style='color:grey'>Instructor (Princeton University)</span> 
 -----------------------------------------------------
 
 | Courses                         |    Timeline  |
@@ -14,7 +14,7 @@ Instructor <span style='color:grey'>(Princeton University)</span>
 
 
 
-Graduate teaching assistant <span style='color:grey'>(Yale University)</span> 
+<span style='color:grey'>Graduate teaching assistant (Yale University)</span> 
 -----------------------------------------------------
 
 | Courses                         |      Instructor      |    Timeline  |
