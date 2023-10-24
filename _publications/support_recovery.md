@@ -3,7 +3,7 @@ title: "Support recovery with stochastic gates: theory and application for linea
 
 collection: publications
 permalink: /publications/support_recovery
-venue: 'To appear in Elsevier Singal Processing'
+venue: 'Elsevier Singal Processing'
 
 date: 2023-01-01
 
