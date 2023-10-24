@@ -4,14 +4,18 @@ title: "Teaching"
 author_profile: true
 ---
 
-I have served the role of Instructor in the following courses, at Princeton Department of Operations Research and Financial Engineering.
+<span style='color:grey'> Course instructor </span> (Princeton University)
+-----------------------------------------------------
 
 | Courses                         |    Timeline  |
 |:--------------------------------|:-------------|
 | Probability and Stochastic system <br>  ORF 309|    Spring 2023 |
 |Statistical Machine Learning <br> ORF 570 (Assistant Instructor with Prof. Jianqing Fan)|  Fall 2023 |
 
-I have served the role of Teaching Assistant in the following courses, at Yale Department of Statistics and Data Science.
+
+
+<span style='color:grey'> Graduate teaching assistant </span> (Yale University)
+-----------------------------------------------------
 
 | Courses                         |      Instructor      |    Timeline  |
 |:--------------------------------|:---------------------|:-------------|
