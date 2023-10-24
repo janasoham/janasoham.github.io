@@ -4,7 +4,7 @@ title: "Teaching"
 author_profile: true
 ---
 
-<span style='color:grey'> Course Instructor </span> (Princeton University)
+<span style='color:grey'> Instructor </span> (Princeton University)
 -----------------------------------------------------
 
 | Courses                         |    Timeline  |
