@@ -17,8 +17,6 @@ author_profile: true
 
 - [With friends at ISI graduation ceremony](https://janasoham.github.io/files/isigrad.jpg)
 
-- [Boarding the train to Machu Pichu](https://janasoham.github.io/files/peru.png)
-
 - [At University of Syracuse](https://janasoham.github.io/files/Usyracuse.png)
 
 
