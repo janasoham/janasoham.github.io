@@ -6,7 +6,7 @@
 \usepackage{longtable}
 %\graphicspath{ {images/}} %upload your signature to this file
 %Change the margins to fit your CV/resume content
-\usepackage[left=1in, right=1in, bottom=1in, top=1in]{geometry}
+\usepackage[left=1in, right=1in, bottom=0.8in, top=0.8in]{geometry}
 
 %Skype information - include your Skype name for a link to add you on Skype
 \newcommand*{\Skype}{\href{skype:john.smith?add}{john.smith}} 
@@ -69,872 +69,895 @@
 % stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
 % the ability to do double column floats at the bottom of the page as well
 % as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
-% LaTeX2e). It also provides a command:
-%\fnbelowfloat
-% to enable the placement of footnotes below bottom floats (the standard
-% LaTeX2e kernel puts them above bottom floats). This is an invasive package
-% which rewrites many portions of the LaTeX2e float routines. It may not work
-% with other packages that modify the LaTeX2e float routines. The latest
-% version and documentation can be obtained at:
-% http://www.ctan.org/tex-archive/macros/latex/contrib/sttools/
-% Documentation is contained in the stfloats.sty comments as well as in the
-% presfull.pdf file. Do not use the stfloats baselinefloat ability as IEEE
-% does not allow \baselineskip to stretch. Authors submitting work to the
-% IEEE should note that IEEE rarely uses double column equations and
-% that authors should try to avoid such use. Do not be tempted to use the
-% cuted.sty or midfloat.sty packages (also by Sigitas Tolusis) as IEEE does
-% not format its papers in such ways.
-
-% correct bad hyphenation here
-%\hyphenation{op-tical net-works semi-conduc-tor}
-
-
-
-
-
-%
-\usepackage{ifpdf}
-
-\usepackage{subfigure}
-\usepackage{psfrag}
-
-\usepackage{prettyref,enumerate}
-%\usepackage{enumitem}
-%\usepackage[showerrors,table,dvipsnames*, svgnames*]{xcolor}
-
-
-\usepackage{tikz}
-\usetikzlibrary{arrows}
-\tikzstyle{int}=[draw, fill=blue!20, minimum size=2em]
-\tikzstyle{dot}=[circle, draw, fill=blue!20, minimum size=2em]
-\tikzstyle{init} = [pin edge={to-,thin,black}]
-
-
-\usepackage[%dvips,
-CJKbookmarks=true,
-bookmarksnumbered=true,
-bookmarksopen=true,
-%						bookmarks=false,
-colorlinks=true,
-citecolor=red,
-linkcolor=blue,
-anchorcolor=red,
-urlcolor=blue,
-pdfauthor={Soham Jana}
-]{hyperref}
-
-\usepackage[all]{xy}
-
-\usepackage{mathtools}
-%\mathtoolsset{showonlyrefs}
-
-\usepackage{ifthen}
-\newboolean{aos}
-\setboolean{aos}{FALSE}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%                                                          %%%%
-%%%%                      Local defines                       %%%%
-%%%%                                                          %%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\mats}{\ensuremath{\mathcal{S}}}
-\newcommand{\matc}{\ensuremath{\mathcal{C}}}
-\newcommand{\matx}{\ensuremath{\mathcal{X}}}
-\newcommand{\mata}{\ensuremath{\mathcal{A}}}
-\newcommand{\mate}{\ensuremath{\mathcal{E}}}
-\newcommand{\matu}{\ensuremath{\mathcal{U}}}
-\newcommand{\matb}{\ensuremath{\mathcal{B}}}
-\newcommand{\matr}{\ensuremath{\mathcal{R}}}
-\newcommand{\maty}{\ensuremath{\mathcal{Y}}}
-\newcommand{\matn}{\ensuremath{\mathcal{N}}}
-\newcommand{\matf}{\ensuremath{\mathcal{F}}}
-\newcommand{\matg}{\ensuremath{\mathcal{G}}}
-\newcommand{\matp}{\ensuremath{\mathcal{P}}}
-\newcommand{\matd}{\ensuremath{\mathcal{D}}}
-\newcommand{\matK}{\ensuremath{\mathcal{K}}}
-\newcommand{\matH}{\ensuremath{\mathcal{H}}}
-
-\newcommand{\alx}{\textbf{\sf A}}
-\newcommand{\alf}{\textbf{\sf F}}
-\newcommand{\aly}{\textbf{\sf B}}
-\newcommand{\alw}{\textbf{\sf W}}
-
-\newcommand{\mymmh} {\frac{\mathsmaller M \mathsmaller - \mathsmaller 1}{\mathsmaller 2}} %%SV-apr26
-\newcommand{\mymm} {{\mathsmaller M \mathsmaller - \mathsmaller 1 }} %%SV-apr26
-\newcommand{\figref}[1]{Fig.~{\bf #1}}
-\newcommand{\mreals}{\ensuremath{\mathbb{R}}}
-\newcommand{\mconst}{\ensuremath{\mathrm{const}}}
-\newcommand{\supp}{\ensuremath{\mathrm{supp}}}
-
-\ifx\eqref\undefined
-\newcommand{\eqref}[1]{~(\ref{#1})}
-\fi
-\ifx\mod\undefined
-\def\mod{\mathop{\rm mod}}
-\fi
-
-\usepackage{bm}
-\def\vect#1{\bm{#1}}
-\newcommand{\transp}[1]{{#1^{\mbox{\scriptsize\rm T}}}}
-\newcommand{\vecttr}[1]{{\bf #1^{\mbox{\scriptsize\rm T}}}}
-\newcommand{\norm}[1]{{\left\Vert #1 \right\Vert}}
-\newcommand{\Norm}[1]{{\Vert #1 \Vert}}
-
-\def\eng{\fontencoding{OT1}\selectfont}
-\def\yhat{{\hat y}}
-\def\chat{{\hat c}}
-\def\esssup{\mathop{\rm esssup}}
-\def\argmin{\mathop{\rm argmin}}
-\def\argmax{\mathop{\rm argmax}}
-\def\dim{\mathop{\rm dim}}
-\def\wt{\mathop{\rm wt}}
-\def\exp{\mathop{\rm exp}}
-\def\lspan{\mathop{\rm span}}
-\def\tr{\mathop{\rm tr}}
-\def\rank{\mathop{\rm rank}}
-\def\cov{\mathop{\rm cov}}
-\def\MM{{\bf\rm M}}
-\def\EE{\Expect}
-\DeclareMathOperator\sign{\rm sign}
-\def\LVar{\mathbb{L}\,}
-\def\Var{\mathrm{Var}}
-\def\Cov{\mathrm{Cov}}
-\def\DD{{\bf\rm D}}
-\def\wth{\mathop{\rm wt}}
-\def\PP{\mathbb{P}}
-\def\FF{\mathbb{F}}
-\def\QQ{\mathbb{Q}}
-\def\vchat{\vect{\hat c}}
-\def\vctil{\vect{\tilde c}}
-\def\vectx{\vect{x}}
-\def\vdelta{\vect{\delta}}
-\def\vdeltil{\tilde \delta}
-\def\vecty{\vect{y}}
-\def\diag{\mathop{\rm diag}}
-\def\eig{\mathop{\rm eig}}
-\def\follows{\Longrightarrow}
-\def\equiva{\Leftrightarrow}
-\def\equival{\Longleftrightarrow}
-%\def\eqdef{\stackrel{\triangle}{=}}
-\def\eqdef{\triangleq}
-\def\dd{\partial}
-\def\upto{\nearrow}
-\def\downto{\searrow}
-
-\def\capf{\mathsf{C}}
-\def\veef{\mathsf{V}}
-\def\Leb{\mathrm{Leb}}
-\def\simiid{\stackrel{iid}{\sim}}
-
-%\def\co{{\mathrm{co}}}
-
-
-\def\gacap#1{{1\over 2} \log\left(1+{#1}\right)}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% by Soham %%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\scr}[1]{\mathscr{#1}}
-\newcommand{\abs}[1]{\left| #1 \right|}
-\newcommand{\trm}{\calM}
-\newcommand{\newrisk}[1]{U_{#1}}
-\newcommand{\mymat}{M}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% by Soham %%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% by Wu %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\M}{M}
-
-\newcommand{\id}{\text{id}}
-
-\newcommand{\zeros}{\mathbf{0}}
-\newcommand{\ones}{\mathbf{1}}
-\newcommand{\stepa}[1]{\overset{\rm (a)}{#1}}
-\newcommand{\stepb}[1]{\overset{\rm (b)}{#1}}
-\newcommand{\stepc}[1]{\overset{\rm (c)}{#1}}
-\newcommand{\stepd}[1]{\overset{\rm (d)}{#1}}
-\newcommand{\stepe}[1]{\overset{\rm (e)}{#1}}
-
-\newcommand{\I}{\text{(I)}}
-\newcommand{\II}{\text{(II)}}
-\newcommand{\III}{\text{(III)}}
-\newcommand{\IV}{\text{(IV)}}
-
-
-%\newcommand{\ones}{\mathbf{1}}
-\newcommand{\bTheta}{\boldsymbol{\Theta}}
-\newcommand{\btheta}{\vect{\theta}}
-\newcommand{\Poi}{\mathrm{Poi}}
-
-\newcommand{\maxcor}{\mathrm{maxcor}}
-\newcommand{\Unif}{\mathrm{Uniform}}
-\newcommand{\hV}{\hat{V}}
-\newcommand{\hW}{\hat{W}}
-\newcommand{\cost}{\sfM}
-\newcommand{\costi}{\cost^{-1}}
-\newcommand{\floor}[1]{{\left\lfloor {#1} \right \rfloor}}
-\newcommand{\ceil}[1]{{\left\lceil {#1} \right \rceil}}
-
-\newcommand{\blambda}{\bar{\lambda}}
-\newcommand{\reals}{\mathbb{R}}
-\newcommand{\naturals}{\mathbb{N}}
-\newcommand{\integers}{\mathbb{Z}}
-\newcommand{\complex}{\mathbb{C}}
-\newcommand{\Expect}{\mathbb{E}}
-\newcommand{\expect}[1]{\mathbb{E}\left[#1\right]}
-\newcommand{\Prob}{\mathbb{P}}
-\newcommand{\prob}[1]{\mathbb{P}\left[#1\right]}
-\newcommand{\pprob}[1]{\mathbb{P}[#1]}
-\newcommand{\intd}{{\rm d}}
-\newcommand{\TV}{{\rm TV}}
-\newcommand{\Aff}{{\rm Aff}}
-\newcommand{\Mu}{M}
-\newcommand{\dbar}{\bar{d}}
-\newcommand{\LC}{{\sf LC}}
-\newcommand{\PW}{{\sf PW}}
-\newcommand{\htheta}{\hat{\theta}}
-\newcommand{\eexp}{{\rm e}}
-\newcommand{\expects}[2]{\mathbb{E}_{#2}\left[ #1 \right]}
-\newcommand{\diff}{{\rm d}}
-\newcommand{\eg}{e.g.\xspace}
-\newcommand{\ie}{i.e.\xspace}
-\newcommand{\iid}{i.i.d.\xspace}
-\newcommand{\ind}{ind.\xspace}
-\newcommand{\fracp}[2]{\frac{\partial #1}{\partial #2}}
-\newcommand{\fracpk}[3]{\frac{\partial^{#3} #1}{\partial #2^{#3}}}
-\newcommand{\fracd}[2]{\frac{\diff #1}{\diff #2}}
-\newcommand{\fracdk}[3]{\frac{\diff^{#3} #1}{\diff #2^{#3}}}
-\newcommand{\renyi}{R\'enyi\xspace}
-\newcommand{\lpnorm}[1]{\left\|{#1} \right\|_{p}}
-\newcommand{\linf}[1]{\left\|{#1} \right\|_{\infty}}
-\newcommand{\lnorm}[2]{\left\|{#1} \right\|_{{#2}}}
-\newcommand{\Lploc}[1]{L^{#1}_{\rm loc}}
-\newcommand{\hellinger}{d_{\rm H}}
-\newcommand{\Fnorm}[1]{\lnorm{#1}{\rm F}}
-%% parenthesis
-\newcommand{\pth}[1]{\left( #1 \right)}
-\newcommand{\qth}[1]{\left[ #1 \right]}
-\newcommand{\sth}[1]{\left\{ #1 \right\}}
-\newcommand{\bpth}[1]{\Bigg( #1 \Bigg)}
-\newcommand{\bqth}[1]{\Bigg[ #1 \Bigg]}
-\newcommand{\bsth}[1]{\Bigg\{ #1 \Bigg\}}
-\newcommand{\xxx}{\textbf{xxx}\xspace}
-\newcommand{\toprob}{{\xrightarrow{\Prob}}}
-\newcommand{\tolp}[1]{{\xrightarrow{L^{#1}}}}
-\newcommand{\toas}{{\xrightarrow{{\rm a.s.}}}}
-\newcommand{\toae}{{\xrightarrow{{\rm a.e.}}}}
-\newcommand{\todistr}{{\xrightarrow{{\rm D}}}}
-\newcommand{\eqdistr}{{\stackrel{\rm D}{=}}}
-\newcommand{\eqlaw}{{\stackrel{\rm law}{=}}}
-\newcommand{\iiddistr}{{\stackrel{\text{\iid}}{\sim}}}
-\newcommand{\inddistr}{{\stackrel{\text{\ind}}{\sim}}}
-\newcommand{\var}{\Var}
-\newcommand\indep{\protect\mathpalette{\protect\independenT}{\perp}}
-\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
-\newcommand{\Bern}{\text{Bern}}
-\newcommand{\Binom}{\text{Binom}}
-\newcommand{\Bino}{\Binom}
-\newcommand{\iprod}[2]{\left \langle #1, #2 \right\rangle}
-\newcommand{\Iprod}[2]{\langle #1, #2 \rangle}
-\newcommand{\indc}[1]{{\mathbf{1}_{\left\{{#1}\right\}}}}
-\newcommand{\Indc}{\mathbf{1}}
-
-\definecolor{myblue}{rgb}{.8, .8, 1}
-\definecolor{mathblue}{rgb}{0.2472, 0.24, 0.6} % mathematica's Color[1, 1--3]
-\definecolor{mathred}{rgb}{0.6, 0.24, 0.442893}
-\definecolor{mathyellow}{rgb}{0.6, 0.547014, 0.24}
-\def\yp#1{\textcolor{mathyellow}{#1}}
-
-
-\newcommand{\red}{\color{red}}
-\newcommand{\blue}{\color{blue}}
-\newcommand{\nb}[1]{{\sf\blue[#1]}}
-\newcommand{\nbr}[1]{{\sf\red[#1]}}
-
-\newcommand{\tmu}{{\tilde{\mu}}}
-\newcommand{\tf}{{\tilde{f}}}
-\newcommand{\tp}{\tilde{p}}
-\newcommand{\tilh}{{\tilde{h}}}
-\newcommand{\tu}{{\tilde{u}}}
-\newcommand{\tx}{{\tilde{x}}}
-\newcommand{\ty}{{\tilde{y}}}
-\newcommand{\tz}{{\tilde{z}}}
-\newcommand{\tA}{{\tilde{A}}}
-\newcommand{\tB}{{\tilde{B}}}
-\newcommand{\tC}{{\tilde{C}}}
-\newcommand{\tD}{{\tilde{D}}}
-\newcommand{\tE}{{\tilde{E}}}
-\newcommand{\tF}{{\tilde{F}}}
-\newcommand{\tG}{{\tilde{G}}}
-\newcommand{\tH}{{\tilde{H}}}
-\newcommand{\tI}{{\tilde{I}}}
-\newcommand{\tJ}{{\tilde{J}}}
-\newcommand{\tK}{{\tilde{K}}}
-\newcommand{\tL}{{\tilde{L}}}
-\newcommand{\tM}{{\tilde{M}}}
-\newcommand{\tN}{{\tilde{N}}}
-\newcommand{\tO}{{\tilde{O}}}
-\newcommand{\tP}{{\tilde{P}}}
-\newcommand{\tQ}{{\tilde{Q}}}
-\newcommand{\tR}{{\tilde{R}}}
-\newcommand{\tS}{{\tilde{S}}}
-\newcommand{\tT}{{\tilde{T}}}
-\newcommand{\tU}{{\tilde{U}}}
-\newcommand{\tV}{{\tilde{V}}}
-\newcommand{\tW}{{\tilde{W}}}
-\newcommand{\tX}{{\tilde{X}}}
-\newcommand{\tY}{{\tilde{Y}}}
-\newcommand{\tZ}{{\tilde{Z}}}
-
-\newcommand{\sfa}{{\mathsf{a}}}
-\newcommand{\sfb}{{\mathsf{b}}}
-\newcommand{\sfc}{{\mathsf{c}}}
-\newcommand{\sfd}{{\mathsf{d}}}
-\newcommand{\sfe}{{\mathsf{e}}}
-\newcommand{\sff}{{\mathsf{f}}}
-\newcommand{\sfg}{{\mathsf{g}}}
-\newcommand{\sfh}{{\mathsf{h}}}
-\newcommand{\sfi}{{\mathsf{i}}}
-\newcommand{\sfj}{{\mathsf{j}}}
-\newcommand{\sfk}{{\mathsf{k}}}
-\newcommand{\sfl}{{\mathsf{l}}}
-\newcommand{\sfm}{{\mathsf{m}}}
-\newcommand{\sfn}{{\mathsf{n}}}
-\newcommand{\sfo}{{\mathsf{o}}}
-\newcommand{\sfp}{{\mathsf{p}}}
-\newcommand{\sfq}{{\mathsf{q}}}
-\newcommand{\sfr}{{\mathsf{r}}}
-\newcommand{\sfs}{{\mathsf{s}}}
-\newcommand{\sft}{{\mathsf{t}}}
-\newcommand{\sfu}{{\mathsf{u}}}
-\newcommand{\sfv}{{\mathsf{v}}}
-\newcommand{\sfw}{{\mathsf{w}}}
-\newcommand{\sfx}{{\mathsf{x}}}
-\newcommand{\sfy}{{\mathsf{y}}}
-\newcommand{\sfz}{{\mathsf{z}}}
-\newcommand{\sfA}{{\mathsf{A}}}
-\newcommand{\sfB}{{\mathsf{B}}}
-\newcommand{\sfC}{{\mathsf{C}}}
-\newcommand{\sfD}{{\mathsf{D}}}
-\newcommand{\sfE}{{\mathsf{E}}}
-\newcommand{\sfF}{{\mathsf{F}}}
-\newcommand{\sfG}{{\mathsf{G}}}
-\newcommand{\sfH}{{\mathsf{H}}}
-\newcommand{\sfI}{{\mathsf{I}}}
-\newcommand{\sfJ}{{\mathsf{J}}}
-\newcommand{\sfK}{{\mathsf{K}}}
-\newcommand{\sfL}{{\mathsf{L}}}
-\newcommand{\sfM}{{\mathsf{M}}}
-\newcommand{\sfN}{{\mathsf{N}}}
-\newcommand{\sfO}{{\mathsf{O}}}
-\newcommand{\sfP}{{\mathsf{P}}}
-\newcommand{\sfQ}{{\mathsf{Q}}}
-\newcommand{\sfR}{{\mathsf{R}}}
-\newcommand{\sfS}{{\mathsf{S}}}
-\newcommand{\sfT}{{\mathsf{T}}}
-\newcommand{\sfU}{{\mathsf{U}}}
-\newcommand{\sfV}{{\mathsf{V}}}
-\newcommand{\sfW}{{\mathsf{W}}}
-\newcommand{\sfX}{{\mathsf{X}}}
-\newcommand{\sfY}{{\mathsf{Y}}}
-\newcommand{\sfZ}{{\mathsf{Z}}}
-
-
-\newcommand{\calA}{{\mathcal{A}}}
-\newcommand{\calB}{{\mathcal{B}}}
-\newcommand{\calC}{{\mathcal{C}}}
-\newcommand{\calD}{{\mathcal{D}}}
-\newcommand{\calE}{{\mathcal{E}}}
-\newcommand{\calF}{{\mathcal{F}}}
-\newcommand{\calG}{{\mathcal{G}}}
-\newcommand{\calH}{{\mathcal{H}}}
-\newcommand{\calI}{{\mathcal{I}}}
-\newcommand{\calJ}{{\mathcal{J}}}
-\newcommand{\calK}{{\mathcal{K}}}
-\newcommand{\calL}{{\mathcal{L}}}
-\newcommand{\calM}{{\mathcal{M}}}
-\newcommand{\calN}{{\mathcal{N}}}
-\newcommand{\calO}{{\mathcal{O}}}
-\newcommand{\calP}{{\mathcal{P}}}
-\newcommand{\calQ}{{\mathcal{Q}}}
-\newcommand{\calR}{{\mathcal{R}}}
-\newcommand{\calS}{{\mathcal{S}}}
-\newcommand{\calT}{{\mathcal{T}}}
-\newcommand{\calU}{{\mathcal{U}}}
-\newcommand{\calV}{{\mathcal{V}}}
-\newcommand{\calW}{{\mathcal{W}}}
-\newcommand{\calX}{{\mathcal{X}}}
-\newcommand{\calY}{{\mathcal{Y}}}
-\newcommand{\calZ}{{\mathcal{Z}}}
-
-\newcommand{\bara}{{\bar{a}}}
-\newcommand{\barb}{{\bar{b}}}
-\newcommand{\barc}{{\bar{c}}}
-\newcommand{\bard}{{\bar{d}}}
-\newcommand{\bare}{{\bar{e}}}
-\newcommand{\barf}{{\bar{f}}}
-\newcommand{\barg}{{\bar{g}}}
-\newcommand{\barh}{{\bar{h}}}
-\newcommand{\bari}{{\bar{i}}}
-\newcommand{\barj}{{\bar{j}}}
-\newcommand{\bark}{{\bar{k}}}
-\newcommand{\barl}{{\bar{l}}}
-\newcommand{\barm}{{\bar{m}}}
-\newcommand{\barn}{{\bar{n}}}
-%\newcommand{\baro}{{\bar{o}}}
-\newcommand{\barp}{{\bar{p}}}
-\newcommand{\barq}{{\bar{q}}}
-\newcommand{\barr}{{\bar{r}}}
-\newcommand{\bars}{{\bar{s}}}
-\newcommand{\bart}{{\bar{t}}}
-\newcommand{\baru}{{\bar{u}}}
-\newcommand{\barv}{{\bar{v}}}
-\newcommand{\barw}{{\bar{w}}}
-\newcommand{\barx}{{\bar{x}}}
-\newcommand{\bary}{{\bar{y}}}
-\newcommand{\barz}{{\bar{z}}}
-\newcommand{\barA}{{\bar{A}}}
-\newcommand{\barB}{{\bar{B}}}
-\newcommand{\barC}{{\bar{C}}}
-\newcommand{\barD}{{\bar{D}}}
-\newcommand{\barE}{{\bar{E}}}
-\newcommand{\barF}{{\bar{F}}}
-\newcommand{\barG}{{\bar{G}}}
-\newcommand{\barH}{{\bar{H}}}
-\newcommand{\barI}{{\bar{I}}}
-\newcommand{\barJ}{{\bar{J}}}
-\newcommand{\barK}{{\bar{K}}}
-\newcommand{\barL}{{\bar{L}}}
-\newcommand{\barM}{{\bar{M}}}
-\newcommand{\barN}{{\bar{N}}}
-\newcommand{\barO}{{\bar{O}}}
-\newcommand{\barP}{{\bar{P}}}
-\newcommand{\barQ}{{\bar{Q}}}
-\newcommand{\barR}{{\bar{R}}}
-\newcommand{\barS}{{\bar{S}}}
-\newcommand{\barT}{{\bar{T}}}
-\newcommand{\barU}{{\bar{U}}}
-\newcommand{\barV}{{\bar{V}}}
-\newcommand{\barW}{{\bar{W}}}
-\newcommand{\barX}{{\bar{X}}}
-\newcommand{\barY}{{\bar{Y}}}
-\newcommand{\barZ}{{\bar{Z}}}
-
-
-
-\newcommand{\hX}{\hat{X}}
-
-\newcommand{\trans}{^{\rm T}}
-\newcommand{\Th}{{^{\rm th}}}
-\newcommand{\diverge}{\to \infty}
-\newcommand{\mmse}{\mathsf{mmse}}
-
-% for prettyref
-\newrefformat{eq}{(\ref{#1})}
-\newrefformat{thm}{Theorem~\ref{#1}}
-\newrefformat{th}{Theorem~\ref{#1}}
-\newrefformat{chap}{Chapter~\ref{#1}}
-\newrefformat{sec}{Section~\ref{#1}}
-\newrefformat{seca}{Section~\ref{#1}}
-\newrefformat{algo}{Algorithm~\ref{#1}}
-\newrefformat{fig}{Fig.~\ref{#1}}
-\newrefformat{tab}{Table~\ref{#1}}
-\newrefformat{rmk}{Remark~\ref{#1}}
-\newrefformat{clm}{Claim~\ref{#1}}
-\newrefformat{def}{Definition~\ref{#1}}
-\newrefformat{cor}{Corollary~\ref{#1}}
-\newrefformat{lmm}{Lemma~\ref{#1}}
-\newrefformat{prop}{Proposition~\ref{#1}}
-\newrefformat{pr}{Proposition~\ref{#1}}
-\newrefformat{app}{Appendix~\ref{#1}}
-\newrefformat{apx}{Appendix~\ref{#1}}
-\newrefformat{ex}{Example~\ref{#1}}
-\newrefformat{exer}{Exercise~\ref{#1}}
-\newrefformat{soln}{Solution~\ref{#1}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% by Wu %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\def\unifto{\mathop{{\mskip 3mu plus 2mu minus 1mu%
-			\setbox0=\hbox{$\mathchar"3221$}%
-			\raise.6ex\copy0\kern-\wd0%
-			\lower0.5ex\hbox{$\mathchar"3221$}}\mskip 3mu plus 2mu minus 1mu}}
-
-\def\ds{\displaystyle}
-
-%% These two are defined in amssymb package
-\ifx\lesssim\undefined
-\def\simleq{{{\mskip 3mu plus 2mu minus 1mu%
-			\setbox0=\hbox{$\mathchar"013C$}%
-			\raise.2ex\copy0\kern-\wd0%
-			\lower0.9ex\hbox{$\mathchar"0218$}}\mskip 3mu plus 2mu minus 1mu}}
-\else
-\def\simleq{\lesssim}
-\fi
-
-\ifx\gtrsim\undefined
-\def\simgeq{{{\mskip 3mu plus 2mu minus 1mu%
-			\setbox0=\hbox{$\mathchar"013E$}%
-			\raise.2ex\copy0\kern-\wd0%
-			\lower0.9ex\hbox{$\mathchar"0218$}}\mskip 3mu plus 2mu minus 1mu}}
-\else
-\def\simgeq{\gtrsim}
-\fi
-
-
-% beautiful system of 2 alternatives preceded by {
-\newcommand{\systalt}[4]{\left\{%
-	\vcenter{%
-		\hbox{%
-			\vbox{\hbox{$#1$}\hbox{$#3$}}%
-			\quad%
-			\vbox{\hbox{$#2$}\hbox{$#4$}}%
-		}%
-	} \right.%
-}
-\newcommand{\trisystalt}[6]{\left\{%
-	\vcenter{%
-		\hbox{%
-			\vbox{\hbox{$#1$}\hbox{$#3$}\hbox{$#5$}}%
-			\quad%
-			\vbox{\hbox{$#2$}\hbox{$#4$}\hbox{$#6$}}%
-		}%
-	} \right.%
-}
-
-\def\tsub{\mathtt{t}}
-
-\def\dperp{\perp\!\!\!\perp}
-
-\def\delchi{\delta_{\chi^2}}
-\def\delTV{\delta_{TV}}
-
-% Macro to show off newstuff to authors
-\long\def\newstuff#1{{\color{mathred}#1}}
-
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{corollary}[theorem]{Corollary}
-\newtheorem{coro}[theorem]{Corollary}
-\newtheorem{proposition}[theorem]{Proposition}
-\newtheorem{prop}[theorem]{Proposition}
-
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}
-\newtheorem{example}{Example}
-\newtheorem{remark}{Remark}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% CONDITIONAL COMPILATION TRICK %%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% Usage: \ifmapx TEXT \fi 
-%%%%%%%%%%%% The "TEXT" will only appear if *_apx.tex is compiled   
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Ok, all this pain is to produce the name "xxx_apx" with characters
-% of category 12, since this is what jobname expands to. What I used is the
-% trick that \string\abc produces a sequence of tokens (\,a,b,c) all of category 12, 
-% so I only need to kill the front \_12 which is what mkillslash macro doing.
-%
-%%%%%%%%%%%%
-\newif\ifmapx
-{\catcode`/=0 \catcode`\\=12/gdef/mkillslash\#1{#1}}
-\edef\jobnametmp{\expandafter\string\csname ic_apx\endcsname}
-\edef\jobnameapx{\expandafter\mkillslash\jobnametmp}
-\edef\jobnameexpand{\jobname}
-\ifx\jobnameexpand\jobnameapx
-\mapxtrue
-\else
-\mapxfalse
-\fi
-
-\long\def\apxonly#1{\ifmapx{\color{blue}#1}\fi}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%                                                          %%%%
-%%%%                Document begins here                      %%%%
-%%%%                                                          %%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\Lip}{\mathop{\mathrm{Lip}}}
-\newcommand{\co}{\mathop{\mathrm{co}}}
-
-\newcommand{\bfH}{\mathbf{H}}
-
-\newcommand{\poly}{\mathsf{poly}}
-\newcommand{\polylog}{\mathsf{polylog}}
-
-\newcommand{\Regret}{\mathsf{Regret}}
-\newcommand{\AvgRegret}{\mathsf{AvgRegret}}
-\newcommand{\AccRegret}{\mathsf{AccRegret}}
-
-\newcommand{\Red}{\mathsf{Red}}
-\newcommand{\Risk}{\mathsf{Risk}}
-
-\newcommand{\SubG}{\mathsf{SubG}}
-
-\renewcommand{\hat}{\widehat}
-\renewcommand{\tilde}{\widetilde}
-
-%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
-
-\begin{document}
+	% LaTeX2e). It also provides a command:
+	%\fnbelowfloat
+	% to enable the placement of footnotes below bottom floats (the standard
+	% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+	% which rewrites many portions of the LaTeX2e float routines. It may not work
+	% with other packages that modify the LaTeX2e float routines. The latest
+	% version and documentation can be obtained at:
+	% http://www.ctan.org/tex-archive/macros/latex/contrib/sttools/
+	% Documentation is contained in the stfloats.sty comments as well as in the
+	% presfull.pdf file. Do not use the stfloats baselinefloat ability as IEEE
+	% does not allow \baselineskip to stretch. Authors submitting work to the
+	% IEEE should note that IEEE rarely uses double column equations and
+	% that authors should try to avoid such use. Do not be tempted to use the
+	% cuted.sty or midfloat.sty packages (also by Sigitas Tolusis) as IEEE does
+	% not format its papers in such ways.
 	
-	%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
-	
-	\noindent  \Huge{Soham Jana} \\
-	\vspace{1ex} 
-%	\hrule 
-	\normalsize
-	
-	%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
-	% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
-%	\noindent {Yale University}
-%	{\hspace{3in}\parbox{\linewidth}{email: 
-%			}}
-	\noindent{\begin{minipage}{3.9in}
-	Postdoctoral Research Associate,\\
-	Operations Research and Financial Engineering,\\
-	Princeton University
-	\end{minipage}}
-	\hfill
-	\begin{minipage}{2.6in}
-	Updated on: \today \\
-	Website: \href{https://janasoham.github.io/}{https://janasoham.github.io}\\
-	Email: \href{mailto:soham.jana@princeton.edu}{soham.jana@princeton.edu}
-	\end{minipage}
-	\vspace{1cm}
-	
-	%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
-	% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+	% correct bad hyphenation here
+	%\hyphenation{op-tical net-works semi-conduc-tor}
 	
 	
 	
-	\noindent{\bf Research Interests}
 	
 	
-	\begin{itemize}
-		\item[] Theoretical and methodological aspects of high-dimensional statistics, robust estimation, Markov decision process, non-parametric estimation, sparse recovery.
-	\end{itemize}
-
-	\noindent{\bf Education}
+	%
+	\usepackage{ifpdf}
 	
-	\begin{itemize}
-		\item[] {\bf PhD. in Statistics and Data Science}\hfill 2017--2022\\
-		Yale University, New Haven, CT, USA\\
-		Thesis: Learning non-parametric and high-dimensional distributions via information-theoretic
-		methods \\
-		Advisor: Yihong Wu  
+	\usepackage{subfigure}
+	\usepackage{psfrag}
+	
+	\usepackage{prettyref,enumerate}
+	%\usepackage{enumitem}
+	%\usepackage[showerrors,table,dvipsnames*, svgnames*]{xcolor}
+	
+	
+	\usepackage{tikz}
+	\usetikzlibrary{arrows}
+	\tikzstyle{int}=[draw, fill=blue!20, minimum size=2em]
+	\tikzstyle{dot}=[circle, draw, fill=blue!20, minimum size=2em]
+	\tikzstyle{init} = [pin edge={to-,thin,black}]
+	
+	
+	\usepackage[%dvips,
+	CJKbookmarks=true,
+	bookmarksnumbered=true,
+	bookmarksopen=true,
+	%						bookmarks=false,
+	colorlinks=true,
+	citecolor=red,
+	linkcolor=blue,
+	anchorcolor=red,
+	urlcolor=blue,
+	pdfauthor={Soham Jana}
+	]{hyperref}
+	
+	\usepackage[all]{xy}
+	
+	\usepackage{mathtools}
+	%\mathtoolsset{showonlyrefs}
+	
+	\usepackage{ifthen}
+	\newboolean{aos}
+	\setboolean{aos}{FALSE}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%                                                          %%%%
+	%%%%                      Local defines                       %%%%
+	%%%%                                                          %%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\newcommand{\mats}{\ensuremath{\mathcal{S}}}
+	\newcommand{\matc}{\ensuremath{\mathcal{C}}}
+	\newcommand{\matx}{\ensuremath{\mathcal{X}}}
+	\newcommand{\mata}{\ensuremath{\mathcal{A}}}
+	\newcommand{\mate}{\ensuremath{\mathcal{E}}}
+	\newcommand{\matu}{\ensuremath{\mathcal{U}}}
+	\newcommand{\matb}{\ensuremath{\mathcal{B}}}
+	\newcommand{\matr}{\ensuremath{\mathcal{R}}}
+	\newcommand{\maty}{\ensuremath{\mathcal{Y}}}
+	\newcommand{\matn}{\ensuremath{\mathcal{N}}}
+	\newcommand{\matf}{\ensuremath{\mathcal{F}}}
+	\newcommand{\matg}{\ensuremath{\mathcal{G}}}
+	\newcommand{\matp}{\ensuremath{\mathcal{P}}}
+	\newcommand{\matd}{\ensuremath{\mathcal{D}}}
+	\newcommand{\matK}{\ensuremath{\mathcal{K}}}
+	\newcommand{\matH}{\ensuremath{\mathcal{H}}}
+	
+	\newcommand{\alx}{\textbf{\sf A}}
+	\newcommand{\alf}{\textbf{\sf F}}
+	\newcommand{\aly}{\textbf{\sf B}}
+	\newcommand{\alw}{\textbf{\sf W}}
+	
+	\newcommand{\mymmh} {\frac{\mathsmaller M \mathsmaller - \mathsmaller 1}{\mathsmaller 2}} %%SV-apr26
+	\newcommand{\mymm} {{\mathsmaller M \mathsmaller - \mathsmaller 1 }} %%SV-apr26
+	\newcommand{\figref}[1]{Fig.~{\bf #1}}
+	\newcommand{\mreals}{\ensuremath{\mathbb{R}}}
+	\newcommand{\mconst}{\ensuremath{\mathrm{const}}}
+	\newcommand{\supp}{\ensuremath{\mathrm{supp}}}
+	
+	\ifx\eqref\undefined
+	\newcommand{\eqref}[1]{~(\ref{#1})}
+	\fi
+	\ifx\mod\undefined
+	\def\mod{\mathop{\rm mod}}
+	\fi
+	
+	\usepackage{bm}
+	\def\vect#1{\bm{#1}}
+	\newcommand{\transp}[1]{{#1^{\mbox{\scriptsize\rm T}}}}
+	\newcommand{\vecttr}[1]{{\bf #1^{\mbox{\scriptsize\rm T}}}}
+	\newcommand{\norm}[1]{{\left\Vert #1 \right\Vert}}
+	\newcommand{\Norm}[1]{{\Vert #1 \Vert}}
+	
+	\def\eng{\fontencoding{OT1}\selectfont}
+	\def\yhat{{\hat y}}
+	\def\chat{{\hat c}}
+	\def\esssup{\mathop{\rm esssup}}
+	\def\argmin{\mathop{\rm argmin}}
+	\def\argmax{\mathop{\rm argmax}}
+	\def\dim{\mathop{\rm dim}}
+	\def\wt{\mathop{\rm wt}}
+	\def\exp{\mathop{\rm exp}}
+	\def\lspan{\mathop{\rm span}}
+	\def\tr{\mathop{\rm tr}}
+	\def\rank{\mathop{\rm rank}}
+	\def\cov{\mathop{\rm cov}}
+	\def\MM{{\bf\rm M}}
+	\def\EE{\Expect}
+	\DeclareMathOperator\sign{\rm sign}
+	\def\LVar{\mathbb{L}\,}
+	\def\Var{\mathrm{Var}}
+	\def\Cov{\mathrm{Cov}}
+	\def\DD{{\bf\rm D}}
+	\def\wth{\mathop{\rm wt}}
+	\def\PP{\mathbb{P}}
+	\def\FF{\mathbb{F}}
+	\def\QQ{\mathbb{Q}}
+	\def\vchat{\vect{\hat c}}
+	\def\vctil{\vect{\tilde c}}
+	\def\vectx{\vect{x}}
+	\def\vdelta{\vect{\delta}}
+	\def\vdeltil{\tilde \delta}
+	\def\vecty{\vect{y}}
+	\def\diag{\mathop{\rm diag}}
+	\def\eig{\mathop{\rm eig}}
+	\def\follows{\Longrightarrow}
+	\def\equiva{\Leftrightarrow}
+	\def\equival{\Longleftrightarrow}
+	%\def\eqdef{\stackrel{\triangle}{=}}
+	\def\eqdef{\triangleq}
+	\def\dd{\partial}
+	\def\upto{\nearrow}
+	\def\downto{\searrow}
+	
+	\def\capf{\mathsf{C}}
+	\def\veef{\mathsf{V}}
+	\def\Leb{\mathrm{Leb}}
+	\def\simiid{\stackrel{iid}{\sim}}
+	
+	%\def\co{{\mathrm{co}}}
+	
+	
+	\def\gacap#1{{1\over 2} \log\left(1+{#1}\right)}
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%% by Soham %%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\newcommand{\scr}[1]{\mathscr{#1}}
+	\newcommand{\abs}[1]{\left| #1 \right|}
+	\newcommand{\trm}{\calM}
+	\newcommand{\newrisk}[1]{U_{#1}}
+	\newcommand{\mymat}{M}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%% by Soham %%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%% by Wu %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\newcommand{\M}{M}
+	
+	\newcommand{\id}{\text{id}}
+	
+	\newcommand{\zeros}{\mathbf{0}}
+	\newcommand{\ones}{\mathbf{1}}
+	\newcommand{\stepa}[1]{\overset{\rm (a)}{#1}}
+	\newcommand{\stepb}[1]{\overset{\rm (b)}{#1}}
+	\newcommand{\stepc}[1]{\overset{\rm (c)}{#1}}
+	\newcommand{\stepd}[1]{\overset{\rm (d)}{#1}}
+	\newcommand{\stepe}[1]{\overset{\rm (e)}{#1}}
+	
+	\newcommand{\I}{\text{(I)}}
+	\newcommand{\II}{\text{(II)}}
+	\newcommand{\III}{\text{(III)}}
+	\newcommand{\IV}{\text{(IV)}}
+	
+	
+	%\newcommand{\ones}{\mathbf{1}}
+	\newcommand{\bTheta}{\boldsymbol{\Theta}}
+	\newcommand{\btheta}{\vect{\theta}}
+	\newcommand{\Poi}{\mathrm{Poi}}
+	
+	\newcommand{\maxcor}{\mathrm{maxcor}}
+	\newcommand{\Unif}{\mathrm{Uniform}}
+	\newcommand{\hV}{\hat{V}}
+	\newcommand{\hW}{\hat{W}}
+	\newcommand{\cost}{\sfM}
+	\newcommand{\costi}{\cost^{-1}}
+	\newcommand{\floor}[1]{{\left\lfloor {#1} \right \rfloor}}
+	\newcommand{\ceil}[1]{{\left\lceil {#1} \right \rceil}}
+	
+	\newcommand{\blambda}{\bar{\lambda}}
+	\newcommand{\reals}{\mathbb{R}}
+	\newcommand{\naturals}{\mathbb{N}}
+	\newcommand{\integers}{\mathbb{Z}}
+	\newcommand{\complex}{\mathbb{C}}
+	\newcommand{\Expect}{\mathbb{E}}
+	\newcommand{\expect}[1]{\mathbb{E}\left[#1\right]}
+	\newcommand{\Prob}{\mathbb{P}}
+	\newcommand{\prob}[1]{\mathbb{P}\left[#1\right]}
+	\newcommand{\pprob}[1]{\mathbb{P}[#1]}
+	\newcommand{\intd}{{\rm d}}
+	\newcommand{\TV}{{\rm TV}}
+	\newcommand{\Aff}{{\rm Aff}}
+	\newcommand{\Mu}{M}
+	\newcommand{\dbar}{\bar{d}}
+	\newcommand{\LC}{{\sf LC}}
+	\newcommand{\PW}{{\sf PW}}
+	\newcommand{\htheta}{\hat{\theta}}
+	\newcommand{\eexp}{{\rm e}}
+	\newcommand{\expects}[2]{\mathbb{E}_{#2}\left[ #1 \right]}
+	\newcommand{\diff}{{\rm d}}
+	\newcommand{\eg}{e.g.\xspace}
+	\newcommand{\ie}{i.e.\xspace}
+	\newcommand{\iid}{i.i.d.\xspace}
+	\newcommand{\ind}{ind.\xspace}
+	\newcommand{\fracp}[2]{\frac{\partial #1}{\partial #2}}
+	\newcommand{\fracpk}[3]{\frac{\partial^{#3} #1}{\partial #2^{#3}}}
+	\newcommand{\fracd}[2]{\frac{\diff #1}{\diff #2}}
+	\newcommand{\fracdk}[3]{\frac{\diff^{#3} #1}{\diff #2^{#3}}}
+	\newcommand{\renyi}{R\'enyi\xspace}
+	\newcommand{\lpnorm}[1]{\left\|{#1} \right\|_{p}}
+	\newcommand{\linf}[1]{\left\|{#1} \right\|_{\infty}}
+	\newcommand{\lnorm}[2]{\left\|{#1} \right\|_{{#2}}}
+	\newcommand{\Lploc}[1]{L^{#1}_{\rm loc}}
+	\newcommand{\hellinger}{d_{\rm H}}
+	\newcommand{\Fnorm}[1]{\lnorm{#1}{\rm F}}
+	%% parenthesis
+	\newcommand{\pth}[1]{\left( #1 \right)}
+	\newcommand{\qth}[1]{\left[ #1 \right]}
+	\newcommand{\sth}[1]{\left\{ #1 \right\}}
+	\newcommand{\bpth}[1]{\Bigg( #1 \Bigg)}
+	\newcommand{\bqth}[1]{\Bigg[ #1 \Bigg]}
+	\newcommand{\bsth}[1]{\Bigg\{ #1 \Bigg\}}
+	\newcommand{\xxx}{\textbf{xxx}\xspace}
+	\newcommand{\toprob}{{\xrightarrow{\Prob}}}
+	\newcommand{\tolp}[1]{{\xrightarrow{L^{#1}}}}
+	\newcommand{\toas}{{\xrightarrow{{\rm a.s.}}}}
+	\newcommand{\toae}{{\xrightarrow{{\rm a.e.}}}}
+	\newcommand{\todistr}{{\xrightarrow{{\rm D}}}}
+	\newcommand{\eqdistr}{{\stackrel{\rm D}{=}}}
+	\newcommand{\eqlaw}{{\stackrel{\rm law}{=}}}
+	\newcommand{\iiddistr}{{\stackrel{\text{\iid}}{\sim}}}
+	\newcommand{\inddistr}{{\stackrel{\text{\ind}}{\sim}}}
+	\newcommand{\var}{\Var}
+	\newcommand\indep{\protect\mathpalette{\protect\independenT}{\perp}}
+	\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+	\newcommand{\Bern}{\text{Bern}}
+	\newcommand{\Binom}{\text{Binom}}
+	\newcommand{\Bino}{\Binom}
+	\newcommand{\iprod}[2]{\left \langle #1, #2 \right\rangle}
+	\newcommand{\Iprod}[2]{\langle #1, #2 \rangle}
+	\newcommand{\indc}[1]{{\mathbf{1}_{\left\{{#1}\right\}}}}
+	\newcommand{\Indc}{\mathbf{1}}
+	
+	\definecolor{myblue}{rgb}{.8, .8, 1}
+	\definecolor{mathblue}{rgb}{0.2472, 0.24, 0.6} % mathematica's Color[1, 1--3]
+	\definecolor{mathred}{rgb}{0.6, 0.24, 0.442893}
+	\definecolor{mathyellow}{rgb}{0.6, 0.547014, 0.24}
+	\def\yp#1{\textcolor{mathyellow}{#1}}
+	
+	
+	\newcommand{\red}{\color{red}}
+	\newcommand{\blue}{\color{blue}}
+	\newcommand{\nb}[1]{{\sf\blue[#1]}}
+	\newcommand{\nbr}[1]{{\sf\red[#1]}}
+	
+	\newcommand{\tmu}{{\tilde{\mu}}}
+	\newcommand{\tf}{{\tilde{f}}}
+	\newcommand{\tp}{\tilde{p}}
+	\newcommand{\tilh}{{\tilde{h}}}
+	\newcommand{\tu}{{\tilde{u}}}
+	\newcommand{\tx}{{\tilde{x}}}
+	\newcommand{\ty}{{\tilde{y}}}
+	\newcommand{\tz}{{\tilde{z}}}
+	\newcommand{\tA}{{\tilde{A}}}
+	\newcommand{\tB}{{\tilde{B}}}
+	\newcommand{\tC}{{\tilde{C}}}
+	\newcommand{\tD}{{\tilde{D}}}
+	\newcommand{\tE}{{\tilde{E}}}
+	\newcommand{\tF}{{\tilde{F}}}
+	\newcommand{\tG}{{\tilde{G}}}
+	\newcommand{\tH}{{\tilde{H}}}
+	\newcommand{\tI}{{\tilde{I}}}
+	\newcommand{\tJ}{{\tilde{J}}}
+	\newcommand{\tK}{{\tilde{K}}}
+	\newcommand{\tL}{{\tilde{L}}}
+	\newcommand{\tM}{{\tilde{M}}}
+	\newcommand{\tN}{{\tilde{N}}}
+	\newcommand{\tO}{{\tilde{O}}}
+	\newcommand{\tP}{{\tilde{P}}}
+	\newcommand{\tQ}{{\tilde{Q}}}
+	\newcommand{\tR}{{\tilde{R}}}
+	\newcommand{\tS}{{\tilde{S}}}
+	\newcommand{\tT}{{\tilde{T}}}
+	\newcommand{\tU}{{\tilde{U}}}
+	\newcommand{\tV}{{\tilde{V}}}
+	\newcommand{\tW}{{\tilde{W}}}
+	\newcommand{\tX}{{\tilde{X}}}
+	\newcommand{\tY}{{\tilde{Y}}}
+	\newcommand{\tZ}{{\tilde{Z}}}
+	
+	\newcommand{\sfa}{{\mathsf{a}}}
+	\newcommand{\sfb}{{\mathsf{b}}}
+	\newcommand{\sfc}{{\mathsf{c}}}
+	\newcommand{\sfd}{{\mathsf{d}}}
+	\newcommand{\sfe}{{\mathsf{e}}}
+	\newcommand{\sff}{{\mathsf{f}}}
+	\newcommand{\sfg}{{\mathsf{g}}}
+	\newcommand{\sfh}{{\mathsf{h}}}
+	\newcommand{\sfi}{{\mathsf{i}}}
+	\newcommand{\sfj}{{\mathsf{j}}}
+	\newcommand{\sfk}{{\mathsf{k}}}
+	\newcommand{\sfl}{{\mathsf{l}}}
+	\newcommand{\sfm}{{\mathsf{m}}}
+	\newcommand{\sfn}{{\mathsf{n}}}
+	\newcommand{\sfo}{{\mathsf{o}}}
+	\newcommand{\sfp}{{\mathsf{p}}}
+	\newcommand{\sfq}{{\mathsf{q}}}
+	\newcommand{\sfr}{{\mathsf{r}}}
+	\newcommand{\sfs}{{\mathsf{s}}}
+	\newcommand{\sft}{{\mathsf{t}}}
+	\newcommand{\sfu}{{\mathsf{u}}}
+	\newcommand{\sfv}{{\mathsf{v}}}
+	\newcommand{\sfw}{{\mathsf{w}}}
+	\newcommand{\sfx}{{\mathsf{x}}}
+	\newcommand{\sfy}{{\mathsf{y}}}
+	\newcommand{\sfz}{{\mathsf{z}}}
+	\newcommand{\sfA}{{\mathsf{A}}}
+	\newcommand{\sfB}{{\mathsf{B}}}
+	\newcommand{\sfC}{{\mathsf{C}}}
+	\newcommand{\sfD}{{\mathsf{D}}}
+	\newcommand{\sfE}{{\mathsf{E}}}
+	\newcommand{\sfF}{{\mathsf{F}}}
+	\newcommand{\sfG}{{\mathsf{G}}}
+	\newcommand{\sfH}{{\mathsf{H}}}
+	\newcommand{\sfI}{{\mathsf{I}}}
+	\newcommand{\sfJ}{{\mathsf{J}}}
+	\newcommand{\sfK}{{\mathsf{K}}}
+	\newcommand{\sfL}{{\mathsf{L}}}
+	\newcommand{\sfM}{{\mathsf{M}}}
+	\newcommand{\sfN}{{\mathsf{N}}}
+	\newcommand{\sfO}{{\mathsf{O}}}
+	\newcommand{\sfP}{{\mathsf{P}}}
+	\newcommand{\sfQ}{{\mathsf{Q}}}
+	\newcommand{\sfR}{{\mathsf{R}}}
+	\newcommand{\sfS}{{\mathsf{S}}}
+	\newcommand{\sfT}{{\mathsf{T}}}
+	\newcommand{\sfU}{{\mathsf{U}}}
+	\newcommand{\sfV}{{\mathsf{V}}}
+	\newcommand{\sfW}{{\mathsf{W}}}
+	\newcommand{\sfX}{{\mathsf{X}}}
+	\newcommand{\sfY}{{\mathsf{Y}}}
+	\newcommand{\sfZ}{{\mathsf{Z}}}
+	
+	
+	\newcommand{\calA}{{\mathcal{A}}}
+	\newcommand{\calB}{{\mathcal{B}}}
+	\newcommand{\calC}{{\mathcal{C}}}
+	\newcommand{\calD}{{\mathcal{D}}}
+	\newcommand{\calE}{{\mathcal{E}}}
+	\newcommand{\calF}{{\mathcal{F}}}
+	\newcommand{\calG}{{\mathcal{G}}}
+	\newcommand{\calH}{{\mathcal{H}}}
+	\newcommand{\calI}{{\mathcal{I}}}
+	\newcommand{\calJ}{{\mathcal{J}}}
+	\newcommand{\calK}{{\mathcal{K}}}
+	\newcommand{\calL}{{\mathcal{L}}}
+	\newcommand{\calM}{{\mathcal{M}}}
+	\newcommand{\calN}{{\mathcal{N}}}
+	\newcommand{\calO}{{\mathcal{O}}}
+	\newcommand{\calP}{{\mathcal{P}}}
+	\newcommand{\calQ}{{\mathcal{Q}}}
+	\newcommand{\calR}{{\mathcal{R}}}
+	\newcommand{\calS}{{\mathcal{S}}}
+	\newcommand{\calT}{{\mathcal{T}}}
+	\newcommand{\calU}{{\mathcal{U}}}
+	\newcommand{\calV}{{\mathcal{V}}}
+	\newcommand{\calW}{{\mathcal{W}}}
+	\newcommand{\calX}{{\mathcal{X}}}
+	\newcommand{\calY}{{\mathcal{Y}}}
+	\newcommand{\calZ}{{\mathcal{Z}}}
+	
+	\newcommand{\bara}{{\bar{a}}}
+	\newcommand{\barb}{{\bar{b}}}
+	\newcommand{\barc}{{\bar{c}}}
+	\newcommand{\bard}{{\bar{d}}}
+	\newcommand{\bare}{{\bar{e}}}
+	\newcommand{\barf}{{\bar{f}}}
+	\newcommand{\barg}{{\bar{g}}}
+	\newcommand{\barh}{{\bar{h}}}
+	\newcommand{\bari}{{\bar{i}}}
+	\newcommand{\barj}{{\bar{j}}}
+	\newcommand{\bark}{{\bar{k}}}
+	\newcommand{\barl}{{\bar{l}}}
+	\newcommand{\barm}{{\bar{m}}}
+	\newcommand{\barn}{{\bar{n}}}
+	%\newcommand{\baro}{{\bar{o}}}
+	\newcommand{\barp}{{\bar{p}}}
+	\newcommand{\barq}{{\bar{q}}}
+	\newcommand{\barr}{{\bar{r}}}
+	\newcommand{\bars}{{\bar{s}}}
+	\newcommand{\bart}{{\bar{t}}}
+	\newcommand{\baru}{{\bar{u}}}
+	\newcommand{\barv}{{\bar{v}}}
+	\newcommand{\barw}{{\bar{w}}}
+	\newcommand{\barx}{{\bar{x}}}
+	\newcommand{\bary}{{\bar{y}}}
+	\newcommand{\barz}{{\bar{z}}}
+	\newcommand{\barA}{{\bar{A}}}
+	\newcommand{\barB}{{\bar{B}}}
+	\newcommand{\barC}{{\bar{C}}}
+	\newcommand{\barD}{{\bar{D}}}
+	\newcommand{\barE}{{\bar{E}}}
+	\newcommand{\barF}{{\bar{F}}}
+	\newcommand{\barG}{{\bar{G}}}
+	\newcommand{\barH}{{\bar{H}}}
+	\newcommand{\barI}{{\bar{I}}}
+	\newcommand{\barJ}{{\bar{J}}}
+	\newcommand{\barK}{{\bar{K}}}
+	\newcommand{\barL}{{\bar{L}}}
+	\newcommand{\barM}{{\bar{M}}}
+	\newcommand{\barN}{{\bar{N}}}
+	\newcommand{\barO}{{\bar{O}}}
+	\newcommand{\barP}{{\bar{P}}}
+	\newcommand{\barQ}{{\bar{Q}}}
+	\newcommand{\barR}{{\bar{R}}}
+	\newcommand{\barS}{{\bar{S}}}
+	\newcommand{\barT}{{\bar{T}}}
+	\newcommand{\barU}{{\bar{U}}}
+	\newcommand{\barV}{{\bar{V}}}
+	\newcommand{\barW}{{\bar{W}}}
+	\newcommand{\barX}{{\bar{X}}}
+	\newcommand{\barY}{{\bar{Y}}}
+	\newcommand{\barZ}{{\bar{Z}}}
+	
+	
+	
+	\newcommand{\hX}{\hat{X}}
+	
+	\newcommand{\trans}{^{\rm T}}
+	\newcommand{\Th}{{^{\rm th}}}
+	\newcommand{\diverge}{\to \infty}
+	\newcommand{\mmse}{\mathsf{mmse}}
+	
+	% for prettyref
+	\newrefformat{eq}{(\ref{#1})}
+	\newrefformat{thm}{Theorem~\ref{#1}}
+	\newrefformat{th}{Theorem~\ref{#1}}
+	\newrefformat{chap}{Chapter~\ref{#1}}
+	\newrefformat{sec}{Section~\ref{#1}}
+	\newrefformat{seca}{Section~\ref{#1}}
+	\newrefformat{algo}{Algorithm~\ref{#1}}
+	\newrefformat{fig}{Fig.~\ref{#1}}
+	\newrefformat{tab}{Table~\ref{#1}}
+	\newrefformat{rmk}{Remark~\ref{#1}}
+	\newrefformat{clm}{Claim~\ref{#1}}
+	\newrefformat{def}{Definition~\ref{#1}}
+	\newrefformat{cor}{Corollary~\ref{#1}}
+	\newrefformat{lmm}{Lemma~\ref{#1}}
+	\newrefformat{prop}{Proposition~\ref{#1}}
+	\newrefformat{pr}{Proposition~\ref{#1}}
+	\newrefformat{app}{Appendix~\ref{#1}}
+	\newrefformat{apx}{Appendix~\ref{#1}}
+	\newrefformat{ex}{Example~\ref{#1}}
+	\newrefformat{exer}{Exercise~\ref{#1}}
+	\newrefformat{soln}{Solution~\ref{#1}}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%% by Wu %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\def\unifto{\mathop{{\mskip 3mu plus 2mu minus 1mu%
+				\setbox0=\hbox{$\mathchar"3221$}%
+				\raise.6ex\copy0\kern-\wd0%
+				\lower0.5ex\hbox{$\mathchar"3221$}}\mskip 3mu plus 2mu minus 1mu}}
+	
+	\def\ds{\displaystyle}
+	
+	%% These two are defined in amssymb package
+	\ifx\lesssim\undefined
+	\def\simleq{{{\mskip 3mu plus 2mu minus 1mu%
+				\setbox0=\hbox{$\mathchar"013C$}%
+				\raise.2ex\copy0\kern-\wd0%
+				\lower0.9ex\hbox{$\mathchar"0218$}}\mskip 3mu plus 2mu minus 1mu}}
+	\else
+	\def\simleq{\lesssim}
+	\fi
+	
+	\ifx\gtrsim\undefined
+	\def\simgeq{{{\mskip 3mu plus 2mu minus 1mu%
+				\setbox0=\hbox{$\mathchar"013E$}%
+				\raise.2ex\copy0\kern-\wd0%
+				\lower0.9ex\hbox{$\mathchar"0218$}}\mskip 3mu plus 2mu minus 1mu}}
+	\else
+	\def\simgeq{\gtrsim}
+	\fi
+	
+	
+	% beautiful system of 2 alternatives preceded by {
+		\newcommand{\systalt}[4]{\left\{%
+			\vcenter{%
+				\hbox{%
+					\vbox{\hbox{$#1$}\hbox{$#3$}}%
+					\quad%
+					\vbox{\hbox{$#2$}\hbox{$#4$}}%
+				}%
+			} \right.%
+		}
+		\newcommand{\trisystalt}[6]{\left\{%
+			\vcenter{%
+				\hbox{%
+					\vbox{\hbox{$#1$}\hbox{$#3$}\hbox{$#5$}}%
+					\quad%
+					\vbox{\hbox{$#2$}\hbox{$#4$}\hbox{$#6$}}%
+				}%
+			} \right.%
+		}
 		
-		\item[] {\bf 	Master of Statistics (Hons.)} (First class with distinction) \hfill 2015--2017\\
-		Indian Statistical Institute, Kolkata, West Bengal, India\\
-		Specialization: Theoretical Statistics\\
-		Dissertation: Characterization of single-integral non-kernel divergences \\
-		Advisor: Ayanendranath Basu
+		\def\tsub{\mathtt{t}}
 		
-		\item[] 
-		{\bf Bachelor of Statistics (Hons.)} (First class with Distinction) \hfill 2012--2015 \\
-		{Indian Statistical Institute, Kolkata, West Bengal, India}  
-	\end{itemize}
-	
-	\noindent{\bf Work experience}
-	
-	\begin{itemize}
-		\item[] {\bf Post-doctoral research associate}\hfill 2022--current\\
-		 Princeton University, Princeton, New Jersey, USA\\
-		Research area: Robust clustering, data depth\\
-		Advisor: I am currently working jointly with Sanjeev Kulkarni and Jianqing Fan  
+		\def\dperp{\perp\!\!\!\perp}
 		
-		\item[] {\bf The First Republic Bank Research and Lifelong Learning Program} \hfill 2022--2023\\
-		Princeton University, Princeton, New Jersey, USA\\
-		Advisors: Sanjeev Kulkarni, Roni Sircar, Mete Soner\\
-		Research area: Capital call line of credit, resource planning
+		\def\delchi{\delta_{\chi^2}}
+		\def\delTV{\delta_{TV}}
 		
-	\end{itemize}
-
-
-	\noindent {\bf Preprints}(Authors lists that are not in alphabetical order denoted by ``*")
+		% Macro to show off newstuff to authors
+		\long\def\newstuff#1{{\color{mathred}#1}}
 		
-		\begin{enumerate}
-			\item Soham Jana, Jianqing Fan, Sanjeev Kulkarni*. \href{https://arxiv.org/abs/2401.05574}{\bf A general theory for robust clustering via trimmed mean}. arXiv preprint arXiv:2401.05574 (2024)
+		\newtheorem{theorem}{Theorem}
+		\newtheorem{lemma}[theorem]{Lemma}
+		\newtheorem{corollary}[theorem]{Corollary}
+		\newtheorem{coro}[theorem]{Corollary}
+		\newtheorem{proposition}[theorem]{Proposition}
+		\newtheorem{prop}[theorem]{Proposition}
+		
+		\theoremstyle{definition}
+		\newtheorem{definition}{Definition}
+		\newtheorem{example}{Example}
+		\newtheorem{remark}{Remark}
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%%%%%%%%%%% CONDITIONAL COMPILATION TRICK %%%%%%%%%%%%%%%%%%%%%
+		%%%%%%%%%%%% Usage: \ifmapx TEXT \fi 
+		%%%%%%%%%%%% The "TEXT" will only appear if *_apx.tex is compiled   
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%
+		% Ok, all this pain is to produce the name "xxx_apx" with characters
+		% of category 12, since this is what jobname expands to. What I used is the
+		% trick that \string\abc produces a sequence of tokens (\,a,b,c) all of category 12, 
+		% so I only need to kill the front \_12 which is what mkillslash macro doing.
+		%
+		%%%%%%%%%%%%
+		\newif\ifmapx
+		{\catcode`/=0 \catcode`\\=12/gdef/mkillslash\#1{#1}}
+		\edef\jobnametmp{\expandafter\string\csname ic_apx\endcsname}
+		\edef\jobnameapx{\expandafter\mkillslash\jobnametmp}
+		\edef\jobnameexpand{\jobname}
+		\ifx\jobnameexpand\jobnameapx
+		\mapxtrue
+		\else
+		\mapxfalse
+		\fi
+		
+		\long\def\apxonly#1{\ifmapx{\color{blue}#1}\fi}
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%%%                                                          %%%%
+		%%%%                Document begins here                      %%%%
+		%%%%                                                          %%%%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		
+		\newcommand{\Lip}{\mathop{\mathrm{Lip}}}
+		\newcommand{\co}{\mathop{\mathrm{co}}}
+		
+		\newcommand{\bfH}{\mathbf{H}}
+		
+		\newcommand{\poly}{\mathsf{poly}}
+		\newcommand{\polylog}{\mathsf{polylog}}
+		
+		\newcommand{\Regret}{\mathsf{Regret}}
+		\newcommand{\AvgRegret}{\mathsf{AvgRegret}}
+		\newcommand{\AccRegret}{\mathsf{AccRegret}}
+		
+		\newcommand{\Red}{\mathsf{Red}}
+		\newcommand{\Risk}{\mathsf{Risk}}
+		
+		\newcommand{\SubG}{\mathsf{SubG}}
+		
+		\renewcommand{\hat}{\widehat}
+		\renewcommand{\tilde}{\widetilde}
+		
+		%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+		
+		\begin{document}
 			
-			\item Soham Jana, Kun Yang, and Sanjeev Kulkarni*. \href{https://arxiv.org/abs/2306.09977}{\bf Adversarially robust clustering with optimality guarantees}. arXiv preprint arXiv:2306.09977 (2023). (Submitted)
+			%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
 			
-			\item Soham Jana, Yury Polyanskiy, and Yihong Wu. \href{https://arxiv.org/abs/2209.01328}{\bf Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods}. arXiv preprint arXiv:2209.01328 (2022).
+			\noindent  \Huge{Soham Jana} \\
+			\vspace{1ex} 
+			%	\hrule 
+			\normalsize
 			
-		\end{enumerate}
-		
-		\noindent {\bf Journal publications}(Authors lists that are not in alphabetical order denoted by ``*")
-		
-		\begin{enumerate}
-			\item Soham Jana, Henry Li, Yutaro Yamada, and Ofir Lindenbaum. {\bf \href{https://www.sciencedirect.com/science/article/abs/pii/S0165168423002670}{\bf Support recovery with Stochastic Gates: theory and application for linear models}}. Elsevier Signal Processing (2023), 213, p.109193.
+			%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+			% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
+			%	\noindent {Yale University}
+			%	{\hspace{3in}\parbox{\linewidth}{email: 
+					%			}}
+			\noindent{\begin{minipage}{3.9in}
+					Postdoctoral Research Associate\\
+					Operations Research and Financial Engineering\\
+					Princeton University
+			\end{minipage}}
+			\hfill
+			\begin{minipage}{2.6in}
+				Updated on: November 30, 2023\\
+				%\today \\
+				Website: \href{https://janasoham.github.io/}{https://janasoham.github.io}\\
+				Email: \href{mailto:soham.jana@princeton.edu}{soham.jana@princeton.edu}\\
+				Phone: +1 917-520-7112
+			\end{minipage}
+			\vspace{1cm}
 			
-			\item Yanjun Han, Soham Jana and Yihong Wu, \href{https://ieeexplore.ieee.org/abstract/document/10028667}{\bf Optimal Prediction of Markov Chains With and Without Spectral Gap}, in IEEE Transactions on Information Theory, vol. 69, no. 6, pp. 3920-3959, June 2023, doi: 10.1109/TIT.2023.3239508. (\textbf{Extended from the NeurIPS version with analysis of higher-order Markov chains and different loss functions})
+			%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+			% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
 			
-			\item Soham Jana and Ayanendranath Basu.* \href{https://janasoham.github.io/files/bregman_charac.pdf}{\bf A characterization of all single-integral, non-kernel divergence estimators}. IEEE Transactions on Information Theory 65.12 (2019): 7976-7984.
 			
-		\end{enumerate}
-		
-		\noindent {\bf Conference publications}(Authors lists that are not in alphabetical order denoted by ``*")
-		
-		\begin{enumerate}
-			\item Soham Jana, Yury Polyanskiy, Anzo Teh, and Yihong Wu. \href{https://arxiv.org/abs/2307.02070}{\bf Empirical Bayes via ERM and Rademacher complexities: the Poisson model}. In Conference on Learning Theory 2023 Jul 15, PMLR 195:5199-5235.
 			
-			\item Yanjun Han, Soham Jana, and Yihong Wu. \href{https://arxiv.org/abs/2106.13947}{\bf Optimal prediction of Markov chains with and without spectral gap}. NeurIPS 2021.
+			\noindent{\bf Research Interests}
 			
-			\item Soham Jana, Yury Polyanskiy, and Yihong Wu. \href{https://arxiv.org/abs/2005.10561}{\bf Extrapolating the profile of a finite population}. In Conference on Learning Theory 2020 Jul 15 (pp. 2011-2033). PMLR.
-		\end{enumerate}
-	
-
-%	\noindent\textbf{Practical work}
-%	\begin{itemize}
-%		\item[]  With Mitsuru Igami. \textbf{Geo-spatial exploration of New South Wales gasoline market}
-%	\end{itemize}
-%	
-	\noindent \textbf{Talks}
-	\begin{itemize}
-		\item[] Neural information processing systems (NeurIPS) \hfill 2021
-		\item[] Conference on learning theory (COLT) \hfill 2020,\ 2023
-	\end{itemize}
-
-	
-	\noindent{\bf Course Instructor}
-	\begin{itemize}
-		\item[] {\bf Probability and stochastic systems} \hfill Spring 2023\\
-		ORF 309/ENG 309/MAT 380 \hfill Princeton University\\
-	\end{itemize}
+			
+			\begin{itemize}
+				\item[] Theoretical and methodological aspects of high-dimensional statistics, robust estimation, Markov decision process, non-parametric estimation, sparse recovery.
+			\end{itemize}
+			
+			\noindent{\bf Education}
+			
+			\begin{itemize}
+				\item[] {\bf PhD. in Statistics and Data Science}\hfill 2017--2022\\
+				Yale University, New Haven, CT, USA\\
+				Thesis: Learning non-parametric and high-dimensional distributions\\ 
+				via information-theoretic
+				methods \\
+				Advisor: {Prof. Yihong Wu}  
+				
+				\item[] {\bf 	Master of Statistics (Hons.)} (First class with distinction) \hfill 2015--2017\\
+				Indian Statistical Institute, Kolkata, West Bengal, India\\
+				Specialization: Theoretical Statistics\\
+				Dissertation: Characterization of single-integral non-kernel divergences \\
+				Advisor: Prof. Ayanendranath Basu
+				
+				\item[] 
+				{\bf Bachelor of Statistics (Hons.)} (First class with Distinction) \hfill 2012--2015 \\
+				{Indian Statistical Institute, Kolkata, West Bengal, India}  
+			\end{itemize}
+			
+			\noindent{\bf Work experiences}
+			
+			\begin{itemize}
+				\item[] {\bf Post-doctoral Research Associate}\hfill 2022--current\\
+				Princeton University, Princeton, New Jersey, USA\\
+				Research area: Robust clustering, data depth\\
+				Advisors: Prof. Sanjeev Kulkarni and Prof. Jianqing Fan  
+				
+				\item[] {\bf The First Republic Bank Research and Lifelong Learning Program} \hfill 2022--2023\\
+				Princeton University, Princeton, New Jersey, USA\\
+				Advisors: Prof. Sanjeev Kulkarni, Prof. Ronnie Sircar, and Prof. Mete Soner\\
+				Research area: Capital call line of credit, resource planning
+				
+				\item[] {\bf Lecturer} \hfill Spring 2023--current \\
+				Princeton University, Princeton, New Jersey, USA
+				
+			\end{itemize}
+			
+			
+			\noindent {\bf Preprints} (``$\ast$": Authors list not in alphabetical order)
+			
+			\begin{enumerate}
+				\item Soham Jana, Jianqing Fan, Sanjeev Kulkarni*. \href{https://arxiv.org/abs/2401.05574}{\bf A general theory for robust clustering via trimmed mean}. arXiv preprint arXiv:2401.05574 (2024). (Submitted to the Annals of Statistics)
+				
+				\item Soham Jana, Kun Yang, and Sanjeev Kulkarni*. \href{https://arxiv.org/abs/2306.09977}{\bf Adversarially robust clustering with optimality guarantees}. arXiv preprint arXiv:2306.09977 (2023). (Submitted to the Journal of the American Statistical Association)
+				
+				\item Soham Jana, Yury Polyanskiy, and Yihong Wu. \href{https://arxiv.org/abs/2209.01328}{\bf Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods}. arXiv preprint arXiv:2209.01328 (2022). To be submitted to Information and Inference: A Journal of the IMA.
+				
+				
+			\end{enumerate}
+			
+			\noindent {\bf Journal publications} (``$\ast$": Authors list not in alphabetical order)
+			
+			\begin{enumerate}
+				\item Soham Jana, Henry Li, Yutaro Yamada, and Ofir Lindenbaum. {\bf \href{https://www.sciencedirect.com/science/article/abs/pii/S0165168423002670}{\bf Support recovery with Stochastic Gates: theory and application for linear models}}. Elsevier Signal Processing (2023), 213, p.109193.
+				
+				\item Yanjun Han, Soham Jana and Yihong Wu, \href{https://ieeexplore.ieee.org/abstract/document/10028667}{\bf Optimal Prediction of Markov Chains With and Without Spectral Gap}, in IEEE Transactions on Information Theory, vol. 69, no. 6, pp. 3920-3959, June 2023, doi: 10.1109/TIT.2023.3239508. (\textbf{Extended from the NeurIPS version with analysis of higher-order Markov chains and different loss functions})
+				
+				\item Soham Jana and Ayanendranath Basu.* \href{https://janasoham.github.io/files/bregman_charac.pdf}{\bf A characterization of all single-integral, non-kernel divergence estimators}. IEEE Transactions on Information Theory 65.12 (2019): 7976-7984.
+				
+			\end{enumerate}
+			
+			\noindent {\bf Conference publications} (``$\ast$": Authors list not in alphabetical order)
+			
+			\begin{enumerate}
+				\item Soham Jana, Yury Polyanskiy, Anzo Teh, and Yihong Wu. \href{https://arxiv.org/abs/2307.02070}{\bf Empirical Bayes via ERM and Rademacher complexities: the Poisson model}. In Conference on Learning Theory 2023 Jul 15, PMLR 195:5199-5235.
+				
+				\item Yanjun Han, Soham Jana, and Yihong Wu. \href{https://arxiv.org/abs/2106.13947}{\bf Optimal prediction of Markov chains with and without spectral gap}. NeurIPS 2021.
+				
+				\item Soham Jana, Yury Polyanskiy, and Yihong Wu. \href{https://arxiv.org/abs/2005.10561}{\bf Extrapolating the profile of a finite population}. In Conference on Learning Theory 2020 Jul 15 (pp. 2011-2033). PMLR.
+			\end{enumerate}
+			
+			
+			%	\noindent\textbf{Practical work}
+			%	\begin{itemize}
+				%		\item[]  With Mitsuru Igami. \textbf{Geo-spatial exploration of New South Wales gasoline market}
+				%	\end{itemize}
+			%	
+			\noindent \textbf{Talks}
+			\begin{itemize}
+				\item[] Neural information processing systems (NeurIPS) \hfill 2021
+				\item[] Conference on learning theory (COLT) \hfill 2020,\ 2023
+			\end{itemize}
+			
+			
+			\noindent{\bf Teaching} (at Princeton University)
+			\begin{itemize}
+				\item[] {\bf Probability and stochastic systems} \hfill Spring 2023\\
+				ORF 309/ENG 309/MAT 380 \hfill 
+				%Princeton University
+				
+				\item[] {\bf Statistical Machine Learning}  \hfill Fall 2023\\
+				ORF 570
+				(Assistant Instructor under Prof. Jianqing Fan) \hfill 
+				%Princeton University\\
+			\end{itemize}
+			
+			\noindent{\bf Graduate teaching assistant} (at Yale University)
+			\begin{itemize}
+				\item[] {\bf Stochastic processes} \hfill Spring 2021\\
+				S\&DS 351--551. 
+				Instructor: Prof. Joseph Chang
+				
+				\item[] {\bf Information theory}  
+				\hfill Fall 2020\\
+				S\&DS 364--664.
+				%\hfill Yale University\\
+				Instructor: Prof. Andrew Barron
+				\item[] {\bf Probability theory} \hfill Fall 2019\\
+				S\&DS 241--541. 
+				%\hfill Yale University\\
+				Instructor: Prof. Winston Lin
+				\item[] {\bf Advanced probability} \hfill Spring 2019\\
+				S\&DS 400--600. 
+				%\hfill Yale University\\
+				Instructor: Prof. Sekhar Tatikonda
+				\item[] {\bf Statistical inference} \hfill Fall 2018\\
+				S\&DS 410--610.
+				%\hfill Yale University\\
+				Instructor: Prof. Zhou Fan
+				\item[] {\bf Stochastic Process} \hfill Spring 2018\\
+				S\&DS 251--551.
+				%\hfill Yale University\\
+				Instructor: Prof. Sahand Negahban 
+				
+			\end{itemize}	
+			
+			\noindent{\bf Honors and awards}
+			\begin{itemize}
+				\item [] INSPIRE Scholarship, Govt. of India \hfill 2012-2017
+				\item [] Indian National Mathematical Olympiad (INMO) merit certificate \hfill 2012\\
+				(For being among top 75 in the country)
+			\end{itemize}
+			
+			
+			\noindent \textbf{Services}
+			\begin{itemize}
+				\item[]
+				{\bf Paper reviewer}\\
+				IEEE Transactions on Information Theory, Stat - an ISI Journal
+				
+				
+				\item[] {\bf Yale S\&DS M.A. admisssion committee} \hfill 2021\\
+				Reviewer: one of the committee members
+				handling over\\ 150 applications
+				and making admission recommendations
+				
+				\item[] {\bf Yale S\&DS graduate reading group} \hfill 2020\\
+				Co-organizer\\
+				Scheduled talks and lead discussion sessions
+				
+				\item[] {\bf Yale Women in Data Science (WiDS) workshop} \hfill 2020\\
+				Served as a mentor for Yale undergrad students participating \\
+				in the
+				%		\href{https://www.widsconference.org/blog_archive/wids-datathon-2020-workshops-worldwide}
+				{WiDS Datathon Challenge 2020}
+				
+				\item[] {\bf Yale South Asian Graduate and Professional Association (SAGA)} \hfill 2018- 2021\\
+				Treasurer, core committee member and cultural committee head\\
+				Objective: organizing socio-cultural events to promote diversity and inclusion at Yale
+				
+				
+			\end{itemize}
+			
+			\vfill
+			
+			%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%%%%%%%%%
+			% The reference section has links to your references' websites and email addresses.
+			%	
+			%	\noindent{\bf References}
+			%	\begin{itemize}
+				%		\item[]
+				%	\begin{minipage}[t]{3.1in}
+					%		{\bf Sanjeev Kulkarni}\\
+					%		William R. Kenan Jr. Professor\\
+					%		Electrical Engineering\\
+					%		Princeton University\\
+					%		Email: kulkarni@princeton.edu
+					%	\end{minipage}
+				%	\hspace{0.2in}\begin{minipage}[t]{3.1in}
+					%		{\bf Jianqing Fan}\\
+					%		Frederick L. Moore '18 Professor of Finance\\
+					%		Operations Research and Financial Engineering\\
+					%		Princeton University\\
+					%		Email: jqfan@princeton.edu
+					%	\end{minipage}\\
+				%	\item[] 
+				%	\begin{minipage}[t]{3.1in}
+					%		{\bf Yihong Wu}\\
+					%		Professor\\
+					%		Statistics and Data Science\\
+					%		Yale University\\
+					%		Email: yihong.wu@yale.edu
+					%	\end{minipage}
+				%	\hspace{0.2in}\begin{minipage}[t]{3.1in}
+					%		{\bf Yury Polyanskiy}\\
+					%		Professor\\
+					%		Electrical Engineering and Computer Science\\
+					%		Massachusetts Institute of Technology\\
+					%		Email: yp@mit.edu
+					%	\end{minipage}
+				%	\end{itemize}
+			%
+			
+			
+			%	
+			%	
+			%	\clearpage
+			%	\setlength\parindent{0cm}
+			%	\pagenumbering{gobble} %cover letter should be one page, {gobble}=no page number
+			%	
+			%	
+			%	
+			%	\begin{flushright}
+				%		\today                           \\
+				%		\vspace{1em}                              
+				%		Home University            \\
+				%		Home Department                  \\
+				%		Street Address                       \\
+				%		City, State. 12345-67899   \\
+				%		Phone: +1 (123) 456-7899         \\
+				%		\href{mailto:john.smith@email.com}{john.smith@email.com}  \\ %insert your email address here for a clickable link
+				%	\end{flushright}
+			%	
+			%	
+			%	\begin{flushleft}
+				%		\textbf{Faculty Search Committee}         \\
+				%		Name of University \\
+				%		Name of Department                  \\
+				%		Address of Department \\
+				%		City, State. Zip Code
+				%	\end{flushleft}
+			%	
+			
+		\end{document}
 		
-	\noindent{\bf Graduate teaching assistance}
-	\begin{itemize}
-		\item[] {\bf Stochastic processes} \hfill Spring 2021\\
-		S\&DS 351--551/EENG 434/ENAS 502 \hfill Yale University\\
-		Instructor: Joseph Chang
-		
-		\item[] {\bf Information theory} \hfill Fall 2020\\
-		S\&DS 364--664/EENG 454 \hfill Yale University\\
-		Instructor: Andrew Barron
-		\item[] {\bf Probability theory} \hfill Fall 2019\\
-		 S\&DS 241--541  \hfill Yale University\\
-		 Instructor: Winston Lin
-		\item[] {\bf Advanced probability} \hfill Spring 2019\\
-		S\&DS 400--600/Math 600  \hfill Yale University\\
-		Instructor: Sekhar Tatikonda
-		\item[] {\bf Statistical inference} \hfill Fall 2018\\
-		 S\&DS 410--610  \hfill Yale University\\
-		 Instructor: Zhou Fan
-		 
-	\end{itemize}	
-
-	\noindent{\bf Honors and awards}
-	\begin{itemize}
-		\item [] INSPIRE Scholarship, Govt. of India \hfill 2012-2017
-		\item [] Indian National Mathematical Olympiad (INMO) merit certificate \hfill 2012\\
-		(For being among top 75 in the country)
-	\end{itemize}
-
-	
-	\noindent \textbf{Services}
-	\begin{itemize}
-		\item[]
-		{\bf Paper reviewer}\\
-		IEEE Transactions on Information Theory\\
-		Stat - an ISI Journal
-		
-		
-		\item[] {\bf Yale S\&DS M.A. admisssion committee} \hfill 2021\\
-		Reviewer: one of the committee members
-		handling over\\ 150 applications
-		and making admission recommendations
-		
-		\item[] {\bf Yale S\&DS graduate reading group} \hfill 2020\\
-		Co-organizer\\
-		Scheduled talks and lead discussion sessions
-		
-		\item[] {\bf Yale Women in Data Science (WiDS) workshop} \hfill 2020\\
-		Served as a mentor for Yale undergrad students participating \\
-		in the \href{https://www.widsconference.org/blog_archive/wids-datathon-2020-workshops-worldwide}{WiDS Datathon Challenge 2020}
-		
-		\item[] {\bf Yale South Asian Graduate and Professional Association (SAGA)} \hfill 2018- 2021\\
-		Treasurer, core committee member and cultural committee head\\
-		Objective: organizing socio-cultural events to promote diversity and inclusion at Yale
-		
-		
-	\end{itemize}
-
-	\clearpage
-	
-	%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%%%%%%%%%
-	% The reference section has links to your references' websites and email addresses.
-%	
-%	\noindent{\bf References}
-%	\begin{itemize}
-%		\item[]
-%	\begin{minipage}[t]{3in}
-%		{\bf Yihong Wu}\\
-%		Associate Professor\\
-%		Statistics and Data Science\\
-%		Yale University\\
-%		New Haven, CT, USA
-%	\end{minipage}
-%	\hspace{0.2in}\begin{minipage}[t]{3in}
-%		{\bf Andrew Barron}\\
-%		Charles C. and Dorothea S. Dilley Professor\\
-%		Statistics \& Data Science\\
-%		Yale University\\
-%		New Haven, CT, USA
-%	\end{minipage}\\
-%	\item[] 
-%	\begin{minipage}[t]{3in}
-%		{\bf Yury Polyanskiy}\\
-%		Associate Professor\\
-%		Electrical Engineering and Computer Science\\
-%		Massachusetts Institute of Technology\\
-%		Cambridge, MA, USA
-%	\end{minipage}
-%	\hspace{0.2in}\begin{minipage}[t]{3in}
-%		{\bf Ayanendranath Basu}\\
-%		Professor (Higher Academic Grade)\\
-%		Interdisciplinary Statistical Research Unit\\
-%		Indian Statistical Institute\\
-%		Kolkata, West Bengal, India
-%	\end{minipage}\\
-%	\end{itemize}
-
-
-
-%	
-%	
-%	\clearpage
-%	\setlength\parindent{0cm}
-%	\pagenumbering{gobble} %cover letter should be one page, {gobble}=no page number
-%	
-%	
-%	
-%	\begin{flushright}
-%		\today                           \\
-%		\vspace{1em}                              
-%		Home University            \\
-%		Home Department                  \\
-%		Street Address                       \\
-%		City, State. 12345-67899   \\
-%		Phone: +1 (123) 456-7899         \\
-%		\href{mailto:john.smith@email.com}{john.smith@email.com}  \\ %insert your email address here for a clickable link
-%	\end{flushright}
-%	
-%	
-%	\begin{flushleft}
-%		\textbf{Faculty Search Committee}         \\
-%		Name of University \\
-%		Name of Department                  \\
-%		Address of Department \\
-%		City, State. Zip Code
-%	\end{flushleft}
-%	
-
-\end{document}
-
