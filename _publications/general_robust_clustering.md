@@ -7,7 +7,7 @@ date: 2024-01-01
 venue: 'Preprint'
 citation: 'with Jianqing Fan and Sanjeev Kulkarni'
 
-paperurl: "https://arxiv.org/abs/2401.05574.pdf"
+paperurl: "https://arxiv.org/abs/2401.05574"
 
 ---
 
