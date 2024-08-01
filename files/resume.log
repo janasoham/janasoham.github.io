@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  9 APR 2024 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  1 AUG 2024 15:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1073,7 +1073,14 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {C:/Users/soham/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 823--825
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.832 				\item[]
+                  Indian Statistical Institute ISRU Department Seminar \hfil...
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 860--862
 
  []
 
@@ -1082,14 +1089,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.862 			\end{itemize}
-                       [2]
+l.929 				
+           [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.976 		\end{document}
-                       [3] (resume.aux)
+l.1014 		\end{document}
+                        [4] (resume.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1111,9 +1118,9 @@ fonts/cm/cmr12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/soham/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on resume.pdf (3 pages, 88163 bytes).
+Output written on resume.pdf (4 pages, 89975 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
