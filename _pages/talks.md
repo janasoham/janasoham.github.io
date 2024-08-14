@@ -6,7 +6,10 @@ author_profile: true
 
 ---
 
+<span style='color:grey'> A general theory for robust clustering via trimmed mean </span>
+-----------------------------------------------------
 
+I presented my work at the 2024 JSM and will also present it at an invited session at the IISA Conference 2024.
 
 <span style='color:grey'> Empirical Bayes via ERM and Rademacher complexities: the Poisson model </span>
 -----------------------------------------------------
