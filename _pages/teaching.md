@@ -4,6 +4,7 @@ title: "Teaching"
 author_profile: true
 ---
 
+
 <span style='color:grey'>Assistant Professor (University of Notre Dame)</span> 
 -----------------------------------------------------
 
