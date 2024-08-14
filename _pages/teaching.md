@@ -4,6 +4,13 @@ title: "Teaching"
 author_profile: true
 ---
 
+<span style='color:grey'>Assistant Professor (University of Notre Dame)</span> 
+-----------------------------------------------------
+
+| Courses                         |    Timeline  |
+|:--------------------------------|:-------------|
+| Introduction to Probability <br>  ACMS 30530|    Fall 2024 |
+
 <span style='color:grey'>Instructor (Princeton University)</span> 
 -----------------------------------------------------
 
