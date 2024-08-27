@@ -12,7 +12,7 @@ author_profile: true
 |:--------------------------------|:-------------|
 | Introduction to Probability <br>  ACMS 30530|    Fall 2024 |
 
-<span style='color:grey'>Instructor (Princeton University)</span> 
+<span style='color:grey'>Lecturer (Princeton University)</span> 
 -----------------------------------------------------
 
 | Courses                         |    Timeline  |
