@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  27 AUG 2024 18:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  12 NOV 2024 18:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1077,8 +1077,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.838 				
-           [2]
+l.836 				\item[]
+                  Indian Statistical Institute ISRU Department Seminar \hfil...
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 864--866
 
  []
@@ -1088,13 +1089,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.933 				
-           [3]
+l.931 				\item[]
+                  {\bf Yale S\&DS graduate reading group} \hfill 2020\\
+[3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1018 		\end{document}
+l.1019 		\end{document}
                         [4] (resume.aux)
  ***********
 LaTeX2e <2023-11-01>
@@ -1117,7 +1119,7 @@ fonts/cm/cmr12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/soham/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on resume.pdf (4 pages, 90472 bytes).
+Output written on resume.pdf (4 pages, 90578 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
