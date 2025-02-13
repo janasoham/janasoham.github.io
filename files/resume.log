@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.26)  13 FEB 2025 17:38
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  12 NOV 2024 18:16
+>>>>>>> d0af2656564ea8780d6a23c4230a58fce764dbd1
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,10 +1093,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.833 				\item[]
                   University of Texas at Dallas Statistics Department Seminar
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 867--869
+=======
+l.836 				\item[]
+                  Indian Statistical Institute ISRU Department Seminar \hfil...
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 864--866
+>>>>>>> d0af2656564ea8780d6a23c4230a58fce764dbd1
 
  []
 
@@ -1103,15 +1114,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.928 				
            [3]
 
 
+=======
+l.931 				\item[]
+                  {\bf Yale S\&DS graduate reading group} \hfill 2020\\
+[3]
+>>>>>>> d0af2656564ea8780d6a23c4230a58fce764dbd1
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.1026 		\end{document}
+=======
+l.1019 		\end{document}
+>>>>>>> d0af2656564ea8780d6a23c4230a58fce764dbd1
                         [4] (resume.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
@@ -1121,6 +1142,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  26333 strings out of 473899
  470523 string characters out of 5726028
  1937960 words of memory out of 5000000
@@ -1135,8 +1157,24 @@ msfonts/cm/cmr12.pfb><C:/Users/sjana2/AppData/Local/Programs/MiKTeX/fonts/type1
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sjana2/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on resume.pdf (4 pages, 89722 bytes).
+=======
+ 26247 strings out of 474587
+ 469130 string characters out of 5745702
+ 1935558 words of memory out of 5000000
+ 47909 multiletter control sequences out of 15000+600000
+ 568072 words of font info for 77 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,5n,93p,3220b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/soham/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on resume.pdf (4 pages, 90578 bytes).
+>>>>>>> d0af2656564ea8780d6a23c4230a58fce764dbd1
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
