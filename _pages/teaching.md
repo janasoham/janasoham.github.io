@@ -11,6 +11,7 @@ author_profile: true
 | Courses                         |    Timeline  |
 |:--------------------------------|:-------------|
 | Introduction to Probability <br>  ACMS 30530|    Fall 2024 |
+| Modern Machine Learning Methods (Topics Course) <br>  ACMS 80870|    Spring 2025 |
 
 <span style='color:grey'>Lecturer (Princeton University)</span> 
 -----------------------------------------------------
