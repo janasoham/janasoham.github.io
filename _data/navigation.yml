@@ -15,5 +15,5 @@ main:
   - title: "CV"
     url: https://janasoham.github.io/files/resume.pdf
 
-  - title: "Personal Links"
-    url: https://janasoham.github.io/links/
+ # - title: "Personal Links"
+  #  url: https://janasoham.github.io/links/
