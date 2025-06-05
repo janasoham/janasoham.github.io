@@ -19,7 +19,7 @@ Previously, I was a Post-doctoral Research Associate at Princeton ORFE, where I 
 
 I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning, including
 
-* Robustness
+* Deep Learning
 * Empirical Bayes 
 * Mixture modeling
 * Causal Inference
