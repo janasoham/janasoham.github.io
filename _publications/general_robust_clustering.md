@@ -1,10 +1,10 @@
 ---
-title: "A general theory for robust clustering via trimmed mean"
+title: "A provable initialization and robust clustering method for general mixture models"
 collection: publications
 permalink: /publications/general-clustering
 excerpt: ''
 date: 2024-01-01
-venue: 'Preprint'
+venue: 'Accepted, IEEE Transactions on Information Theory'
 citation: 'with Jianqing Fan and Sanjeev Kulkarni'
 
 paperurl: "https://janasoham.github.io/files/general_clustering.pdf"
