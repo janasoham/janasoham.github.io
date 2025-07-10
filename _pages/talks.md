@@ -6,6 +6,16 @@ author_profile: true
 
 ---
 
+<span style='color:grey'> Factor Adjusted Spectral Clustering </span>
+-----------------------------------------------------
+
+I will present my work at JSM 2025.
+
+<span style='color:grey'> Can empirical Bayes via empirical risk minimization balance computational and theoretical benefits ? </span>
+-----------------------------------------------------
+
+I will present my work at the 2025 IISA Conference.
+
 <span style='color:grey'> A general theory for robust clustering via trimmed mean </span>
 -----------------------------------------------------
 

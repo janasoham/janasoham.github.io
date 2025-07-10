@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.26)  3 JUN 2025 15:45
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  21 JUN 2025 20:11
+>>>>>>> e273fd85fb6dfdba1b10b1074ea6043ab86398c8
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1077,21 +1081,42 @@ $[]$  $[]$
  []
 
 
+<<<<<<< HEAD
+=======
+Overfull \hbox (1.6286pt too wide) in paragraph at lines 784--785
+[][]\OT1/cmr/bx/n/12 Mul-ti-look Co-her-ent Imag-ing: The-o-ret-i-cal Guar-an-t
+ees and Al-go-rithms.[][] \OT1/cmr/m/n/12 arXiv
+ []
+>>>>>>> e273fd85fb6dfdba1b10b1074ea6043ab86398c8
 
 [1
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
+<<<<<<< HEAD
 {C:/Users/sjana2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+=======
+{C:/Users/soham/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (23.48274pt too wide) in paragraph at lines 799--800
+\OT1/cmr/bx/n/12 bust clus-ter-ing method for gen-eral mix-ture mod-els[][]\OT1
+/cmr/m/n/12 . arXiv preprint arXiv:2401.05574
+ []
+>>>>>>> e273fd85fb6dfdba1b10b1074ea6043ab86398c8
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.817 			\end{enumerate}
                          [2]
 Underfull \hbox (badness 10000) in paragraph at lines 886--888
+=======
+l.828 				\item[]
+                  Joint Statistical Meetings [2]
+Underfull \hbox (badness 10000) in paragraph at lines 882--884
+>>>>>>> e273fd85fb6dfdba1b10b1074ea6043ab86398c8
 
  []
 
@@ -1102,14 +1127,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.925 				\item[]
                   [3]
 
 
+=======
+l.935 				
+           [3]
+>>>>>>> e273fd85fb6dfdba1b10b1074ea6043ab86398c8
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.984 				\item []
                    Indian National Mathematical Olympiad (INMO) merit certif...
 [4]
@@ -1121,6 +1152,10 @@ een already used, duplicate ignored
                    \relax 
 l.1058 		\end{document}
                         [5] (resume.aux)
+=======
+l.1046 		\end{document}
+                        [4] (resume.aux)
+>>>>>>> e273fd85fb6dfdba1b10b1074ea6043ab86398c8
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -1129,6 +1164,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  26335 strings out of 473899
  470537 string characters out of 5726028
  1936960 words of memory out of 5000000
@@ -1146,6 +1182,25 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sjana2/AppData/Local/Programs
 Output written on resume.pdf (5 pages, 102818 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
+=======
+ 26248 strings out of 474587
+ 469137 string characters out of 5745702
+ 1935558 words of memory out of 5000000
+ 47909 multiletter control sequences out of 15000+600000
+ 568072 words of font info for 77 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,5n,93p,3220b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/soham/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/soham/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on resume.pdf (4 pages, 101761 bytes).
+PDF statistics:
+ 89 PDF objects out of 1000 (max. 8388607)
+>>>>>>> e273fd85fb6dfdba1b10b1074ea6043ab86398c8
  13 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
