@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <span style='color:grey'>About me</span>
------------------------------------------
+-------------------------------------------------------------------------
 
 I am an Assistant Professor in the Department of Applied and Computational Mathematics and Statistics (ACMS) at the University of Notre Dame, IN, USA. 
 
@@ -17,7 +17,7 @@ I am an Assistant Professor in the Department of Applied and Computational Mathe
 Previously, I was a Post-doctoral Research Associate at Princeton ORFE, where I was fortunate to be advised by [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/). I finished my Ph.D. at the [Department of Statistics and Data Science, Yale University](https://statistics.yale.edu/). During my doctoral studies at Yale, I have been fortunate to be mentored by [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/). Prior to this, I spent five wonderful years at [Indian Statistical Institute (ISI), Kolkata](https://www.isical.ac.in/), completing my Bachelors of Statistics (B.Stat.) and Masters of Statistics (M.Stat.) with specialization in Theoretical Statistics, and I worked on minimum distance estimators under the guidance of [Prof. Ayanendranath Basu](https://www.isical.ac.in/~ayanbasu/).
 
 <span style='color:grey'>Research interests</span>
----------------------------------------------------
+-------------------------------------------------------------------------
 
 I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning, including
 
@@ -27,7 +27,7 @@ I am broadly interested in theoretical and methodological aspects of Statistics 
 * Neural Networks
 
 <span style='color:grey'>Recent papers</span>
----------------------------------------------------
+-------------------------------------------------------------------------
 Jana, S., Fan, J., & Kulkarni, S (2025). "A Provable Initialization and Robust Clustering Method for General Mixture Models," in IEEE Transactions on Information Theory, vol. 71, no. 9, pp. 7176-7207, Sept. 2025, doi: 10.1109/TIT.2025.3585804. [Manuscript link](https://ieeexplore.ieee.org/abstract/document/11069307).
 
 Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. arXiv preprint arXiv:2505.23594. [Manuscript link](https://janasoham.github.io/files/multilook.pdf).
