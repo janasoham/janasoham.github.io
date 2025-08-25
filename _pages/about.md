@@ -20,9 +20,9 @@ I am an Assistant Professor in the Department of Applied and Computational Mathe
 I am broadly interested in theoretical and methodological aspects of Statistics and Machine learning, including
 
 * High-dimensional statistics
+* Neural Networks
 * Mixture modeling
 * Distance-based estimators
-* Neural Networks
 
 <span style='color:grey'>Recent papers</span>
 -------------------------------------------------------------------------
