@@ -26,11 +26,11 @@ I am broadly interested in theoretical and methodological aspects of Statistics 
 
 <span style='color:grey'>Recent papers</span>
 ---------------------------------------------------
-Jana, S., Fan, J., & Kulkarni, S (2025). "A Provable Initialization and Robust Clustering Method for General Mixture Models," in IEEE Transactions on Information Theory, vol. 71, no. 9, pp. 7176-7207, Sept. 2025, doi: 10.1109/TIT.2025.3585804.
+Jana, S., Fan, J., & Kulkarni, S (2025). "A Provable Initialization and Robust Clustering Method for General Mixture Models," in IEEE Transactions on Information Theory, vol. 71, no. 9, pp. 7176-7207, Sept. 2025, doi: 10.1109/TIT.2025.3585804. [Manuscript link](https://ieeexplore.ieee.org/abstract/document/11069307).
 
-Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. arXiv preprint arXiv:2505.23594.
+Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. arXiv preprint arXiv:2505.23594. [Manuscript link](https://janasoham.github.io/files/multilook.pdf).
 
-Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. Submitted. Manuscript link.
+Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. Submitted. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
 
 
 
