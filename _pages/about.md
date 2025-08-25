@@ -34,6 +34,8 @@ Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook C
 
 Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. Submitted. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
 
+Tang, S., Jana, S., & Fan, J. (2024). Factor adjusted spectral clustering for mixture models. arXiv preprint arXiv:2408.12564. [Manuscript link](https://janasoham.github.io/files/fasc.pdf).
+
 
 
 
