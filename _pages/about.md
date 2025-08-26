@@ -14,9 +14,9 @@ I am an Assistant Professor in the Department of Applied and Computational Mathe
 
 **I am currently looking for a prospective Ph.D. student with an interest in Mathematical Statistics and/or Deep Learning.**
 
-<span style='color:grey'>Past affiliations</span>
+<span style='color:grey'>Education and Past affiliations</span>
 -------------------------------------------------------------------------
-- Princeton University: Post-doctoral researcher in Statistics, 2022 - 2024 (Advisor: [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/))
+- Princeton University: Post-doctoral Researcher in Statistics, 2022 - 2024 (Advisors: [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/))
 
 - Yale University: Ph.D., Statistics and Data Science, 2017 - 2022 (Advisor: [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/))
 
