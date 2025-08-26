@@ -16,7 +16,14 @@ I am an Assistant Professor in the Department of Applied and Computational Mathe
 
 <span style='color:grey'>Past affiliations</span>
 -------------------------------------------------------------------------
-Before joining the faculty at Notre Dame, I was a Postdoc at [Princeton ORFE](https://orfe.princeton.edu/), where I was advised by [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/). I finished my Ph.D. at the [Department of Statistics and Data Science, Yale University](https://statistics.yale.edu/), advised by [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/). Prior to this, I spent five wonderful years at [Indian Statistical Institute (ISI), Kolkata](https://www.isical.ac.in/), completing my Bachelors of Statistics (B.Stat.) and Masters of Statistics (M.Stat.) with specialization in Theoretical Statistics. My dissertation advisor was [Prof. Ayanendranath Basu](https://www.isical.ac.in/~ayanbasu/).
+- Princeton University: Post-doctoral researcher in Statistics, 2022 - 2024 (Advisor: [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/))
+
+- Yale University: Ph.D., Statistics and Data Science, 2017 - 2022 (Advisor: [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/))
+
+- Indian Statistical Institute, Kolkata: Master of Statistics (M.Stat), 2015 - 2017 (Advisor: [Prof. Ayanendranath Basu](https://www.isical.ac.in/~ayanbasu/))
+
+- Indian Statistical Institute, Kolkata: Bachelor of Statistics (B.Stat), 2012 - 2015
+
 
 <span style='color:grey'>Research interests</span>
 -------------------------------------------------------------------------
