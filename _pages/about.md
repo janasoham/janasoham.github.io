@@ -16,13 +16,14 @@ I am an Assistant Professor in the Department of Applied and Computational Mathe
 
 <span style='color:grey'>Education and past affiliations</span>
 -------------------------------------------------------------------------
-- Princeton University: Post-doctoral Researcher in Statistics, 2022 - 2024 (Advisors: [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/))
+- Princeton University: Post-doctoral Researcher in [ORFE](https://orfe.princeton.edu/), 2022 - 2024 (Advisors: [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/))
 
-- Yale University: Ph.D., Statistics and Data Science, 2017 - 2022 (Advisor: [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/))
+- Yale University: Ph.D., [Statistics and Data Science](https://statistics.yale.edu/), 2017 - 2022 (Advisor: [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/))
 
-- Indian Statistical Institute, Kolkata: Master of Statistics (M.Stat), 2015 - 2017 (Advisor: [Prof. Ayanendranath Basu](https://www.isical.ac.in/~ayanbasu/))
+- [Indian Statistical Institute, Kolkata](https://www.isical.ac.in/): Master of Statistics (M.Stat), 2015 - 2017 (Advisor: [Prof. Ayanendranath Basu](https://www.isical.ac.in/~ayanbasu/))
 
 - Indian Statistical Institute, Kolkata: Bachelor of Statistics (B.Stat), 2012 - 2015
+
 
 
 <span style='color:grey'>Research interests</span>
