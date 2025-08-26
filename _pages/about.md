@@ -30,7 +30,7 @@ Jana, S., Fan, J., & Kulkarni, S (2025). "A Provable Initialization and Robust C
 
 Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. arXiv preprint arXiv:2505.23594. [Manuscript link](https://janasoham.github.io/files/multilook.pdf).
 
-Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. Submitted. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
+Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
 
 Tang, S., Jana, S., & Fan, J. (2024). Factor adjusted spectral clustering for mixture models. arXiv preprint arXiv:2408.12564. [Manuscript link](https://janasoham.github.io/files/fasc.pdf).
 
