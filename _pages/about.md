@@ -12,7 +12,7 @@ redirect_from:
 
 I am an Assistant Professor in the Department of Applied and Computational Mathematics and Statistics (ACMS) at the University of Notre Dame, IN, USA. 
 
-**I am currently looking for a prospective Ph.D. student to work on theory and applications of Machine Learning in Clustering and Computational Imaging. Interested individuals are requested to reach out to me over email at soham-dot-jana-at-nd-dot-edu.**
+**I am currently looking for a prospective Ph.D. student to work on theory and applications of Machine Learning and Computational Imaging. Interested individuals are requested to reach out to me over email at soham-dot-jana-at-nd-dot-edu.**
 
 <span style='color:grey'>Education and past affiliation</span>
 -------------------------------------------------------------------------
