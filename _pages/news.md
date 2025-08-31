@@ -6,6 +6,12 @@ author_profile: true
 
 ---
 
+
+<span style='color:grey'> Grants and awards </span>
+-----------------------------------------------------
+
+- I am excited to receive the Kaneb Center Course Design Academy scholarship at the University of Notre Dame. Award Amount: USD 5000.
+
 <span style='color:grey'> Recent talks and presentations </span>
 -----------------------------------------------------
 
