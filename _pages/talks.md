@@ -1,6 +1,6 @@
 ---
-title: "Talks and presentations"
-permalink: /talks/
+title: "News"
+permalink: /news/
 author_profile: true
 
 
@@ -9,7 +9,7 @@ author_profile: true
 <span style='color:grey'> Factor Adjusted Spectral Clustering </span>
 -----------------------------------------------------
 
-I will present my work at JSM 2025.
+I presented my work at JSM 2025.
 
 <span style='color:grey'> Can empirical Bayes via empirical risk minimization balance computational and theoretical benefits ? </span>
 -----------------------------------------------------
