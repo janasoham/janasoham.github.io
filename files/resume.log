@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  26 AUG 2025 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  4 SEP 2025 09:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1083,15 +1083,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.818 				
-           [2]
+l.821 				\item J
+                 ana, S., Polyanskiy, \& Wu, Y. (2020). \href{https://arxiv....
+[2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.887 				\item[]
-                  {\bf University of Notre Dame} [3]
-Underfull \hbox (badness 10000) in paragraph at lines 899--901
+l.891 				{I
+            ntroduction to probability} (ACMS 30530) \hfill Fall 2024, Fall ...
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 901--903
 
  []
 
@@ -1100,13 +1102,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.987 				
+l.989 				
            [4]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1073 		\end{document}
+l.1075 		\end{document}
                         [5] (resume.aux)
  ***********
 LaTeX2e <2023-11-01>
@@ -1122,7 +1124,7 @@ Here is how much of TeX's memory you used:
  47909 multiletter control sequences out of 15000+600000
  568072 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,5n,93p,3220b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,93p,3220b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1130,7 +1132,7 @@ blic/amsfonts/cm/cmr17.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/soham/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/soham/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on resume.pdf (5 pages, 104481 bytes).
+Output written on resume.pdf (5 pages, 104417 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
