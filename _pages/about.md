@@ -33,11 +33,14 @@ Theoretical and methodological aspects of statistical machine learning, with par
 
 <span style='color:grey'>Recent papers</span>
 -------------------------------------------------------------------------
+
+Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
+
+Jana, S., Polyanskiy, Y., & Wu, Y. (2022). Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods. Accepted, Information and Inference, 2025. arXiv preprint arXiv:2209.01328. [Manuscript link](arXiv preprint arXiv:2209.01328)
+
 Jana, S., Fan, J., & Kulkarni, S (2025). "A Provable Initialization and Robust Clustering Method for General Mixture Models," in IEEE Transactions on Information Theory, vol. 71, no. 9, pp. 7176-7207, Sept. 2025, doi: 10.1109/TIT.2025.3585804. [Manuscript link](https://ieeexplore.ieee.org/abstract/document/11069307).
 
 Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. arXiv preprint arXiv:2505.23594. [Manuscript link](https://janasoham.github.io/files/multilook.pdf).
-
-Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
 
 Tang, S., Jana, S., & Fan, J. (2024). Factor adjusted spectral clustering for mixture models. arXiv preprint arXiv:2408.12564. [Manuscript link](https://janasoham.github.io/files/fasc.pdf).
 
