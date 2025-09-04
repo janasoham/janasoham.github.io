@@ -3,12 +3,12 @@ title: "Optimal empirical Bayes estimation for the Poisson model via minimum-dis
 
 collection: publications
 permalink: /publications/regret
-venue: 'Preprint'
+venue: 'Accepted, Information and Inference'
 citation: "with Yury Polyanskiy and Yihong Wu"
 paperurl: "https://arxiv.org/abs/2209.01328"
 
 excerpt: ""
-date: 2022-10-01
+date: 2025-10-01
 
 ---
 Abstract
