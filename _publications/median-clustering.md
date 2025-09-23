@@ -5,7 +5,7 @@ permalink: /publications/median-clustering
 excerpt: ''
 date: 2023-01-01
 venue: 'Preprint'
-topic: 'mixture_modeling'
+topic: 'clustering'
 citation: 'with Kun Yang and Sanjeev Kulkarni'
 
 paperurl: "https://arxiv.org/abs/2306.09977"
