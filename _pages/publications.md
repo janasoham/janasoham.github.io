@@ -50,6 +50,11 @@ author_profile: true
 
 <span style='color:grey'>Other topics in statistics</span>
 -------------------------------------------------------------------------
+{% for post in site.publications reversed %}
+  {% if post.topic contains 'others' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
 {% for post in site.publications reversed %}
   {% if post.topic contains 'others' %}
