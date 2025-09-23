@@ -5,6 +5,7 @@ permalink: /publications/COLT-urn
 excerpt: ''
 date: 2020-01-01
 venue: 'Conference on Learning Theory'
+topic: 'mixture_modeling'
 citation: 'with Yury Polyanskiy and Yihong Wu'
 
 paperurl: "https://arxiv.org/abs/2005.10561"
