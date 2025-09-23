@@ -55,9 +55,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
-{% for post in site.publications reversed %}
-  {% if post.topic contains 'others' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
