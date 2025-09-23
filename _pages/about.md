@@ -7,15 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-<span style='color:grey'>About me</span>
--------------------------------------------------------------------------
+<h2 style="border-bottom: 2px solid #ccc; color: grey;">About me</h2>
 
 I am an Assistant Professor in the Department of Applied and Computational Mathematics and Statistics (ACMS) at the University of Notre Dame, IN, USA. 
 
 **I am currently looking for a prospective Ph.D. student to work on theory and applications of Machine Learning and Computational Imaging. Interested individuals are requested to reach out to me over email at soham-dot-jana-at-nd-dot-edu.**
 
-<span style='color:grey'>Education and past affiliation</span>
--------------------------------------------------------------------------
+<h2 style="border-bottom: 2px solid #ccc; color: grey;">Education and past affilications</h2>
+
 - Princeton University: Post-doctoral Researcher in [ORFE](https://orfe.princeton.edu/), 2022 - 2024 (Advisors: [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/))
 
 - Yale University: Ph.D., [Statistics and Data Science](https://statistics.yale.edu/), 2017 - 2022 (Advisor: [Prof. Yihong Wu](http://www.stat.yale.edu/~yw562/))
@@ -26,13 +25,11 @@ I am an Assistant Professor in the Department of Applied and Computational Mathe
 
 
 
-<span style='color:grey'>Research interests</span>
--------------------------------------------------------------------------
+<h2 style="border-bottom: 2px solid #ccc; color: grey;"> Research interests </h2>
 
 Theoretical and methodological aspects of statistical machine learning, with particular focus on high-dimensional regimes, neural networks, mixture modeling, and distance-based estimators.
 
-<span style='color:grey'>Recent papers</span>
--------------------------------------------------------------------------
+<h2 style="border-bottom: 2px solid #ccc; color: grey;">Recent papers</h2>
 
 Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
 
