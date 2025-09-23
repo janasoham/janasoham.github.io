@@ -7,7 +7,7 @@ author_profile: true
 ---
 
 
-<span style='color:grey'> Grants and awards </span>
+<h2 style='color:grey'> Grants and awards <h2>
 -----------------------------------------------------
 
 - I am excited to receive the University of Notre Dame Kaneb Center Course Design Academy scholarship for the academic year 2024-2025.
