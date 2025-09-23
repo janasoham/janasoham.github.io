@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-<h2 style="border-bottom: 2px solid #ccc; color: navy;">About me</h2>
+<h2 style="border-bottom: 2px solid #ccc; color: teal;">About me</h2>
 
 I am an Assistant Professor in the Department of Applied and Computational Mathematics and Statistics (ACMS) at the University of Notre Dame, IN, USA. 
 
 **I am currently looking for a prospective Ph.D. student to work on theory and applications of Machine Learning and Computational Imaging. Interested individuals are requested to reach out to me over email at soham-dot-jana-at-nd-dot-edu.**
 
-<h2 style="border-bottom: 2px solid #ccc; color: navy;">Education and past affiliations</h2>
+<h2 style="border-bottom: 2px solid #ccc; color: teal;">Education and past affiliations</h2>
 
 - Princeton University: Post-doctoral Researcher in [ORFE](https://orfe.princeton.edu/), 2022 - 2024 (Advisors: [Prof. Jianqing Fan](https://fan.princeton.edu/) and [Prof. Sanjeev Kulkarni](https://www.princeton.edu/~kulkarni/))
 
@@ -25,11 +25,11 @@ I am an Assistant Professor in the Department of Applied and Computational Mathe
 
 
 
-<h2 style="border-bottom: 2px solid #ccc; color: navy;"> Research interests </h2>
+<h2 style="border-bottom: 2px solid #ccc; color: teal;"> Research interests </h2>
 
 Theoretical and methodological aspects of statistical machine learning, with particular focus on high-dimensional regimes, neural networks, mixture modeling, and distance-based estimators.
 
-<h2 style="border-bottom: 2px solid #ccc; color: navy;">Recent papers</h2>
+<h2 style="border-bottom: 2px solid #ccc; color: teal;">Recent papers</h2>
 
 Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
 
