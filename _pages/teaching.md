@@ -4,17 +4,14 @@ title: "Teaching"
 author_profile: true
 ---
 
-
-<span style='color:teal'>Assistant Professor (University of Notre Dame)</span> 
------------------------------------------------------
+<h2 style="border-bottom: 2px solid #ccc; color: teal;">Assistant Professor (University of Notre Dame)</h2>
 
 | Courses                         |    Timeline  |
 |:--------------------------------|:-------------|
 | Introduction to Probability <br>  ACMS 30530|    Fall 2024 |
 | Modern Machine Learning Methods (Topics Course) <br>  ACMS 80870|    Spring 2025 |
 
-<span style='color:teal'>Lecturer (Princeton University)</span> 
------------------------------------------------------
+<h2 style="border-bottom: 2px solid #ccc; color: teal;">Lecturer (Princeton University)</h2>
 
 | Courses                         |    Timeline  |
 |:--------------------------------|:-------------|
@@ -22,9 +19,7 @@ author_profile: true
 |Statistical Machine Learning <br> ORF 570 (Assistant Instructor with Prof. Jianqing Fan)|  Fall 2023 |
 
 
-
-<span style='color:teal'>Graduate teaching assistant (Yale University)</span> 
------------------------------------------------------
+<h2 style="border-bottom: 2px solid #ccc; color: teal;">Graduate Student (Yale University)</h2>
 
 | Courses                         |      Instructor      |    Timeline  |
 |:--------------------------------|:---------------------|:-------------|
