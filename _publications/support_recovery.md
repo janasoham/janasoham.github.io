@@ -4,9 +4,8 @@ title: "Support recovery with stochastic gates: theory and application for linea
 collection: publications
 permalink: /publications/support_recovery
 venue: 'Elsevier Singal Processing'
-
 date: 2023-01-01
-
+topic: 'others'
 citation: "with Henry Li, Yutaro Yamada and Ofir Lindenbaum"
 
 paperurl: "https://arxiv.org/abs/2110.15960"
