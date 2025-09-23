@@ -5,6 +5,7 @@ collection: publications
 permalink: /publications/regret
 venue: 'Accepted, Information and Inference'
 citation: "with Yury Polyanskiy and Yihong Wu"
+topic: 'mixture_modeling'
 paperurl: "https://arxiv.org/abs/2209.01328"
 
 excerpt: ""
