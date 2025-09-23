@@ -5,7 +5,7 @@ permalink: /publications/fasc
 excerpt: ''
 date: 2024-01-08
 venue: 'Preprint'
-topic: 'mixture_modeling'
+topic: 'clustering'
 citation: 'with Shange Tang and Jianqing Fan'
 
 paperurl: "https://janasoham.github.io/files/fasc.pdf"
