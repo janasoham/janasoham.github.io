@@ -5,7 +5,7 @@ permalink: /publications/general-clustering
 excerpt: ''
 date: 2025-09-01
 venue: 'IEEE Transactions on Information Theory'
-topic: 'mixture_modeling'
+topic: 'clustering'
 citation: 'with Jianqing Fan and Sanjeev Kulkarni'
 
 paperurl: "https://janasoham.github.io/files/general_clustering.pdf"
