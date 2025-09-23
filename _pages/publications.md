@@ -30,11 +30,29 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-<span style='color:grey'>Mixture modeling</span>
+<span style='color:grey'>Clustering</span>
 -------------------------------------------------------------------------
 
 {% for post in site.publications reversed %}
-  {% if post.topic contains 'mixture_modeling' %}
+  {% if post.topic contains 'clustering' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<span style='color:grey'>Empirical Bayes</span>
+-------------------------------------------------------------------------
+
+{% for post in site.publications reversed %}
+  {% if post.topic contains 'embayes' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<span style='color:grey'>Other topics in statistics</span>
+-------------------------------------------------------------------------
+
+{% for post in site.publications reversed %}
+  {% if post.topic contains 'others' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
