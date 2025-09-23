@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 
-<span style='color:grey'>Assistant Professor (University of Notre Dame)</span> 
+<span style='color:teal'>Assistant Professor (University of Notre Dame)</span> 
 -----------------------------------------------------
 
 | Courses                         |    Timeline  |
@@ -13,7 +13,7 @@ author_profile: true
 | Introduction to Probability <br>  ACMS 30530|    Fall 2024 |
 | Modern Machine Learning Methods (Topics Course) <br>  ACMS 80870|    Spring 2025 |
 
-<span style='color:grey'>Lecturer (Princeton University)</span> 
+<span style='color:teal'>Lecturer (Princeton University)</span> 
 -----------------------------------------------------
 
 | Courses                         |    Timeline  |
@@ -23,7 +23,7 @@ author_profile: true
 
 
 
-<span style='color:grey'>Graduate teaching assistant (Yale University)</span> 
+<span style='color:teal'>Graduate teaching assistant (Yale University)</span> 
 -----------------------------------------------------
 
 | Courses                         |      Instructor      |    Timeline  |
