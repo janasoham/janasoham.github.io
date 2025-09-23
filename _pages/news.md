@@ -11,7 +11,7 @@ author_profile: true
 
 - I am excited to receive the University of Notre Dame Kaneb Center Course Design Academy scholarship for the academic year 2024-2025.
 
-- 
+ 
 <h2 style="border-bottom: 2px solid #ccc; color: grey;">Recent talks and presentations</h2>
 
 - I presented my work on Factor Adjusted Spectral Clustering at JSM 2025.
