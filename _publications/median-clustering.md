@@ -3,8 +3,8 @@ title: "Adversarially robust clustering with optimality guarantees"
 collection: publications
 permalink: /publications/median-clustering
 excerpt: ''
-date: 2023-01-01
-venue: 'Preprint'
+date: 2025-01-10
+venue: 'Accepted, IEEE Transactions on Information Theory'
 topic: 'clustering'
 citation: 'with Kun Yang and Sanjeev Kulkarni'
 
