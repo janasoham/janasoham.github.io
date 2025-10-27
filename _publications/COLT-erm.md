@@ -6,7 +6,7 @@ excerpt: ''
 date: 2023-01-01
 venue: 'Conference on Learning Theory'
 citation: 'with Anzo Teh, Yury Polyanskiy and Yihong Wu'
-
+topic: 'embayes'
 paperurl: "https://arxiv.org/abs/2307.02070"
 
 ---

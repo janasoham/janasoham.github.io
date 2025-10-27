@@ -6,7 +6,7 @@ permalink: /publications/markov_prediction1
 venue: 'NeurIPS, 2021. Longer version in IEEE Transactions on Information Theory'
 
 date: 2023-01-01
-
+topic: 'others'
 excerpt: ""
 
 paperurl: "https://arxiv.org/abs/2106.13947"

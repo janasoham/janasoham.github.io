@@ -5,6 +5,7 @@ permalink: /publications/multilook
 excerpt: ''
 date: 2025-01-08
 venue: 'Preprint'
+topic: 'computational_imaging'
 citation: 'with Xi Chen, Christopher A Metzler, Arian Maleki, and Shirin Jalali'
 
 paperurl: "https://janasoham.github.io/files/multilook.pdf"

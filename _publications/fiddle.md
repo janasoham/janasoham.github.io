@@ -5,6 +5,7 @@ permalink: /publications/fiddle
 excerpt: ''
 date: 2025-01-08
 venue: 'Preprint'
+topic: 'deep_learning'
 citation: 'with Jianqing Fan, Sanjeev Kulkarni, and Qishuo Yin'
 
 paperurl: "https://janasoham.github.io/files/fiddle.pdf"

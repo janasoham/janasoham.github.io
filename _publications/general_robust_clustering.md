@@ -3,8 +3,9 @@ title: "A provable initialization and robust clustering method for general mixtu
 collection: publications
 permalink: /publications/general-clustering
 excerpt: ''
-date: 2025-01-01
-venue: 'Accepted, IEEE Transactions on Information Theory'
+date: 2025-09-01
+venue: 'IEEE Transactions on Information Theory'
+topic: 'clustering'
 citation: 'with Jianqing Fan and Sanjeev Kulkarni'
 
 paperurl: "https://janasoham.github.io/files/general_clustering.pdf"
