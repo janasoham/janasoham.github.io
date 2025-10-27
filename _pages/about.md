@@ -31,6 +31,8 @@ Theoretical and methodological aspects of statistical machine learning, with par
 
 <h2 style="border-bottom: 2px solid #ccc; color: teal;">Recent papers</h2>
 
+Jana, S., Yang, K., & Kulkarni, S. (2025). Adversarially robust clustering with optimality guarantees. Accepted at IEEE Transactions on Information Theory. [Manuscript link](https://arxiv.org/abs/2306.09977).
+
 Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
 
 Jana, S., Polyanskiy, Y., & Wu, Y. (2025). Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods. Information and Inference: A Journal of the IMA, Volume 14, Issue 4, December 2025, iaaf027. [Manuscript link](https://arxiv.org/abs/2209.01328).
