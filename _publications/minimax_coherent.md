@@ -28,7 +28,7 @@ The fundamental limits of conventional imaging systems have been extensively stu
  
 Motivated by insights from sparse regression, we observe that the \emph{structure} of ${\boldsymbol x}_o$ plays a crucial role in determining the estimation error. In this work, we adopt a general notion of structure based on the covering numbers, which is more appropriate for coherent imaging systems.  We show that the minimax mean squared error (MSE) scales as
 $
-\frac{\max\left\{\sigma_z^4,\, m^2,\, n^2\right\}\, k \log n}{m^2 n L},
+\frac{\max(\sigma_z^4,\, m^2,\, n^2)\, k \log n}{m^2 n L},
 $
 where $k$ is a parameter that quantifies the effective complexity of the class of images.
  
