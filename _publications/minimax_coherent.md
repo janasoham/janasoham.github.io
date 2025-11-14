@@ -1,7 +1,7 @@
 ---
 title: "Minimax Analysis of Estimation Problems in Coherent Imaging"
 collection: publications
-permalink: /publications/multilook
+permalink: /publications/minimax_coherent
 excerpt: ''
 date: 2025-01-11
 venue: 'Preprint'
