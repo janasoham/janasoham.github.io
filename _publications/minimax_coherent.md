@@ -26,7 +26,7 @@ The matrices $A_1, \ldots, A_L$ are known forward operators determined by the im
 
 The fundamental limits of conventional imaging systems have been extensively studied through sparse linear regression models. However, the limits of coherent imaging systems remain largely unexplored. Our goal is to close this gap by characterizing the \emph{minimax risk of estimating} ${\boldsymbol x}_o$ in high-dimensional settings.
  
-Motivated by insights from sparse regression, we observe that the \emph{structure} of ${\boldsymbol x}_o$ plays a crucial role in determining the estimation error. In this work, we adopt a general notion of structure based on the covering numbers, which is more appropriate for coherent imaging systems.  We show that the minimax mean squared error (MSE) scales as
+Motivated by insights from sparse regression, we observe that the structure of ${\boldsymbol x}_o$ plays a crucial role in determining the estimation error. In this work, we adopt a general notion of structure based on the covering numbers, which is more appropriate for coherent imaging systems.  We show that the minimax mean squared error (MSE) scales as
 $
 \frac{\max(\sigma_z^4,\, m^2,\, n^2)\, k \log n}{m^2 n L},
 $
