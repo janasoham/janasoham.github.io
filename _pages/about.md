@@ -31,17 +31,17 @@ Theoretical and methodological aspects of statistical machine learning, with par
 
 <h2 style="border-bottom: 2px solid #ccc; color: teal;">Recent papers</h2>
 
-Jana, S., Yang, K., & Kulkarni, S. (2025). Adversarially robust clustering with optimality guarantees. Accepted at IEEE Transactions on Information Theory. DOI: 10.1109/TIT.2025.3628160. [Manuscript link](https://arxiv.org/abs/2306.09977).
+Xing, H., Jana, S., \& Maleki, A. (2025). Minimax Analysis of Estimation Problems in Coherent Imaging. arXiv preprint arXiv:2508.18503. [Paper link](https://arxiv.org/abs/2508.18503)
 
-Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Manuscript link](https://janasoham.github.io/files/fiddle.pdf).
+Jana, S., Yang, K., & Kulkarni, S. (2025). Adversarially robust clustering with optimality guarantees. Accepted at IEEE Transactions on Information Theory. DOI: 10.1109/TIT.2025.3628160. [Paper link](https://arxiv.org/abs/2306.09977).
 
-Jana, S., Polyanskiy, Y., & Wu, Y. (2025). Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods. Information and Inference: A Journal of the IMA, Volume 14, Issue 4, December 2025, iaaf027. [Manuscript link](https://arxiv.org/abs/2209.01328).
+Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Paper link](https://janasoham.github.io/files/fiddle.pdf).
 
-Jana, S., Fan, J., & Kulkarni, S (2025). A Provable Initialization and Robust Clustering Method for General Mixture Models. IEEE Transactions on Information Theory, vol. 71, no. 9, pp. 7176-7207, Sept. 2025, doi: 10.1109/TIT.2025.3585804. [Manuscript link](https://ieeexplore.ieee.org/abstract/document/11069307).
+Jana, S., Polyanskiy, Y., & Wu, Y. (2025). Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods. Information and Inference: A Journal of the IMA, Volume 14, Issue 4, December 2025, iaaf027. [Paper link](https://arxiv.org/abs/2209.01328).
 
-Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. arXiv preprint arXiv:2505.23594. [Manuscript link](https://janasoham.github.io/files/multilook.pdf).
+Jana, S., Fan, J., & Kulkarni, S (2025). A Provable Initialization and Robust Clustering Method for General Mixture Models. IEEE Transactions on Information Theory, vol. 71, no. 9, pp. 7176-7207, Sept. 2025, doi: 10.1109/TIT.2025.3585804. [Paper link](https://ieeexplore.ieee.org/abstract/document/11069307).
 
-Tang, S., Jana, S., & Fan, J. (2024). Factor adjusted spectral clustering for mixture models. arXiv preprint arXiv:2408.12564. [Manuscript link](https://janasoham.github.io/files/fasc.pdf).
+Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. arXiv preprint arXiv:2505.23594. [Paper link](https://janasoham.github.io/files/multilook.pdf).
 
 
 
