@@ -31,7 +31,7 @@ Theoretical and methodological aspects of statistical machine learning, with par
 
 <h2 style="border-bottom: 2px solid #ccc; color: teal;">Recent papers</h2>
 
-Xing, H., Jana, S., \& Maleki, A. (2025). Minimax Analysis of Estimation Problems in Coherent Imaging. arXiv preprint arXiv:2508.18503. [Paper link](https://arxiv.org/abs/2508.18503).
+Xing, H., Jana, S., & Maleki, A. (2025). Minimax Analysis of Estimation Problems in Coherent Imaging. arXiv preprint arXiv:2508.18503. [Paper link](https://arxiv.org/abs/2508.18503).
 
 Jana, S., Yang, K., & Kulkarni, S. (2025). Adversarially robust clustering with optimality guarantees. Accepted at IEEE Transactions on Information Theory. DOI: 10.1109/TIT.2025.3628160. [Paper link](https://arxiv.org/abs/2306.09977).
 
