@@ -8,7 +8,7 @@ venue: 'Preprint'
 topic: 'computational_imaging'
 citation: 'with Hao Xing and Arian Maleki'
 
-paperurl: "https://janasoham.github.io/files/minimax_coherent.pdf"
+paperurl: "https://arxiv.org/pdf/2508.18503"
 
 ---
 
