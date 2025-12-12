@@ -33,7 +33,7 @@ Theoretical and methodological aspects of statistical machine learning, with par
 
 Xing, H., Jana, S., & Maleki, A. (2025). Minimax Analysis of Estimation Problems in Coherent Imaging. arXiv preprint arXiv:2508.18503. [Paper link](https://arxiv.org/abs/2508.18503).
 
-Jana, S., Yang, K., & Kulkarni, S. (2025+). Adversarially robust clustering with optimality guarantees. To appear at IEEE Transactions on Information Theory. DOI: 10.1109/TIT.2025.3628160. [Paper link]([https://arxiv.org/abs/2306.09977](https://ieeexplore.ieee.org/document/11224395).
+Jana, S., Yang, K., & Kulkarni, S. (2025+). Adversarially robust clustering with optimality guarantees. To appear at IEEE Transactions on Information Theory. DOI: 10.1109/TIT.2025.3628160. [Paper link](https://ieeexplore.ieee.org/document/11224395).
 
 Fan, J., Jana, S., Kulkarni, S., & Yin, Q. (2025). Factor Informed Double Deep Learning For Average Treatment Effect Estimation. arXiv preprint arXiv:2508.17136. [Paper link](https://janasoham.github.io/files/fiddle.pdf).
 
