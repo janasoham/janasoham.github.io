@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.26)  27 MAR 2026 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.26)  27 MAR 2026 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,6 +327,15 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \c@EM@itemctr=\count302
 \c@EM@etaremunectr=\count303
 )
+(C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip71
+\enit@outerparindent=\dimen172
+\enit@toks=\toks42
+\enit@inbox=\box63
+\enit@count@id=\count304
+\enitdp@description=\count305
+)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
 .sty
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
@@ -335,13 +344,13 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ty
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
 l-common.tex
-\pgfutil@everybye=\toks42
-\pgfutil@tempdima=\dimen172
-\pgfutil@tempdimb=\dimen173
+\pgfutil@everybye=\toks43
+\pgfutil@tempdima=\dimen173
+\pgfutil@tempdimb=\dimen174
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
 l-latex.def
-\pgfutil@abb=\box63
+\pgfutil@abb=\box64
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs
 .code.tex
@@ -361,33 +370,33 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
 s.code.tex
-\pgfkeys@pathtoks=\toks43
-\pgfkeys@temptoks=\toks44
+\pgfkeys@pathtoks=\toks44
+\pgfkeys@temptoks=\toks45
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
 slibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks45
+\pgfkeys@tmptoks=\toks46
 ))
-\pgf@x=\dimen174
-\pgf@y=\dimen175
-\pgf@xa=\dimen176
-\pgf@ya=\dimen177
-\pgf@xb=\dimen178
-\pgf@yb=\dimen179
-\pgf@xc=\dimen180
-\pgf@yc=\dimen181
-\pgf@xd=\dimen182
-\pgf@yd=\dimen183
+\pgf@x=\dimen175
+\pgf@y=\dimen176
+\pgf@xa=\dimen177
+\pgf@ya=\dimen178
+\pgf@xb=\dimen179
+\pgf@yb=\dimen180
+\pgf@xc=\dimen181
+\pgf@yc=\dimen182
+\pgf@xd=\dimen183
+\pgf@yd=\dimen184
 \w@pgf@writea=\write5
 \r@pgf@reada=\read3
-\c@pgf@counta=\count304
-\c@pgf@countb=\count305
-\c@pgf@countc=\count306
-\c@pgf@countd=\count307
-\t@pgf@toka=\toks46
-\t@pgf@tokb=\toks47
-\t@pgf@tokc=\toks48
-\pgf@sys@id@count=\count308
+\c@pgf@counta=\count306
+\c@pgf@countb=\count307
+\c@pgf@countc=\count308
+\c@pgf@countd=\count309
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
+\pgf@sys@id@count=\count310
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.
 cfg
@@ -406,8 +415,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
 yssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count309
-\pgfsyssoftpath@bigbuffer@items=\count310
+\pgfsyssoftpath@smallbuffer@items=\count311
+\pgfsyssoftpath@bigbuffer@items=\count312
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
 ysprotocol.code.tex
@@ -444,12 +453,12 @@ e.tex
 .code.tex)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpars
 er.code.tex
-\pgfmath@dimen=\dimen184
-\pgfmath@count=\count311
-\pgfmath@box=\box64
-\pgfmath@toks=\toks49
-\pgfmath@stack@operand=\toks50
-\pgfmath@stack@operation=\toks51
+\pgfmath@dimen=\dimen185
+\pgfmath@count=\count313
+\pgfmath@box=\box65
+\pgfmath@toks=\toks50
+\pgfmath@stack@operand=\toks51
+\pgfmath@stack@operation=\toks52
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
 tions.code.tex)
@@ -473,59 +482,59 @@ tions.integerarithmetics.code.tex)
 .code.tex)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloa
 t.code.tex
-\c@pgfmathroundto@lastzeros=\count312
+\c@pgfmathroundto@lastzeros=\count314
 ))
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code
 .tex)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 repoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen185
-\pgf@picmaxx=\dimen186
-\pgf@picminy=\dimen187
-\pgf@picmaxy=\dimen188
-\pgf@pathminx=\dimen189
-\pgf@pathmaxx=\dimen190
-\pgf@pathminy=\dimen191
-\pgf@pathmaxy=\dimen192
-\pgf@xx=\dimen193
-\pgf@xy=\dimen194
-\pgf@yx=\dimen195
-\pgf@yy=\dimen196
-\pgf@zx=\dimen197
-\pgf@zy=\dimen198
+\pgf@picminx=\dimen186
+\pgf@picmaxx=\dimen187
+\pgf@picminy=\dimen188
+\pgf@picmaxy=\dimen189
+\pgf@pathminx=\dimen190
+\pgf@pathmaxx=\dimen191
+\pgf@pathminy=\dimen192
+\pgf@pathmaxy=\dimen193
+\pgf@xx=\dimen194
+\pgf@xy=\dimen195
+\pgf@yx=\dimen196
+\pgf@yy=\dimen197
+\pgf@zx=\dimen198
+\pgf@zy=\dimen199
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 repathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen199
-\pgf@path@lasty=\dimen256
+\pgf@path@lastx=\dimen256
+\pgf@path@lasty=\dimen257
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 repathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen257
-\pgf@shorten@start@additional=\dimen258
+\pgf@shorten@end@additional=\dimen258
+\pgf@shorten@start@additional=\dimen259
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 rescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box65
-\pgf@hbox=\box66
-\pgf@layerbox@main=\box67
-\pgf@picture@serial@count=\count313
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count315
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 regraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen259
+\pgflinewidth=\dimen260
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 retransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen260
-\pgf@pt@y=\dimen261
-\pgf@pt@temp=\dimen262
+\pgf@pt@x=\dimen261
+\pgf@pt@y=\dimen262
+\pgf@pt@temp=\dimen263
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 requick.code.tex
@@ -542,14 +551,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 rearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen263
+\pgfarrowsep=\dimen264
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 reshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen264
-\pgf@sys@shading@range@num=\count314
-\pgf@shadingcount=\count315
+\pgf@max=\dimen265
+\pgf@sys@shading@range@num=\count316
+\pgf@shadingcount=\count317
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 reimage.code.tex
@@ -558,7 +567,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 reexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box68
+\pgfexternal@startupbox=\box69
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
 relayers.code.tex
@@ -579,7 +588,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 eshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box69
+\pgfnodeparttextbox=\box70
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 eplot.code.tex
@@ -588,8 +597,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
 omp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen265
-\pgf@nodesepend=\dimen266
+\pgf@nodesepstart=\dimen266
+\pgf@nodesepend=\dimen267
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
 omp-version-1-18.sty
@@ -607,10 +616,10 @@ e.tex))
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
 .code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen267
-\pgffor@skip=\dimen268
-\pgffor@stack=\toks52
-\pgffor@toks=\toks53
+\pgffor@iter=\dimen268
+\pgffor@skip=\dimen269
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
 ))
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
 kz\tikz.code.tex
@@ -619,34 +628,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
 raryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count316
-\pgfplotmarksize=\dimen269
+\pgf@plot@mark@count=\count318
+\pgfplotmarksize=\dimen270
 )
-\tikz@lastx=\dimen270
-\tikz@lasty=\dimen271
-\tikz@lastxsaved=\dimen272
-\tikz@lastysaved=\dimen273
-\tikz@lastmovetox=\dimen274
-\tikz@lastmovetoy=\dimen275
-\tikzleveldistance=\dimen276
-\tikzsiblingdistance=\dimen277
-\tikz@figbox=\box70
-\tikz@figbox@bg=\box71
-\tikz@tempbox=\box72
-\tikz@tempbox@bg=\box73
-\tikztreelevel=\count317
-\tikznumberofchildren=\count318
-\tikznumberofcurrentchild=\count319
-\tikz@fig@count=\count320
+\tikz@lastx=\dimen271
+\tikz@lasty=\dimen272
+\tikz@lastxsaved=\dimen273
+\tikz@lastysaved=\dimen274
+\tikz@lastmovetox=\dimen275
+\tikz@lastmovetoy=\dimen276
+\tikzleveldistance=\dimen277
+\tikzsiblingdistance=\dimen278
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count319
+\tikznumberofchildren=\count320
+\tikznumberofcurrentchild=\count321
+\tikz@fig@count=\count322
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
 ematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count321
-\pgfmatrixcurrentcolumn=\count322
-\pgf@matrix@numberofcolumns=\count323
+\pgfmatrixcurrentrow=\count323
+\pgfmatrixcurrentcolumn=\count324
+\pgf@matrix@numberofcolumns=\count325
 )
-\tikz@expandcount=\count324
+\tikz@expandcount=\count326
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
 kz/libraries\tikzlibrarytopaths.code.tex
@@ -659,7 +668,7 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
 raryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen278
+\arrowsize=\dimen279
 ))
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
@@ -709,20 +718,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 y
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count325
+\c@section@level=\count327
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count326
+\etb@tempcnta=\count328
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.
 sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen279
-\Hy@linkcounter=\count327
-\Hy@pagecounter=\count328
+\@linkdim=\dimen280
+\Hy@linkcounter=\count329
+\Hy@pagecounter=\count330
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
@@ -732,7 +741,7 @@ Now handling font encoding PD1 ...
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count329
+\Hy@SavedSpaceFactor=\count331
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -750,14 +759,14 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count330
+\c@Hy@tempcnt=\count332
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen280
+\XeTeXLinkMargin=\dimen281
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -767,9 +776,9 @@ c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count331
-\Field@Width=\dimen281
-\Fld@charsize=\dimen282
+\Fld@menulength=\count333
+\Field@Width=\dimen282
+\Fld@charsize=\dimen283
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -782,9 +791,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count332
-\c@Item=\count333
-\c@Hfootnote=\count334
+\Hy@abspage=\count334
+\c@Item=\count335
+\c@Hfootnote=\count336
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -795,8 +804,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count335
-\c@bookmark@seq@number=\count336
+\Fld@listcount=\count337
+\c@bookmark@seq@number=\count338
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
 lecheck.sty
@@ -809,7 +818,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip71
+\Hy@SectionHShift=\skip72
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xy.sty
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xy.tex
@@ -822,51 +831,51 @@ Bootstrap'ing: catcodes, docmode,
  Xy-pic is free software: see the User's Guide for details.
 
 Loading kernel: messages; fonts; allocations: state,
-\X@c=\dimen283
-\Y@c=\dimen284
-\U@c=\dimen285
-\D@c=\dimen286
-\L@c=\dimen287
-\R@c=\dimen288
-\Edge@c=\toks54
-\X@p=\dimen289
-\Y@p=\dimen290
-\U@p=\dimen291
-\D@p=\dimen292
-\L@p=\dimen293
-\R@p=\dimen294
-\Edge@p=\toks55
-\X@origin=\dimen295
-\Y@origin=\dimen296
-\X@xbase=\dimen297
-\Y@xbase=\dimen298
-\X@ybase=\dimen299
-\Y@ybase=\dimen300
-\X@min=\dimen301
-\Y@min=\dimen302
-\X@max=\dimen303
-\Y@max=\dimen304
-\lastobjectbox@=\box74
-\zerodotbox@=\box75
-\almostz@=\dimen305
+\X@c=\dimen284
+\Y@c=\dimen285
+\U@c=\dimen286
+\D@c=\dimen287
+\L@c=\dimen288
+\R@c=\dimen289
+\Edge@c=\toks55
+\X@p=\dimen290
+\Y@p=\dimen291
+\U@p=\dimen292
+\D@p=\dimen293
+\L@p=\dimen294
+\R@p=\dimen295
+\Edge@p=\toks56
+\X@origin=\dimen296
+\Y@origin=\dimen297
+\X@xbase=\dimen298
+\Y@xbase=\dimen299
+\X@ybase=\dimen300
+\Y@ybase=\dimen301
+\X@min=\dimen302
+\Y@min=\dimen303
+\X@max=\dimen304
+\Y@max=\dimen305
+\lastobjectbox@=\box75
+\zerodotbox@=\box76
+\almostz@=\dimen306
  direction,
-\d@X=\dimen306
-\d@Y=\dimen307
-\K@=\count337
-\KK@=\count338
-\Direction=\count339
-\K@dXdY=\dimen308
-\K@dYdX=\dimen309
+\d@X=\dimen307
+\d@Y=\dimen308
+\K@=\count339
+\KK@=\count340
+\Direction=\count341
+\K@dXdY=\dimen309
+\K@dYdX=\dimen310
 \xyread@=\read4
 \xywrite@=\write6
-\csp@=\count340
-\quotPTK@=\dimen310
+\csp@=\count342
+\quotPTK@=\dimen311
 
 utility macros; pictures: \xy, positions,
-\swaptoks@@=\toks56
-\connectobjectbox@@=\box76
+\swaptoks@@=\toks57
+\connectobjectbox@@=\box77
  objects,
-\styletoks@=\toks57
+\styletoks@=\toks58
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
@@ -876,15 +885,15 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: All features v.3.8
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xycurve.tex
  Xy-pic option: Curve and Spline extension v.3.12 curve,
-\crv@cnt@=\count341
-\crvpts@=\toks58
-\splinebox@=\box77
-\splineval@=\dimen311
-\splinedepth@=\dimen312
-\splinetol@=\dimen313
-\splinelength@=\dimen314
+\crv@cnt@=\count343
+\crvpts@=\toks59
+\splinebox@=\box78
+\splineval@=\dimen312
+\splinedepth@=\dimen313
+\splinetol@=\dimen314
+\splinelength@=\dimen315
  circles,
-\L@=\dimen315
+\L@=\dimen316
  loaded)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyframe.tex
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
@@ -894,7 +903,7 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyline.tex
  Xy-pic option: Line styles extension v.3.10
-\xylinethick@=\dimen316
+\xylinethick@=\dimen317
  loaded)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyrotate.tex
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
@@ -902,13 +911,13 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: Colour extension v.3.11 loaded)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xymatrix.tex
  Xy-pic option: Matrix feature v.3.14
-\Row=\count342
-\Col=\count343
-\queue@=\toks59
-\queue@@=\toks60
-\qcount@=\count344
-\qcount@@=\count345
-\matrixsize@=\count346
+\Row=\count344
+\Col=\count345
+\queue@=\toks60
+\queue@@=\toks61
+\qcount@=\count346
+\qcount@@=\count347
+\matrixsize@=\count348
  loaded)
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/generic/xypic\xyarrow.tex
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
@@ -931,31 +940,31 @@ y
 Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
  (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count347
-\calc@Bcount=\count348
-\calc@Adimen=\dimen317
-\calc@Bdimen=\dimen318
-\calc@Askip=\skip72
-\calc@Bskip=\skip73
+\calc@Acount=\count349
+\calc@Bcount=\count350
+\calc@Adimen=\dimen318
+\calc@Bdimen=\dimen319
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count349
-\calc@Cskip=\skip74
+\calc@Ccount=\count351
+\calc@Cskip=\skip75
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count350
-\l_MT_multwidth_dim=\dimen319
-\origjot=\skip75
-\l_MT_shortvdotswithinadjustabove_dim=\dimen320
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen321
-\l_MT_above_intertext_sep=\dimen322
-\l_MT_below_intertext_sep=\dimen323
-\l_MT_above_shortintertext_sep=\dimen324
-\l_MT_below_shortintertext_sep=\dimen325
-\xmathstrut@box=\box78
-\xmathstrut@dim=\dimen326
+\g_MT_multlinerow_int=\count352
+\l_MT_multwidth_dim=\dimen320
+\origjot=\skip76
+\l_MT_shortvdotswithinadjustabove_dim=\dimen321
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen322
+\l_MT_above_intertext_sep=\dimen323
+\l_MT_below_intertext_sep=\dimen324
+\l_MT_above_shortintertext_sep=\dimen325
+\l_MT_below_shortintertext_sep=\dimen326
+\xmathstrut@box=\box79
+\xmathstrut@dim=\dimen327
 ) (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup7
@@ -967,37 +976,37 @@ Package bm Info: No bold for \U/msb/m/n, using \pmb.
 Package bm Info: No bold for \U/rsfs/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-\c@theorem=\count351
-\c@definition=\count352
-\c@example=\count353
-\c@remark=\count354
+\c@theorem=\count353
+\c@definition=\count354
+\c@example=\count355
+\c@remark=\count356
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
 ftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count355
-\l__pdf_internal_box=\box79
+\l__color_backend_stack_int=\count357
+\l__pdf_internal_box=\box80
 ) (resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 686.
-LaTeX Font Info:    ... okay on input line 686.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 688.
+LaTeX Font Info:    ... okay on input line 688.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1037,17 +1046,17 @@ LaTeX Font Info:    ... okay on input line 686.
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count356
-\scratchdimen=\dimen327
-\scratchbox=\box80
-\nofMPsegments=\count357
-\nofMParguments=\count358
-\everyMPshowfont=\toks61
-\MPscratchCnt=\count359
-\MPscratchDim=\dimen328
-\MPnumerator=\count360
-\makeMPintoPDFobject=\count361
-\everyMPtoPDFconversion=\toks62
+\scratchcounter=\count358
+\scratchdimen=\dimen328
+\scratchbox=\box81
+\nofMPsegments=\count359
+\nofMParguments=\count360
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count361
+\MPscratchDim=\dimen329
+\MPnumerator=\count362
+\makeMPintoPDFobject=\count363
+\everyMPtoPDFconversion=\toks63
 )
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
@@ -1059,40 +1068,30 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 686.
+Package hyperref Info: Link coloring ON on input line 688.
  (resume.out) (resume.out)
 \@outlinefile=\write7
 \openout7 = `resume.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 686
+LaTeX Font Info:    Trying to load font information for U+msa on input line 688
 .
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 686
+LaTeX Font Info:    Trying to load font information for U+msb on input line 688
 .
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 68
-6.
+8.
 
 (C:\Users\sjana2\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Package xypdf Info: Line width: 0.47998pt on input line 686.
-
-Underfull \hbox (badness 10000) in paragraph at lines 708--712
-
- []
-
-
-Overfull \hbox (9.83739pt too wide) in paragraph at lines 700--714
-$[]$  $[]$
- []
-
+Package xypdf Info: Line width: 0.47998pt on input line 688.
 
 
 [1
@@ -1100,19 +1099,13 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {C:/Users/sjana2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (28.93684pt too wide) in paragraph at lines 787--788
-\OT1/cmr/bx/n/12 Learn-ing For Av-er-age Treat-ment Ef-fect Es-ti-ma-tion[][]\O
-T1/cmr/m/n/12 . arXiv preprint arXiv:2508.17136. 
- []
-
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.820 				
+l.826 				
            [2]
 
 
@@ -1120,10 +1113,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.890 				\item C
-                 onference on Learning Theory (COLT) \hfill July 2023\\
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 919--921
+l.895 				
+           [3]
+Underfull \hbox (badness 10000) in paragraph at lines 925--927
 
  []
 
@@ -1134,7 +1126,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.986 				
+l.989 				
            [4]
 
 
@@ -1142,7 +1134,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1099 		\end{document}
+l.1105 		\end{document}
                         [5] (resume.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
@@ -1152,13 +1144,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26634 strings out of 473899
- 475728 string characters out of 5726028
- 1936960 words of memory out of 5000000
- 48955 multiletter control sequences out of 15000+600000
- 568072 words of font info for 77 fonts, out of 8000000 for 9000
+ 27002 strings out of 473899
+ 481927 string characters out of 5726028
+ 1937960 words of memory out of 5000000
+ 49303 multiletter control sequences out of 15000+600000
+ 573928 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,5n,93p,3220b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,93p,3220b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sjana2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb><C:/Users/sjana2/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr12.pfb><C:/Users/sjana2/AppData/Local/Programs/MiKTeX/fonts/type1
@@ -1166,9 +1158,9 @@ msfonts/cm/cmr12.pfb><C:/Users/sjana2/AppData/Local/Programs/MiKTeX/fonts/type1
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sjana2/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sjana2/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on resume.pdf (5 pages, 107825 bytes).
+Output written on resume.pdf (5 pages, 110904 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
