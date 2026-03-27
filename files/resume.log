@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.26)  27 MAR 2026 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.26)  27 MAR 2026 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1144,11 +1144,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27002 strings out of 473899
- 481927 string characters out of 5726028
+ 27003 strings out of 473899
+ 481944 string characters out of 5726028
  1937960 words of memory out of 5000000
- 49303 multiletter control sequences out of 15000+600000
- 573928 words of font info for 100 fonts, out of 8000000 for 9000
+ 49304 multiletter control sequences out of 15000+600000
+ 574227 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,6n,93p,3220b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/sjana2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
@@ -1158,7 +1158,7 @@ msfonts/cm/cmr12.pfb><C:/Users/sjana2/AppData/Local/Programs/MiKTeX/fonts/type1
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sjana2/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sjana2/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on resume.pdf (5 pages, 110904 bytes).
+Output written on resume.pdf (5 pages, 110902 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
