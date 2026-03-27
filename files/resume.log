@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.26)  27 MAR 2026 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.26)  27 MAR 2026 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1093,11 +1093,6 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 Package xypdf Info: Line width: 0.47998pt on input line 688.
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--708
-
- []
-
-
 
 [1
 Non-PDF special ignored!
@@ -1110,7 +1105,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.826 				
+l.825 				
            [2]
 
 
@@ -1118,7 +1113,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.895 				
+l.894 				
            [3]
 
 
@@ -1126,7 +1121,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.990 				{\it J
+l.989 				{\it J
                 oint Statistical Meetings} \hfill August 2025\\ [4]
 
 
@@ -1134,7 +1129,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1105 		\end{document}
+l.1104 		\end{document}
                         [5] (resume.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
@@ -1158,7 +1153,7 @@ msfonts/cm/cmr12.pfb><C:/Users/sjana2/AppData/Local/Programs/MiKTeX/fonts/type1
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sjana2/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sjana2/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on resume.pdf (5 pages, 110904 bytes).
+Output written on resume.pdf (5 pages, 110898 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
