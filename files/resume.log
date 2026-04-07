@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  6 APR 2026 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  6 APR 2026 22:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1093,25 +1093,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.825 				
-           [2]
+l.822 				\item F
+                 an, J., Jana, S., Kulkarni, S., \& Yin, Q. (2025). \href{ht...
+[2]
+Overfull \hbox (14.57588pt too wide) in paragraph at lines 822--823
+\OT1/cmr/bx/n/12 Learn-ing For Av-er-age Treat-ment Ef-fect Es-ti-ma-tion[][]\O
+T1/cmr/m/n/12 . arXiv preprint arXiv:2508.17136. 
+ []
+
+
+Overfull \hbox (28.3592pt too wide) in paragraph at lines 824--825
+\OT1/cmr/bx/n/12 ent Imag-ing: The-o-ret-i-cal Guar-an-tees and Al-go-rithms[][
+]\OT1/cmr/m/n/12 . arXiv preprint arXiv:2505.23594.
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.894 				
-           [3]
+l.889 				\item U
+                 niversity of Texas at Dallas Statistics Department Seminar
+[3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.990 				{\it J
-                oint Statistical Meetings} \hfill August 2025\\ [4]
+l.988 				{\it C
+                FE-CMStatistics Conference} \hfill December 2025\\ [4]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1105 		\end{document}
+l.1106 		\end{document}
                         [5] (resume.aux)
  ***********
 LaTeX2e <2023-11-01>
@@ -1121,13 +1135,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26916 strings out of 474587
- 480530 string characters out of 5745702
+ 26918 strings out of 474587
+ 480576 string characters out of 5745702
  1935558 words of memory out of 5000000
- 48525 multiletter control sequences out of 15000+600000
+ 48527 multiletter control sequences out of 15000+600000
  574227 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,93p,3220b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,93p,3220b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1135,9 +1149,9 @@ blic/amsfonts/cm/cmr17.pfb><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/soham/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/soham/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on resume.pdf (5 pages, 110898 bytes).
+Output written on resume.pdf (5 pages, 111185 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
