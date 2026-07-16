@@ -1,0 +1,552 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage[left=1in, right=1in, bottom=1in, top=1in]{geometry}
+\pagenumbering{arabic}
+
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.5em}
+\setlist[enumerate]{leftmargin=1.5em}
+
+\usepackage{xspace}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+
+\usepackage[
+  colorlinks=true,
+  citecolor=blue,
+  linkcolor=blue,
+  urlcolor=blue,
+  pdfauthor={Soham Jana}
+]{hyperref}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\itshape}{}{0em}{}
+\titlespacing{\section}{0pt}{1.2ex plus .5ex minus .2ex}{0.6ex plus .2ex}
+\titlespacing{\subsection}{0pt}{0.8ex plus .3ex minus .2ex}{0.3ex plus .1ex}
+\titlespacing{\subsubsection}{0pt}{0.6ex plus .2ex minus .1ex}{0.2ex plus .1ex}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small Soham Jana --- Curriculum Vitae}
+\rfoot{\small Page \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\cvitem}[2]{%
+  \noindent\textbf{#1}\hfill #2\\
+}
+
+% Symbol legend for authors
+% $ = undergraduate student
+% @ = graduate student
+% \% = postdoctoral research associate
+% \dag = senior personnel / faculty
+% * = corresponding author
+% \# = co-author who served as formal mentor
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Date}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent Prepared: \today
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Name, Contact, and Web Information}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\begin{minipage}[t]{3.2in}
+  \textbf{\Large Soham Jana}\\[0.3ex]
+  Assistant Professor\\
+  Department of Applied and \\ Computational Mathematics and Statistics\\
+  University of Notre Dame\\
+  101 E Crowley Hall, Notre Dame, IN 46556, USA
+\end{minipage}
+\hfill
+\begin{minipage}[t]{3in}
+  \raggedleft
+  Phone: +1 574-631-5503\\
+  Email: \href{mailto:sjana2@nd.edu}{sjana2@nd.edu}\\
+  Website: \href{https://janasoham.github.io/}{janasoham.github.io}\\
+  Google Scholar: \href{https://scholar.google.com/citations?hl=en&user=-ggEEqwAAAAJ}{https://scholar.google.com/
+  	citations?user=-ggEEqwAAAAJ\&hl=en}
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Summary Statement}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent
+My research focuses on the theoretical and methodological aspects of high-dimensional statistics, with particular emphasis on mixture modeling, neural networks, distance-based estimators, and information-theoretic methods. I develop statistically optimal procedures for problems such as empirical Bayes estimation, clustering, nonparametric and distribution learning, and study their fundamental limits. I teach undergraduate probability and graduate-level machine learning courses, and actively mentor students in research.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Education and Postdoctoral Appointments}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item \textbf{Postdoctoral Researcher}, Princeton University, Princeton, NJ, USA \hfill June 2022 -- July 2024\\
+  Department of Operations Research and Financial Engineering\\
+  Supervisors: Prof.\ Sanjeev Kulkarni and Prof.\ Jianqing Fan
+
+  \item \textbf{PhD in Statistics and Data Science}, Yale University, New Haven, CT, USA \hfill May 2022\\
+  Dissertation: \textit{Learning non-parametric and high-dimensional distributions\\ via information-theoretic methods}\\
+  Advisor: Prof.\ Yihong Wu
+
+  \item \textbf{Master of Statistics (Hons.)} (First class with distinction), \hfill May 2017\\  
+  Indian Statistical Institute, Kolkata, India\\
+  Specialization: Theoretical Statistics\\
+  Dissertation: \textit{Characterization of single-integral non-kernel divergences}\\
+  Advisor: Prof.\ Ayanendranath Basu
+
+  \item \textbf{Bachelor of Statistics (Hons.)} (First class with Distinction), \hfill May 2015\\
+  Indian Statistical Institute, Kolkata, India
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Employment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item \textbf{University of Notre Dame}, Notre Dame, IN, USA\\
+  Assistant Professor, Department of Applied and \hfill August 2024 -- Present\\
+  Computational Mathematics and Statistics
+
+  \item \textbf{Princeton University}, Princeton, NJ, USA\\
+  Postdoctoral Researcher, Department of Operations Research and \hfill June 2022 -- July 2024\\
+   Financial Engineering \\
+  (Supervisors: Prof.\ Sanjeev Kulkarni and Prof.\ Jianqing Fan)
+
+  \quad Researcher, The First Republic Bank Research and Lifelong Learning Program \hfill June 2022 -- May 2023
+
+  \quad Lecturer \hfill Spring 2023, Fall 2023
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{Teaching Awards, Honors, and Fellowships}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Predoctoral Awards, Honors, and Fellowships}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item INSPIRE Scholarship, Government of India \hfill 2012 -- 2017
+%
+%  \item Indian National Mathematical Olympiad (INMO) Merit Certificate \hfill 2012\\
+%  (Awarded for ranking among the top 75 students in INMO)
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Grants, Fellowships, and Other Funding}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\textbf{Internal (University of Notre Dame)}
+
+\noindent\textit{Education and Outreach}
+\begin{itemize}[leftmargin=0pt, label={}]
+	\item Kaneb Center Course Design Academy, University of Notre Dame \hfill 2024 -- 2025\\
+	\textit{Professional development fellowship. Award amount: USD 5,000.}
+\end{itemize}
+%
+%\begin{itemize}
+%  \item \textbf{Role:} Principal investigator.\\
+%  \textbf{Title:} Kaneb Center Course Design Academy.\\
+%  \textbf{Source:} University of Notre Dame, Kaneb Center for Teaching Excellence.\\
+%  \textbf{Award amount:} USD 5,000 (direct).\\
+%  \textbf{Period:} 2024 -- 2025.
+%\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Publications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\textbf{Legend for author symbols:}
+\begin{itemize}
+  \item[@] = graduate student
+  \item[\%] = postdoctoral research associate
+  \item[$\dagger$] = senior personnel (faculty or research staff)
+  \item[*] = corresponding author
+  \item[\#] = co-author who served as formal mentor (PhD advisor, postdoctoral supervisor).
+\end{itemize}
+
+\noindent All publications are listed with most recent first within each category. Abbreviations spelled out: NeurIPS = Neural Information Processing Systems; PMLR = Proceedings of Machine Learning Research; IMA = Institute of Mathematics and its Applications.
+
+\smallskip
+\noindent\textit{Note on publication quartiles: Quartile rankings are based on SCImago Journal Rank (SJR). Q1 = top 25\%.}
+
+\subsection*{Peer Reviewed}
+
+\subsubsection*{Original Research (Journal Publications)}
+
+\begin{enumerate}[leftmargin=*,label=J\arabic*.]
+
+  \item Jana, S.$^*$, Yang, K.$^\%$, \& Kulkarni, S.$^{\#\dagger}$ (2026). \textbf{Adversarially robust clustering with optimality guarantees}. \textit{IEEE Transactions on Information Theory}, vol.\ 72, no.\ 1, pp.\ 478--500, Jan.\ 2026. doi: \href{https://doi.org/10.1109/TIT.2025.3628160}{10.1109/TIT.2025.3628160}.\\
+  \textit{Journal quartile: Q1 (SJR).}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Methodology, Formal analysis, Writing -- original draft, review \& editing. S.~Kulkarni: Conceptualization, Supervision, Writing -- review \& editing.}
+
+  \item Jana, S.$^*$, Polyanskiy, Y.$^{\dagger}$, \& Wu, Y.$^{\#\dagger}$ (2025). \textbf{Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods}. \textit{Information and Inference: A Journal of the IMA}, Volume 14, Issue 4, December 2025, iaaf027. doi: \href{https://doi.org/10.1093/imaiai/iaaf027}{10.1093/imaiai/iaaf027}.\\
+  \textit{Journal quartile: Q1 (SJR).}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Validation, Visualization, Writing -- original draft, review \& editing. Y.~Wu: Conceptualization, Supervision, Writing -- review \& editing.}
+
+  \item Jana, S.$^*$, Fan, J.$^{\#\dagger}$, \& Kulkarni, S.$^{\#\dagger}$ (2025). {\textbf{A provable initialization and robust clustering method for general mixture models}}. \textit{IEEE Transactions on Information Theory}, vol.\ 71, no.\ 9, pp.\ 7176--7207, Sept.\ 2025. doi: \href{https://doi.org/10.1109/TIT.2025.3585804}{10.1109/TIT.2025.11069307}.\\
+  \textit{Journal quartile: Q1 (SJR).}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Validation, Visualization, Writing -- original draft, review \& editing. J.~Fan: Conceptualization, Supervision, Writing -- review \& editing. S.~Kulkarni: Conceptualization, Supervision, Writing -- review \& editing.}
+
+  \item Jana, S.$^*$, Li, H.$^@$, Yamada, Y.$^@$, \& Lindenbaum, O.$^\%$ (2023). {\textbf{Support recovery with Stochastic Gates: theory and application for linear models}}. \textit{Elsevier Signal Processing}, Volume 213, p.109193, ISSN 0165-1684 (2023). doi: \href{https://doi.org/10.1016/j.sigpro.2023.109193}{10.1016/j.sigpro.2023.109193}.\\
+  \textit{Journal quartile: Q2 (SJR).}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Writing -- original draft, review \& editing.}
+
+  \item Han, Y.$^\%$, Jana, S.$^*$, \& Wu, Y.$^{\#\dagger}$ (2023). {\textbf{Optimal Prediction of Markov Chains With and Without Spectral Gap}}. \textit{IEEE Transactions on Information Theory}, vol.\ 69, no.\ 6, pp.\ 3920--3959, June 2023. doi: \href{https://doi.org/10.1109/TIT.2023.3239508}{10.1109/TIT.2023.3239508}.\\
+  \textit{Journal quartile: Q1 (SJR). Extended from the NeurIPS 2021 conference version with analysis of higher-order Markov chains and different loss functions.}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Writing -- original draft, review \& editing. Y.~Wu: Conceptualization, Formal analysis, Writing -- original draft, review \& editing.}
+
+  \item Jana, S.$^*$, \& Basu, A.$^{\#\dagger}$ (2019). {\textbf{A characterization of all single-integral, non-kernel divergence estimators}}. \textit{IEEE Transactions on Information Theory}, 65(12), 7976--7984. doi: \href{https://doi.org/10.1109/TIT.2019.2937527}{10.1109/TIT.2019.2937527}.\\
+  \textit{Journal quartile: Q1 (SJR)}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Writing -- original draft. A.~Basu: Conceptualization, Supervision, Writing -- review \& editing.}
+
+\end{enumerate}
+%
+%\subsubsection*{Review, Expository, and Survey Articles}
+%
+%\noindent None.
+
+\subsubsection*{Conference Proceedings (Peer Reviewed)}
+
+\begin{enumerate}[leftmargin=*,label=C\arabic*.]
+
+  \item Jana, S., Polyanskiy, Y.$^{\dagger}$, Teh, A.$^{*@}$, \& Wu, Y.$^{\#\dagger}$ (2023). {\textbf{Empirical Bayes via ERM and Rademacher complexities: the Poisson model}}. In \textit{Conference on Learning Theory (COLT) 2023}, Bangalore, India, Jul.\ 2023. PMLR 195:5199--5235.\\
+  \textit{Conference quartile: Q1 (top venue in learning theory).}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Writing -- original draft, review \& editing. Y.~Wu: Conceptualization, Supervision, Writing -- review \& editing.}
+
+  \item Han, Y.$^\%$, Jana, S.$^*$, \& Wu, Y.$^{\#\dagger}$ (2021). {\textbf{Optimal prediction of Markov chains with and without spectral gap}}. In \textit{Neural Information Processing Systems (NeurIPS) 2021}, Virtual.\\
+  \textit{Conference quartile: Q1 (top venue in machine learning).}
+\\
+\textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Writing -- original draft, review \& editing. Y.~Wu: Conceptualization, Formal analysis, Writing -- original draft, review \& editing.}
+
+  \item  Jana, S.$^*$, Polyanskiy, Y.$^{\dagger}$, \& Wu, Y.$^{\#\dagger}$ (2020). {\textbf{Extrapolating the profile of a finite population}}. In \textit{Conference on Learning Theory (COLT) 2020}, Graz, Austria, Jul.\ 2020. PMLR, pp.\ 2011--2033.\\
+  \textit{Conference quartile: Q1 (top venue in learning theory).}\\
+  \textit{Contributions --- S.~Jana: Conceptualization, Formal analysis, Writing -- original draft, review \& editing. Y.~Wu: Conceptualization, Supervision, Writing -- review \& editing.}
+
+\end{enumerate}
+%
+%\subsubsection*{Book Chapters}
+%
+%\noindent None.
+%
+%\subsection*{Non Peer Reviewed}
+%
+%\subsubsection*{White Papers and Technical Reports}
+%
+%\noindent None.
+%
+%\subsubsection*{Commentaries and Perspectives}
+%
+%\noindent None.
+%
+%\subsubsection*{Books}
+%
+%\noindent None.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Works In Progress}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent Items listed in reverse chronological order. All have publicly available preprints (arXiv).
+
+\begin{enumerate}[leftmargin=*,label=P\arabic*.]
+
+  \item Xing, H.$^{\%\ddagger}$, Jana, S.$^{*\ddagger}$, \& Maleki, A.$^\dagger$ (2025). {\textbf{Minimax Analysis of Estimation Problems in Coherent Imaging}}. arXiv:2508.18503. URL: \href{https://arxiv.org/abs/2508.18503}{https://arxiv.org/abs/2508.18503}. \textit{Submission status: Submitted on January 14, 2026 to the IEEE Transactions on Information Theory. Preprint publicly available.} $^{\ddagger}$ These authors contributed equally and share first authorship.\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Writing -- original draft, review \& editing.} 
+
+  \item Fan, J.$^{\#\dagger}$, Jana, S.$^*$, Kulkarni, S.$^{\#\dagger}$, \& Yin, Q.$^@$ (2025). {\textbf{Factor Informed Double Deep Learning For Average Treatment Effect Estimation}}. arXiv:2508.17136. URL: \href{https://arxiv.org/abs/2508.17136}{https://arxiv.org/abs/2508.17136}. \textit{Submission status: Submitted on May 25, 2026 to the Journal of Royal Statistical Society: Series B, Statistical Methodology. Preprint publicly available.}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Writing -- original draft, review \& editing. J.~Fan: Conceptualization, Supervision, Writing -- review \& editing. S.~Kulkarni: Conceptualization, Supervision, Writing -- review \& editing.}
+
+  \item Chen, X.$^{@\ddagger}$, Jana, S.$^{*\ddagger}$, Metzler, C.A.$^\dagger$, Maleki, A.$^\dagger$, \& Jalali, S.$^\dagger$ (2025). {\textbf{Multilook Coherent Imaging: Theoretical Guarantees and Algorithms}}. arXiv:2505.23594. $^{\ddagger}$ These authors contributed equally and share first authorship. URL: \href{https://arxiv.org/abs/2505.23594}{https://arxiv.org/abs/2505.23594}. \textit{Submission status: Submitted on May 28, 2025 to the IEEE Transactions on Information Theory, under major revision.}  \\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Writing -- original draft, review \& editing.} 
+
+  \item Tang, S.$^{@*}$, Jana, S., \& Fan, J.$^{\#\dagger}$ (2024). {\textbf{Factor adjusted spectral clustering for mixture models}}. arXiv:2408.12564. URL: \href{https://arxiv.org/abs/2408.12564}{https://arxiv.org/abs/2408.12564}. \textit{Submission status: Submitted on August 23, 2024 to the Journal of the American Statistical Association (JASA), under major revision.}\\
+  \textit{CRediT Contributions --- S.~Jana: Conceptualization, Formal analysis, Methodology, Writing -- original draft, review \& editing. J.~Fan: Conceptualization, Supervision, Writing -- review \& editing.}
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Professional Talks}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\textbf{Key:} @ = Invited talk; + = Contributed talk;  \& = Poster.
+
+\subsection*{Extramural (Outside Notre Dame)}
+
+\subsubsection*{Conferences and Workshops}
+
+\begin{enumerate}
+
+  \item[@] Statistical Learning and Data Science: Inference and Intelligence. California, USA. \hfill November 2026
+  
+  \item[@] Statistical Foundations of AI. New York, USA. \hfill November 2026
+  
+  
+  \item [@] International Joint Conference on Computational and Financial Econometrics
+  \hfill December 2025
+  \\ and Computational and Methodological Statistics. London, UK.
+
+%  \item[@] IMSI Workshop on Reinforcement Learning from Offline Data and Human Feedback. Chicago, USA. \hfill April 2026
+
+  \item[+] Joint Statistical Meetings. Nashville, TN, USA. \hfill August 2025
+
+  \item[+] IMS New Researchers Conference. Nashville, TN, USA. \hfill July--August 2025
+  
+	
+  \item[@] International Indian Statistical Association (IISA) Annual Conference. Lincoln, NE, USA. \hfill June 2025
+
+  \item[@] International Indian Statistical Association (IISA) Annual Conference. Kerala, India. \hfill December 2024
+
+  \item[+] Joint Statistical Meetings. Portland, OR, USA. \hfill August 2024
+
+  \item[+\&] Conference on Learning Theory (COLT). Bangalore, Karnataka, India. \hfill July 2023\\
+  (Talk accompanying conference proceedings paper; COLT 2023)
+
+  \item[+\&] Neural Information Processing Systems (NeurIPS). Virtual. \hfill December 2021\\
+  (Talk accompanying conference proceedings paper; NeurIPS 2021)
+
+  \item[+\&] Conference on Learning Theory (COLT). Graz, Austria. \hfill July 2020\\
+  (Talk accompanying conference proceedings paper; COLT 2020)
+
+\end{enumerate}
+
+\subsubsection*{Colloquia}
+
+\begin{enumerate}
+
+  \item[@] University of Notre Dame, Statistics Seminar. Notre Dame, IN, USA. \hfill February 2024
+
+  \item[@] University of Wisconsin-Madison, Statistics Department Seminar. Madison, WI, USA. \hfill February 2024
+
+  \item[@] University of Texas at Dallas, Statistics Department Seminar. Richardson, TX, USA. \hfill January 2024
+
+  \item[@] Indian Statistical Institute, ISRU Department Seminar. Kolkata, West Bengal, India. \hfill July 2023
+
+\end{enumerate}
+
+
+\subsection*{Internal (University of Notre Dame)}
+
+\subsubsection*{Seminars} 
+\begin{enumerate}
+	\item[+] Graduate Student Seminar, Mathematics Department. \hfill January 2026 
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Peer-Review and Related Activities}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\textbf{Paper Reviews:}
+\begin{itemize}
+  \item Annals of Statistics (4)
+  \item IEEE Transactions on Information Theory (5)
+  \item Journal of the American Statistical Association (2)
+  \item Neural Information Processing Systems -- NeurIPS (4) 
+  \item Algorithmic Learning Theory (7)
+  \item Electronic Journal of Statistics (2)
+  \item IEEE International Symposium on Information Theory (1)
+  \item Journal of the Royal Statistical Society (2)
+  \item IEEE Transactions on Image Processing (1)
+  \item IEEE Wireless Communications Letters (1)
+  \item Bernoulli (1)
+  \item Statistica Sinica (1)
+  \item Stat -- an ISI Journal (1)
+  \item Journal of Statistical Planning and Inference (1)
+  \item Biometrics (1)
+  \item SIAM Journal on Mathematics of Data Science (1)
+\end{itemize}
+
+\noindent\textbf{Session Organization and Chairing:}
+\begin{itemize}[leftmargin=0pt, label={}]
+  
+  \item CFE-CMStatistics Conference \hfill December 2026 \\
+  Session organizer: \textit{Future directions in computational imaging and machine learning }
+  
+  \item CFE-CMStatistics Conference \hfill December 2025\\ 
+  Session organizer: \textit{Recent Advances in Causal Inference}
+  \item Joint Statistical Meetings \hfill August 2025\\
+  Session chair: \textit{New Advances in Optimization Algorithms for Causal Discovery}
+  \item Joint Statistical Meetings  \hfill August 2024\\
+  Session chair: \textit{New Advances in Nonparametric Hypothesis Testing -- Part I}
+  \item Joint Statistical Meetings \hfill August 2024\\ 
+  Session chair: \textit{New Developments in Non-Euclidean Statistics}
+  \item IEEE Conference on Information Sciences and Systems \hfill March 2024\\ 
+  Session chair: \textit{Machine Learning and Statistical Inference}
+\end{itemize}
+
+\noindent\textbf{Admissions and Evaluation Committees:}
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item Yale S\&DS M.A.\ Admission Committee, Reviewer \hfill 2021\\
+  One of the committee members handling over 150 applications and making admission recommendations.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{Intellectual Property}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\noindent None.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Teaching and Advising}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Brief Overview of Undergraduate and Graduate Teaching}
+
+\noindent I have taught undergraduate probability and graduate-level machine learning courses at the University of Notre Dame (since Fall 2024), and probability and statistical machine learning at Princeton University (2023). My courses range from foundational probability for undergraduates to graduate level courses and seminars on high-dimensional methods and machine learning.
+
+\subsection*{Regular Courses Taught}
+
+\noindent\textbf{University of Notre Dame}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item \textbf{ACMS 30530: Introduction to Probability} \hfill Fa2024, Fa2025, Sp2026\\
+  Typical enrollment: 30--60 students.\\
+  Undergraduate course covering probability spaces, random variables, distributions, expectations, limit theorems, and introductory stochastic processes.
+
+  \item \textbf{ACMS 70100: Machine Learning Methods for High-dimensional Data} \hfill Sp2026\\
+  Typical enrollment: 6 -- 10 students.\\
+  Graduate course covering statistical theory and methods for high-dimensional learning problems, including regularization, mixture models, and information-theoretic approaches.
+
+  \item \textbf{ACMS 80870: Modern Machine Learning Techniques with Application} \hfill Sp2025\\
+  Typical enrollment: 6 -- 10 students.\\
+  Advanced graduate seminar covering modern machine learning theory and methodology with applications to data science problems.
+  
+  \item \textbf{ACMS-67695-07 Directed Master's Project} \hfill Sp2025\\
+  Enrollment: 1 student.\\
+  Application of high dimensional machine learning methods to biological data.
+\end{itemize}
+
+\noindent\textbf{Princeton University}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item \textbf{ORF 309/ENG 309/MAT 380: Probability and Stochastic Systems} \hfill Sp2023\\
+  Typical enrollment: 50--100 students.\\
+  Undergraduate/graduate course covering probability theory, Markov chains, and stochastic processes with engineering applications.
+
+  \item \textbf{ORF 570: Statistical Machine Learning} \hfill Fa2023\\
+  Typical enrollment: 20--40 students.\\
+  Graduate course covering theoretical and computational aspects of statistical learning including nonparametric methods, high-dimensional statistics, and neural networks.
+\end{itemize}
+%
+%\subsection*{Special Teaching}
+%
+%\noindent None.
+
+\subsection*{Curriculum Development}
+
+\noindent Developed ACMS 70100 (Machine Learning Methods for High-dimensional Data) as a new graduate course in the ACMS department at the University of Notre Dame (introduced in Spring 2026).
+
+\subsection*{Academic Advising or Program Coordination}
+
+\noindent I am serving as a faculty research mentor in ACMS at the University of Notre Dame (Fall 2024--present), advising graduate and undergraduate students on research directions in high-dimensional statistics and machine learning.
+
+\subsection*{PhD Students Supervised}
+
+\begin{enumerate}
+	\item Geethu Rajan (April 2026 -- current)
+\end{enumerate}
+%
+%\subsection*{Masters Students Supervised}
+%
+%\noindent None.
+
+\subsection*{Undergraduate Students Supervised}
+
+\begin{enumerate}
+	\item Michael Budd, Summer undergraduate research program (June 2026 -- current)
+\end{enumerate}
+%
+%
+%\subsection*{Postdoctoral Researchers Supervised}
+%
+%\noindent None.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Department, College, and University Service}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent Abbreviations spelled out: COSE = Colleges of Science and Engineering; DAC = Data, AI, and Computing; ASA = American Statistical Association.
+\begin{itemize}[leftmargin=0pt, label={}]
+	
+	
+  \item Committee member for Ph.D. candidacy of ACMS student (Zhehao Liang)
+  \hfill  Sp2026
+  \item ASA DataFest at Notre Dame -- organized by the ACMS Department
+  \hfill Sp2026 -- present\\
+  Served as a mentor in this undergraduate data analysis competition
+  \item ACMS Department -- Statistics seminar chair \hfill August 2025 -- Present
+  \item COSE Research Horizons Poster Presentation Judging \hfill December 2025
+  \item DAC Working Group on AI Foundations --  Served in the core committee
+  \hfill 2025 -- 2026\\
+  Responsibilities: Identify funding opportunities, helped organize AI Foundations mini symposium and moderated the panel ``Challenges and Opportunities in AI Foundations" there.
+  
+  \item Reader for Ph.D. Defense (for Dr. Shivam Kumar)
+  \hfill 2025
+  
+  
+  
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Professional Affiliations, Service, and Leadership}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\textbf{Organizational Membership and Service:}
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item Institute of Mathematical Statistics (IMS)
+  
+  \item American Statistical Association (ASA)
+  
+  \item International Indian Statistical Association (IISA)
+
+\end{itemize}
+
+\noindent\textbf{Yale University Service:}
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item Yale S\&DS Graduate Reading Group, Co-organizer \hfill 2020\\
+  Scheduled talks and led discussion sessions.
+
+  \item Yale Women in Data Science (WiDS) Workshop, Mentor \hfill 2020\\
+  Served as mentor for Yale undergraduate students participating in the WiDS Datathon Challenge 2020.
+
+  \item South Asian Graduate and Professional Association at Yale (SAGA) \hfill 2018 -- 2021\\
+  Treasurer, core committee member, and cultural committee head.\\
+  Organized socio-cultural events to promote cultural exchanges at Yale.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Major Consultancies in the Public and Private Sectors}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item Researcher, The First Republic Bank Research and Lifelong Learning Program,  \hfill June 2022 -- May 2023\\ Princeton University\\
+  Conducted research on statistical and machine learning methods in a banking and financial research context.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Community Work}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}[leftmargin=0pt, label={}]
+  \item Teaching at Math Circle, University of Notre Dame \hfill Spring 2025, Fall 2025\\
+  Promoting STEM education among school children in the local South Bend community.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{Research Leaves}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\noindent None taken while at the University of Notre Dame.
+
+\end{document}
