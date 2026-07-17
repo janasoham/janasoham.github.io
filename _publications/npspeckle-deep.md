@@ -5,7 +5,7 @@ permalink: /publications/npspeckle-deep
 excerpt: ''
 date: 2026-01-16
 venue: 'Preprint'
-citation:
+citation: "Paper link"
 topic: 'computational_imaging'
 paperurl: "https://arxiv.org/abs/2607.14064"
 
