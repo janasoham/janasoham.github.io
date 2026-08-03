@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/multilook
 excerpt: ''
 date: 2025-01-08
-venue: 'Preprint'
+venue: 'Accepted, IEEE Transactions on Information Theory'
 topic: 'computational_imaging'
 citation: 'with Xi Chen, Christopher A Metzler, Arian Maleki, and Shirin Jalali'
 
