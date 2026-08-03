@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/median-clustering
 excerpt: ''
 date: 2025-01-10
-venue: 'Accepted, IEEE Transactions on Information Theory'
+venue: 'IEEE Transactions on Information Theory'
 topic: 'clustering'
 citation: 'with Kun Yang and Sanjeev Kulkarni'
 
