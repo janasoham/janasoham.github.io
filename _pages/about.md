@@ -29,7 +29,7 @@ Theoretical and methodological aspects of statistical machine learning, with par
 
 <h2 style="border-bottom: 2px solid #ccc; color: teal;">Recent papers</h2>
 
-Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. Accepted at IEEE Transactions on Information Theory. arXiv preprint arXiv:2505.23594. [Paper link](https://janasoham.github.io/files/multilook.pdf).
+Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2026). Multilook Coherent Imaging: Theoretical Guarantees and Algorithms. Accepted at IEEE Transactions on Information Theory. arXiv preprint arXiv:2505.23594. [Paper link](https://janasoham.github.io/files/multilook.pdf).
 
 Jana, S. (2026). Minimax Theory of Likelihood-Based Deep Learning for Speckle Regression. arXiv preprint arXiv:2607.14064. [Paper link](https://janasoham.github.io/files/npspeckle.pdf).
 
