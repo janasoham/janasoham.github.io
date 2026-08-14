@@ -33,9 +33,9 @@ Chen, X., Jana, S., Metzler, C. A., Maleki, A., & Jalali, S. (2025). Multilook C
 
 Jana, S. (2026). Minimax Theory of Likelihood-Based Deep Learning for Speckle Regression. arXiv preprint arXiv:2607.14064. [Paper link](https://janasoham.github.io/files/npspeckle.pdf).
 
-Xing, H., Jana, S., & Maleki, A. (2025). Minimax Analysis of Estimation Problems in Coherent Imaging. arXiv preprint arXiv:2508.18503. [Paper link](https://arxiv.org/abs/2508.18503).
-
 Jana, S., Yang, K., & Kulkarni, S. (2026). Adversarially robust clustering with optimality guarantees. To appear at IEEE Transactions on Information Theory. DOI: 10.1109/TIT.2025.3628160. [Paper link](https://ieeexplore.ieee.org/document/11224395).
+
+Xing, H., Jana, S., & Maleki, A. (2025). Minimax Analysis of Estimation Problems in Coherent Imaging. arXiv preprint arXiv:2508.18503. [Paper link](https://arxiv.org/abs/2508.18503).
 
 Jana, S., Polyanskiy, Y., & Wu, Y. (2025). Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods. Information and Inference: A Journal of the IMA, Volume 14, Issue 4, December 2025, iaaf027. [Paper link](https://arxiv.org/abs/2209.01328).
 
