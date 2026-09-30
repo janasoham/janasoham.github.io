@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  18 SEP 2026 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.6)  30 SEP 2026 09:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -414,30 +414,42 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 83.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 83.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 88.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 88.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 88.
  [1
 
 {C:/Users/soham/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/soha
 m/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/soham/Ap
-pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 134.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 134.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 134.
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [2]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-55.
+61.
 
 (C:\Users\soham\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2]
-Overfull \hbox (7.33038pt too wide) in paragraph at lines 165--166
+)
+Overfull \hbox (7.33038pt too wide) in paragraph at lines 171--172
 []\T1/lmr/m/n/10.95 University of Wisconsin--Madison Statis-tics De-part-ment S
 em-i-nar, Madi-son, WI, USA (Febru-ary
  []
 
 [3{C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-[4] (resume.aux)
+
+Overfull \hbox (16.39175pt too wide) in paragraph at lines 224--226
+\T1/lmr/m/n/10.95 One of the com-mit-tee mem-bers han-dling over 150 ap-pli-ca-
+tions and mak-ing ad-mis-sion rec-om-men-da-tions. 
+ []
+
+
+Overfull \hbox (8.48521pt too wide) in paragraph at lines 240--241
+\T1/lmr/m/n/10.95 I have taught un-der-grad-u-ate prob-a-bil-ity and graduate-l
+evel ma-chine learn-ing courses at the Uni-ver-sity
+ []
+
+[4] [5] [6] (resume.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -446,22 +458,22 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9988 strings out of 474587
- 157982 string characters out of 5745702
- 1935558 words of memory out of 5000000
- 32031 multiletter control sequences out of 15000+600000
+ 9995 strings out of 474587
+ 158076 string characters out of 5745702
+ 1936558 words of memory out of 5000000
+ 32033 multiletter control sequences out of 15000+600000
  610821 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,516b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,415b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
 ><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb
 ><C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
 <C:/Users/soham/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on resume.pdf (4 pages, 134909 bytes).
+Output written on resume.pdf (6 pages, 145933 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
